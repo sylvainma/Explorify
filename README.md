@@ -1,1 +1,1 @@
-# Exploritory
+# Explorify
