@@ -1,3 +1,5 @@
+from pymongo import MongoClient
+
 def compute_journey(keywords, price):
     '''Core algorithm to choose points of interests.'''
 
@@ -31,3 +33,9 @@ def compute_journey(keywords, price):
             },
         ]
     }
+
+if __name__ == "__main__":
+    client = MongoClient('localhost', 27017)
+    db = client.explorify
+    #db.flickr.insert([{'test': 1}, {'test': 2}])
+    #db.dianping.insert([{'test': 1}, {'test': 2}])
