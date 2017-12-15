@@ -1,3 +1,21 @@
-*.DS_Store
+# general
+__pycache__
+*.py[cod]
+.DS_Store
 .env
+npm-debug.log
+!.gitkeep
+!.gitignore
+
+# pyenv
+.python-version
+
+# Notebooks
 .ipynb_checkpoints
+
+# Old
+old
+
+# nodejs
+node_modules
+npm-debug.log
