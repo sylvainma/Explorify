@@ -5,8 +5,8 @@ from urllib.request import urlopen
 from PIL import Image
 
 
-def str_time(t=time.localtime()):
-    return time.strftime("%H:%M:%S", t)
+def str_time():
+    return time.strftime("%H:%M:%S", time.localtime())
 
 
 def load_credentials():

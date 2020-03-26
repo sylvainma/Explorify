@@ -109,6 +109,8 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
     os.makedirs(dir_path if dir_path != "" else ".", exist_ok=True) 
     with h5py.File(dataset_file, "w") as f:
         for i, photo in enumerate(w):
+            if photo.id in f.keys():
+                continue
             if i >= max_photos: 
                 break
             if i % (3600 // 2) == 0 and i > 0:
