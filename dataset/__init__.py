@@ -1,5 +1,5 @@
 import os
-from utils import load_credentials
+from .utils import load_credentials
 
 
 API_KEY, API_SECRET = load_credentials()

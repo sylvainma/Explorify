@@ -1,9 +1,7 @@
 .vscode
 .DS_Store
-*.h5
 
 # Folders
-data/*
 !data/.gitkeep
 
 # Byte-compiled / optimized / DLL files
