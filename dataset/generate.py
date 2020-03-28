@@ -111,7 +111,7 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
         for i, photo in enumerate(w):
             if photo.id in f.keys():
                 continue
-            if i >= max_photos: 
+            if i >= max_photos:
                 break
             if i % (3600 // 2) == 0 and i > 0:
                 print(f"Paused ({str_time()}) for 1 hour, Flickr API limited to 3600 requests an hour...")
