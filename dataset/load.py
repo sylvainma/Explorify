@@ -17,7 +17,7 @@ class LoadDataset():
     def _load(self, p):
         metadata, binary, embedding = p.attrs["metadata"], p["binary"][...], p["embedding"][...]
         metadata = json.loads(metadata)
-        image = Image.open(BytesIO(binary))
+        image = Image.open(BytesIO(binary)).convert("RGB")
         return metadata, image, embedding
 
     def size(self):
@@ -31,8 +31,8 @@ class LoadDataset():
         keys = self.f.keys() if keys is None else keys
         for p_id in keys:
             p = self.f[p_id]
-            metadata, _, embedding = self._load(p)
-            yield metadata, embedding
+            metadata, image, embedding = self._load(p)
+            yield metadata, image, embedding
 
 
 if __name__ == "__main__":

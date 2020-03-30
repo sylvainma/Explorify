@@ -45,7 +45,7 @@ class GenerateDataset():
     def _get_image(self, url):
         r = urlopen(url)
         s = r.read()
-        img = Image.open(BytesIO(s))
+        img = Image.open(BytesIO(s)).convert("RGB")
         return np.void(s), img
 
     def _get_feature_embedding(self, img):
