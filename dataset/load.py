@@ -1,6 +1,9 @@
 import os
 import json
 import h5py
+import numpy as np
+from io import BytesIO
+from PIL import Image
 
 
 class LoadDataset():
@@ -12,9 +15,10 @@ class LoadDataset():
         self.f.close()
 
     def _load(self, p):
-        metadata, embedding = p.attrs["metadata"], p[...]
+        metadata, binary, embedding = p.attrs["metadata"], p["binary"][...], p["embedding"][...]
         metadata = json.loads(metadata)
-        return metadata, embedding
+        image = Image.open(BytesIO(binary))
+        return metadata, image, embedding
 
     def size(self):
         return len(self.f.keys())
@@ -27,7 +31,7 @@ class LoadDataset():
         keys = self.f.keys() if keys is None else keys
         for p_id in keys:
             p = self.f[p_id]
-            metadata, embedding = self._load(p)
+            metadata, _, embedding = self._load(p)
             yield metadata, embedding
 
 

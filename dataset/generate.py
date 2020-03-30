@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 import jsons
 import json
@@ -43,8 +44,9 @@ class GenerateDataset():
 
     def _get_image(self, url):
         r = urlopen(url)
-        b = BytesIO(r.read())
-        return Image.open(b)
+        s = r.read()
+        img = Image.open(BytesIO(s))
+        return np.void(s), img
 
     def _get_feature_embedding(self, img):
         x = self.to_input(img)
@@ -59,12 +61,12 @@ class GenerateDataset():
         metadata = self._get_metadata(p.getInfo())
 
         # Download image
-        img = self._get_image(p.getPhotoFile())
+        binary, img = self._get_image(p.getPhotoFile())
         
         # Feature extraction
         embedding = self._get_feature_embedding(img)
 
-        return metadata, embedding
+        return metadata, binary, embedding
 
 
 def generate(api_credentials, city, radius, max_photos, dataset_file):
@@ -118,14 +120,17 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
                 time.sleep(60 * 60)
                 print(f"Resumed! ({str_time()})")
             if i % batches == 0 or i in [0, n_photos-1]:
-                print(f"Process {i}/{n_photos}...")
+                print(f"Process {i+1}/{n_photos}...")
             try:
                 # Save in h5 file
-                metadata, embedding = dataset.process(photo)
-                d = f.create_dataset(metadata["id"], data=embedding)
-                d.attrs["metadata"] = json.dumps(metadata)
-            except Exception as e:
-                print(e)
+                metadata, binary, embedding = dataset.process(photo)
+                g = f.create_group(metadata["id"])
+                g.create_dataset("binary", data=binary)
+                g.create_dataset("embedding", data=embedding)
+                g.attrs["metadata"] = json.dumps(metadata)
+            except Exception:
+                exc_type, exc_obj, exc_tb = sys.exc_info()
+                print(exc_type, exc_obj, f"(line {exc_tb.tb_lineno})")
 
     print(f"Finished ({str_time()}), saved in {dataset_file}")
 
@@ -134,9 +139,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser("Explorify dataset generator")
     parser.add_argument('-c', '--city', type=str, default="atlanta", help="City to get pictures from")
     parser.add_argument('-r', '--radius', type=float, default=20.0, help="Radius of the city to cover (in km)")
-    parser.add_argument('-m', '--max-photos', type=int, default=int(1e4), help="Maximum number of pictures to store")
+    parser.add_argument('-m', '--max-photos', type=int, default=int(1e4), help="Maximum number of photos to store")
     parser.add_argument('-d', '--dataset-file', type=str, default="./dataset.h5", help="Path to h5 file to create")
     args = parser.parse_args()
 
+    flickr_api.enable_cache()
     api_credentials = load_credentials()
     generate(api_credentials, args.city, args.radius, args.max_photos, args.dataset_file)
