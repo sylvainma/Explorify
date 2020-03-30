@@ -53,15 +53,35 @@ class GenerateDataset():
         self.model(x)
         return self.embedding.squeeze().numpy()
 
-    def _get_metadata(self, info):
-        return jsons.dump(info)
+    def _get_metadata(self, p):
+        infos = p.getInfo(extras="count_faves")
+        infos_ = infos.copy()
+        
+        # Direct url to photo files of different sizes
+        size_labels = ["Square", "Thumbnail", "Small", "Medium", "Medium 640", "Large", "Original"]
+        urls = {}
+        for size_label in size_labels: 
+            try:
+                url = p.getPhotoFile(size_label=size_label)
+                urls[size_label] = url
+            except flickr_api.flickrerrors.FlickrError:
+                urls[size_label] = None
+        infos_["photo_file_urls"] = urls
+
+        # Extract tags objects
+        infos_["tags"] = [tag.__dict__ for tag in infos["tags"]]
+        for tag in infos_["tags"]:
+            tag.update({'author': {}})
+
+        return jsons.dump(infos_)
 
     def process(self, p):
         # Metadata as dictionnary
-        metadata = self._get_metadata(p.getInfo())
+        metadata = self._get_metadata(p)
 
         # Download image
-        binary, img = self._get_image(p.getPhotoFile())
+        url_medium = metadata["photo_file_urls"]["Medium"]
+        binary, img = self._get_image(url_medium)
         
         # Feature extraction
         embedding = self._get_feature_embedding(img)
@@ -111,18 +131,28 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
     os.makedirs(dir_path if dir_path != "" else ".", exist_ok=True) 
     with h5py.File(dataset_file, "w") as f:
         for i, photo in enumerate(w):
+
+            # If photo has already been seen (happens sometimes in Flickr Search)
             if photo.id in f.keys():
                 continue
+
+            # Stop if exceed the max number of photos asked
             if i >= max_photos:
                 break
+
+            # Due to Flickr limitations on the number of calls per hour on their API
             if i % (3600 // 2) == 0 and i > 0:
                 print(f"Paused ({str_time()}) for 1 hour, Flickr API limited to 3600 requests an hour...")
                 time.sleep(60 * 60)
                 print(f"Resumed! ({str_time()})")
+
+            # Verbose
             if i % batches == 0 or i in [0, n_photos-1]:
                 print(f"Process {i+1}/{n_photos}...")
+
+            # Process photo and save in h5 file
             try:
-                # Save in h5 file
+                
                 metadata, binary, embedding = dataset.process(photo)
                 g = f.create_group(metadata["id"])
                 g.create_dataset("binary", data=binary)
