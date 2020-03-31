@@ -94,8 +94,10 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
     assert max_photos > 0, "max_photos must be positive"
 
     cities = {
-        "atlanta": (33.7490, 84.3880),
-        "paris": (48.8566, 2.3522)
+        "atlanta": (33.7490,-84.3880),
+        "paris": (48.8566, 2.3522),
+        "sf": (37.773972,-122.431297),
+        "nyc": (40.730610,-73.935242),
     }
     city = cities.get(str.lower(city), cities["atlanta"])
 
@@ -119,6 +121,7 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
     n_found = len(w)
     n_photos = min(n_found, max_photos)
     batches = max(n_photos // 20, 1)
+    print(f"batches: {batches}")
     print(f"Photos found: {n_found}")
     print(f"Photos to be processed in dataset: {n_photos}")
 
@@ -152,7 +155,7 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
 
             # Process photo and save in h5 file
             try:
-                
+                print(" .", end = '')
                 metadata, binary, embedding = dataset.process(photo)
                 g = f.create_group(metadata["id"])
                 g.create_dataset("binary", data=binary)
