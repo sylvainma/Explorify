@@ -14,8 +14,3 @@ def load_credentials():
         api_key, api_secret = line.split(" ")
         return api_key, api_secret
 
-def get_photo(p, size_label="Medium"):
-    url = p.getPhotoFile(size_label=size_label)
-    r = urlopen(url)
-    b = BytesIO(r.read())
-    return Image.open(b)

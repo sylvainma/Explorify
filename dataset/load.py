@@ -46,7 +46,7 @@ if __name__ == "__main__":
     try:
         dataset = LoadDataset(dataset_file)
         it = dataset.get()
-        metadata, embedding = next(it)
+        metadata, _, embedding = next(it)
         print(embedding.shape)
         assert type(metadata) == dict, "Metadata should be a python dictionnary"
     except Exception as e:

@@ -33,6 +33,7 @@ featureLayer.on("ready", function(e) {
     layer.on("click", function (e) {
       map.closePopup();
       var content = "";
+      content += "<img align='center' src='"+ e.target.feature.properties["url"] +"'/>";
       content += "<p><a href='http://flickr.com/photo.gne?id="+ e.target.feature.properties["id"] +"'>See on Flickr</a></p>";
       content += "<table class='table table-striped table-bordered table-condensed'>";
       if (userFields.length > 0) {
