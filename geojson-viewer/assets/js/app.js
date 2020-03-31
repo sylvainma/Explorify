@@ -26,14 +26,20 @@ var markerClusters = new L.MarkerClusterGroup({
 });
 
 var featureLayer = L.mapbox.featureLayer();
-
+var content;
 featureLayer.on("ready", function(e) {
   featureLayer.eachLayer(function (layer) {
-    $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">' + getTitle(layer) + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+    $("#feature-list tbody").append(getImage(layer));
     layer.on("click", function (e) {
       map.closePopup();
-      var content = "";
-      content += "<p><a href='http://flickr.com/photo.gne?id="+ e.target.feature.properties["id"] +"'>See on Flickr</a></p>";
+
+      $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+e.target.feature.properties["id"]+'&format=json&jsoncallback=?',
+    function(data){
+
+      content = '<img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/>'
+    });
+      //var content = "";
+      //content += "<p><a href='http://flickr.com/photo.gne?id="+ e.target.feature.properties["id"] +"'>See on Flickr</a></p>";
       content += "<table class='table table-striped table-bordered table-condensed'>";
       if (userFields.length > 0) {
         $.each(userFields, function(index, property) {
@@ -191,7 +197,16 @@ function getTitle(layer) {
     }
   }
 }
+function getImage(layer){
+  var content;
+  $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
+function(data){
 
+  content = '<img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/>'
+console.log(content)
+});
+return content;
+}
 function formatProperty(value) {
   if (typeof value == "string" && (value.indexOf("http") === 0 || value.indexOf("https") === 0)) {
     return "<a href='" + value + "' target='_blank'>" + value + "</a>";
@@ -236,7 +251,7 @@ if (urlParams.fields) {
 if (urlParams.cluster && (urlParams.cluster === "false" || urlParams.cluster === "False" || urlParams.cluster === "0")) {
   cluster = false;
 } else {
-  cluster = false; // Sylvain: should be true here, set false for experimentations
+  cluster = true; // Sylvain: should be true here, set false for experimentations
 }
 
 if (urlParams.attribution) {
