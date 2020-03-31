@@ -15,12 +15,22 @@ import torchvision.transforms as transforms
 import flickr_api
 from flickr_api import Walker, Photo
 
+scoring_path = os.path.abspath("../image_scoring") 
+weights_file = os.path.join(scoring_path,"models/MobileNet/weights_mobilenet_aesthetic_0.07.hdf5")
+base_model_name = "MobileNet"
+sys.path.insert(1, scoring_path)
+
+from src.evaluater.predict import process_samples
+
 from utils import load_credentials, str_time
 
 
 class GenerateDataset():
-    def __init__(self):
+    def __init__(self, image_dir=None):
         self._init_feature_extractor()
+        self.image_dir=image_dir
+        if image_dir != None and not os.path.isdir(image_dir):
+            os.makedirs(image_dir)
 
     def _init_feature_extractor(self):
         scaler = transforms.Resize((224, 224))
@@ -82,14 +92,23 @@ class GenerateDataset():
         # Download image
         url_medium = metadata["photo_file_urls"]["Medium"]
         binary, img = self._get_image(url_medium)
-        
+        imid = metadata["id"]
+        if self.image_dir != None:
+            try: 
+                img.save(f"{self.image_dir}/{imid}.jpg", "JPEG")
+                print(f"Saved image w/ id {imid}")
+            except Exception as e:
+                print("whoops, it failed", str(e))
         # Feature extraction
+        sample = [{"id":imid, "image":img}]
+        print(process_samples(base_model_name, weights_file, sample))
+        
         embedding = self._get_feature_embedding(img)
 
         return metadata, binary, embedding
 
 
-def generate(api_credentials, city, radius, max_photos, dataset_file):
+def generate(api_credentials, city, radius, max_photos, dataset_file, save_dir):
     assert radius > 0, "radius must be positive"
     assert max_photos > 0, "max_photos must be positive"
 
@@ -126,7 +145,7 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
     print(f"Photos to be processed in dataset: {n_photos}")
 
     print("Init dataset generator...", end=" ")
-    dataset = GenerateDataset()
+    dataset = GenerateDataset(save_dir)
     print("done.")
 
     print(f"Start processing photos ({str_time()})")
@@ -151,7 +170,7 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
 
             # Verbose
             if i % batches == 0 or i in [0, n_photos-1]:
-                print(f"Process {i+1}/{n_photos}...")
+                print(f"Process {i+1}/{n_photos}...", end="")
 
             # Process photo and save in h5 file
             try:
@@ -171,11 +190,12 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Explorify dataset generator")
     parser.add_argument('-c', '--city', type=str, default="atlanta", help="City to get pictures from")
+    parser.add_argument('-si', '--save-images', type=str, default=None, help="Directory to save images to as JPEG, only use if you want to save images")
     parser.add_argument('-r', '--radius', type=float, default=20.0, help="Radius of the city to cover (in km)")
     parser.add_argument('-m', '--max-photos', type=int, default=int(1e4), help="Maximum number of photos to store")
     parser.add_argument('-d', '--dataset-file', type=str, default="./dataset.h5", help="Path to h5 file to create")
     args = parser.parse_args()
-
+    print(args.save_images)
     flickr_api.enable_cache()
     api_credentials = load_credentials()
-    generate(api_credentials, args.city, args.radius, args.max_photos, args.dataset_file)
+    generate(api_credentials, args.city, args.radius, args.max_photos, args.dataset_file, args.save_images)
