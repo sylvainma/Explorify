@@ -1,22 +1,5 @@
 import numpy as np
-from sklearn.metrics.pairwise import haversine_distances, cosine_distances, euclidean_distances, manhattan_distances
-
-def compute_distances_old(A, dist_method):
-    # Compute half matrix since it's symmetric
-    n, _ = A.shape
-    idx = np.asarray([[i,j] for i in range(n) for j in range(i, n)])
-    X, Y = A[idx[:,0]], A[idx[:,1]]
-    half = dist_method(X, Y)
-    # Reshape into squared distance matrix
-    d = np.zeros((n,n))
-    for k, indices in enumerate(idx):
-        i, j = indices
-        d[i,j] = half[k]
-    d += d.T
-    # Test and return
-    assert d.shape[0] == A.shape[0]
-    assert d.shape[0] == d.shape[1]
-    return d
+from sklearn.metrics.pairwise import haversine_distances, cosine_distances, euclidean_distances
 
 def compute_distances(A, dist_method):
     n, _ = A.shape
@@ -27,7 +10,7 @@ def compute_distances(A, dist_method):
     d += d.T
     assert d.shape[0] == A.shape[0]
     assert d.shape[0] == d.shape[1]
-    return d    
+    return d
 
 def dist_geo(X):
     """Geo distance. X and Y should be lat/lon of shape (n_sample, 2)"""
@@ -42,7 +25,7 @@ def dist_img(X):
 
 def dist_tag(X):
     """Tags distance. X should be the vectorized representation of tags of shape (n_sample, dim_tags)"""
-    return euclidean_distances(X)
+    return cosine_distances(X)
 
 if __name__ == "__main__":
     # dist_geo test
