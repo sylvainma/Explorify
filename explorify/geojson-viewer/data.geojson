@@ -1,0 +1,5021 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322094,
+                    48.842094
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "28575632897",
+                "lat": "48.842094",
+                "lon": "2.322094",
+                "title": "Paris At Sunset",
+                "url": "https://live.staticflickr.com/1763/28575632897_7df51b0b88_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.348327,
+                    48.827567
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "28587621467",
+                "lat": "48.827567",
+                "lon": "2.348327",
+                "title": "Paris street art",
+                "url": "https://live.staticflickr.com/1806/28587621467_6bcc48ed37_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321634,
+                    48.842364
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "28982790947",
+                "lat": "48.842364",
+                "lon": "2.321634",
+                "title": "Eiffel Tower lit up",
+                "url": "https://live.staticflickr.com/940/28982790947_b20ae9d8e6_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.36537,
+                    48.846537
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "29635959058",
+                "lat": "48.846537",
+                "lon": "2.36537",
+                "title": "Let's Dock and Roll",
+                "url": "https://live.staticflickr.com/1808/29635959058_9ff8845df4_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294425,
+                    48.858249
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "29837005057",
+                "lat": "48.858249",
+                "lon": "2.294425",
+                "title": "Tour eiffel",
+                "url": "https://live.staticflickr.com/1891/29837005057_eaf4e3863d_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456175,
+                    48.773352
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "29935461928",
+                "lat": "48.773352",
+                "lon": "2.456175",
+                "title": "2018-07-21-A-France-Sete-032-gaelic.fr-IMG_7705 copie",
+                "url": "https://live.staticflickr.com/1811/29935461928_6600a8de7d_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.287108,
+                    48.856251
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "30573440478",
+                "lat": "48.856251",
+                "lon": "2.287108",
+                "title": "Paris",
+                "url": "https://live.staticflickr.com/1869/30573440478_48c81819f3_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.323497,
+                    48.8634
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "30755149147",
+                "lat": "48.8634",
+                "lon": "2.323497",
+                "title": "Paris / \u041f\u0430\u0440\u0438\u0436",
+                "url": "https://live.staticflickr.com/1970/30755149147_e8a0a36da3_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342913,
+                    48.854772
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "30773367207",
+                "lat": "48.854772",
+                "lon": "2.342913",
+                "title": "Paris / \u041f\u0430\u0440\u0438\u0436",
+                "url": "https://live.staticflickr.com/4818/30773367207_ff18346863_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321548,
+                    48.842491
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "30828631348",
+                "lat": "48.842491",
+                "lon": "2.321548",
+                "title": "Eiffel Tower @ Night",
+                "url": "https://live.staticflickr.com/1851/30828631348_99eb8a103b_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343216,
+                    48.88623
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "30868669767",
+                "lat": "48.88623",
+                "lon": "2.343216",
+                "title": "View from Montmartre / \u0412\u0438\u0434 \u0441 \u041c\u043e\u043d\u043c\u0430\u0440\u0442\u0440\u0430",
+                "url": "https://live.staticflickr.com/4906/30868669767_3370522ab3_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291497,
+                    48.860197
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31417332788",
+                "lat": "48.860197",
+                "lon": "2.291497",
+                "title": "Seine / \u0421\u0435\u043d\u0430",
+                "url": "https://live.staticflickr.com/1980/31417332788_cfb954fa7c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295058,
+                    48.873588
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31458424207",
+                "lat": "48.873588",
+                "lon": "2.295058",
+                "title": "Eiffel tower from the roof of Arc de Triomphe de l'Etoile  - (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/4913/31458424207_0cf4cd3406_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321936,
+                    48.842033
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31630671697",
+                "lat": "48.842033",
+                "lon": "2.321936",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/7830/31630671697_83f4ff04bd_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322138,
+                    48.8418
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31630678327",
+                "lat": "48.8418",
+                "lon": "2.322138",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/4809/31630678327_aba1e3a0de_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322138,
+                    48.8418
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31630681787",
+                "lat": "48.8418",
+                "lon": "2.322138",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/7862/31630681787_b297ef566c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322138,
+                    48.8418
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31630684797",
+                "lat": "48.8418",
+                "lon": "2.322138",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/7878/31630684797_80011c8e40_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2947,
+                    48.858213
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31798837047",
+                "lat": "48.858213",
+                "lon": "2.2947",
+                "title": "Aerail view Palais de Chaillot and Jardins du Trocad\u00e9ro - Eiffel tower (Paris/FR)",
+                "url": "https://live.staticflickr.com/65535/31798837047_0ae451350c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.31368,
+                    48.864386
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31825716378",
+                "lat": "48.864386",
+                "lon": "2.31368",
+                "title": "Pont Alexandre III / \u041c\u043e\u0441\u0442 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 III",
+                "url": "https://live.staticflickr.com/4908/31825716378_c1533ef390_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.31368,
+                    48.864386
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31825718488",
+                "lat": "48.864386",
+                "lon": "2.31368",
+                "title": "Pont Alexandre III / \u041c\u043e\u0441\u0442 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 III",
+                "url": "https://live.staticflickr.com/4813/31825718488_96e9fae5c6_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.312411,
+                    48.863666
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31826928608",
+                "lat": "48.863666",
+                "lon": "2.312411",
+                "title": "Pont Alexandre III / \u041c\u043e\u0441\u0442 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 III",
+                "url": "https://live.staticflickr.com/4850/31826928608_e784dc7c69_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342913,
+                    48.854772
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31841902018",
+                "lat": "48.854772",
+                "lon": "2.342913",
+                "title": "Paris / \u041f\u0430\u0440\u0438\u0436",
+                "url": "https://live.staticflickr.com/1960/31841902018_1f8d3bc53c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343059,
+                    48.886173
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "31872227478",
+                "lat": "48.886173",
+                "lon": "2.343059",
+                "title": "View from Sacr\u00e9-C\u0153ur",
+                "url": "https://live.staticflickr.com/1914/31872227478_754be23dbb_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.513672,
+                    48.973311
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "32028352248",
+                "lat": "48.973311",
+                "lon": "2.513672",
+                "title": "2017-07-05_16-32-22_ILCE-6500_DSC01428",
+                "url": "https://live.staticflickr.com/4829/32028352248_412c55e6c8_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.369849,
+                    48.852362
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "32193443337",
+                "lat": "48.852362",
+                "lon": "2.369849",
+                "title": "sunset paris",
+                "url": "https://live.staticflickr.com/7877/32193443337_62a4ee2bce_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.297055,
+                    48.857688
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "32310985397",
+                "lat": "48.857688",
+                "lon": "2.297055",
+                "title": "Eiffel Tower from Avenue du General Ferrie, Paris  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/7840/32310985397_2e884246b4_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.389698,
+                    48.823734
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "32404707468",
+                "lat": "48.823734",
+                "lon": "2.389698",
+                "title": "Francois Mitterrand street  2010",
+                "url": "https://live.staticflickr.com/4806/32404707468_9cf4620dc6_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295586,
+                    48.873777
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "32530816588",
+                "lat": "48.873777",
+                "lon": "2.295586",
+                "title": "Arc de Triomphe - Le depart de 1792 (or La Marseillaise) - by Francois Rude  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/4813/32530816588_18814e7514_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.324422,
+                    48.861325
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "32588208137",
+                "lat": "48.861325",
+                "lon": "2.324422",
+                "title": "Paris, France v.03",
+                "url": "https://live.staticflickr.com/7875/32588208137_7f1055ef6f_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.327985,
+                    48.865479
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "33149494348",
+                "lat": "48.865479",
+                "lon": "2.327985",
+                "title": "Paris roofs",
+                "url": "https://live.staticflickr.com/7820/33149494348_8bdc1bc397_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.280252,
+                    48.84058
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "33786891948",
+                "lat": "48.84058",
+                "lon": "2.280252",
+                "title": "2019-04-FL-207267",
+                "url": "https://live.staticflickr.com/65535/33786891948_d3b4261c80_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.28028,
+                    48.840808
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "33786910168",
+                "lat": "48.840808",
+                "lon": "2.28028",
+                "title": "2019-04-FL-207265",
+                "url": "https://live.staticflickr.com/65535/33786910168_67dba7c19f_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295163,
+                    48.873969
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "33952949078",
+                "lat": "48.873969",
+                "lon": "2.295163",
+                "title": "The Basiica of the Sacred Heart of Paris (Sacre-Coeur Basilica) from the Arc de Triomphe de l'Etoile in Paris, France  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/65535/33952949078_be0d669584_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.391049,
+                    48.775855
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "39874015183",
+                "lat": "48.775855",
+                "lon": "2.391049",
+                "title": "Vitry sous la neige 1",
+                "url": "https://live.staticflickr.com/7801/39874015183_5ae024b579_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288494,
+                    48.861786
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "40081890433",
+                "lat": "48.861786",
+                "lon": "2.288494",
+                "title": "La Tour Eiffel at Sunset  -  (Selected by SHUTTERSTOCK)",
+                "url": "https://live.staticflickr.com/7869/40081890433_810caa6995_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.347898,
+                    48.853675
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "40229586213",
+                "lat": "48.853675",
+                "lon": "2.347898",
+                "title": "Paris from Notre Dame",
+                "url": "https://live.staticflickr.com/7833/40229586213_0e85e66f93_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.350018,
+                    48.853079
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "40582399783",
+                "lat": "48.853079",
+                "lon": "2.350018",
+                "title": "Paris Cityscape Un 1989",
+                "url": "https://live.staticflickr.com/7845/40582399783_8a92934afd_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.416438,
+                    48.819366
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "41996214650",
+                "lat": "48.819366",
+                "lon": "2.416438",
+                "title": "2016-08-18G-France-Bretagne-PointeDePenHir-212-gaelic.fr-IMG_3545 copie",
+                "url": "https://live.staticflickr.com/1812/41996214650_e044c389fb_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.446777,
+                    48.802694
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "41996215670",
+                "lat": "48.802694",
+                "lon": "2.446777",
+                "title": "2016-08-18A-France-Bretagne-Finistere-070-gaelic.fr-IMG_1975 copy",
+                "url": "https://live.staticflickr.com/1774/41996215670_b8afe48b87_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288353,
+                    48.862075
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "42663458925",
+                "lat": "48.862075",
+                "lon": "2.288353",
+                "title": "Tour Eiffel",
+                "url": "https://live.staticflickr.com/1769/42663458925_bfcde5700d_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.374682,
+                    48.83685
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "42753120814",
+                "lat": "48.83685",
+                "lon": "2.374682",
+                "title": "Parisian Millefeuille",
+                "url": "https://live.staticflickr.com/1828/42753120814_d7d393bce0_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342909,
+                    48.887315
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "42836775204",
+                "lat": "48.887315",
+                "lon": "2.342909",
+                "title": "Paris in the evening from Sacre Coeur",
+                "url": "https://live.staticflickr.com/939/42836775204_8b649d77f8_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321548,
+                    48.842491
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "42889539900",
+                "lat": "48.842491",
+                "lon": "2.321548",
+                "title": "Eiffel Tower @ Night",
+                "url": "https://live.staticflickr.com/1886/42889539900_6abd02481b_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292194,
+                    48.85975
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "43015594755",
+                "lat": "48.85975",
+                "lon": "2.292194",
+                "title": "Eiffel Tower",
+                "url": "https://live.staticflickr.com/935/43015594755_43742eaff3_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294805,
+                    48.8585
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "43059654192",
+                "lat": "48.8585",
+                "lon": "2.294805",
+                "title": "A drop in the ocean",
+                "url": "https://live.staticflickr.com/1809/43059654192_a50bb56ba4_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292913,
+                    48.859337
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "43065158624",
+                "lat": "48.859337",
+                "lon": "2.292913",
+                "title": "(No title)",
+                "url": "https://live.staticflickr.com/1775/43065158624_ee9b3e1c10_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.357887,
+                    48.849919
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "43143796554",
+                "lat": "48.849919",
+                "lon": "2.357887",
+                "title": "On a Break, On the Bridge",
+                "url": "https://live.staticflickr.com/855/43143796554_8c340a3549_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.348327,
+                    48.827567
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "43426278902",
+                "lat": "48.827567",
+                "lon": "2.348327",
+                "title": "Paris street art",
+                "url": "https://live.staticflickr.com/1810/43426278902_725858e28c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.084888,
+                    48.866163
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "43501852515",
+                "lat": "48.866163",
+                "lon": "2.084888",
+                "title": "Les Yvelines",
+                "url": "https://live.staticflickr.com/1868/43501852515_e7dd1d16ca_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.29133,
+                    48.86033
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "43649686440",
+                "lat": "48.86033",
+                "lon": "2.29133",
+                "title": "Pont d'Iena / \u041c\u043e\u0441\u0442 \u0418\u0435\u043d\u0430",
+                "url": "https://live.staticflickr.com/1911/43649686440_bf0a509e43_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349213,
+                    48.853372
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "43649850240",
+                "lat": "48.853372",
+                "lon": "2.349213",
+                "title": "Paris / \u041f\u0430\u0440\u0438\u0436",
+                "url": "https://live.staticflickr.com/1969/43649850240_ee2b42efb1_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342663,
+                    48.886291
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "43909686854",
+                "lat": "48.886291",
+                "lon": "2.342663",
+                "title": "Basilique du Sacr\u00e9-C\u0153ur, Paris, France  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/1889/43909686854_e040592422_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292623,
+                    48.859576
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "43963132224",
+                "lat": "48.859576",
+                "lon": "2.292623",
+                "title": "Eiffel Tower, Paris",
+                "url": "https://live.staticflickr.com/1873/43963132224_4aa3be6e6f_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294275,
+                    48.858192
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "43979872394",
+                "lat": "48.858192",
+                "lon": "2.294275",
+                "title": "View Over Paris",
+                "url": "https://live.staticflickr.com/1888/43979872394_fd7114f90c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.515905,
+                    48.972997
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44083112310",
+                "lat": "48.972997",
+                "lon": "2.515905",
+                "title": "2017-07-05_16-16-19_ILCE-6500_DSC01421",
+                "url": "https://live.staticflickr.com/4918/44083112310_eed294c455_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.352855,
+                    48.86007
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44130333531",
+                "lat": "48.86007",
+                "lon": "2.352855",
+                "title": "Under the roofs of Paris",
+                "url": "https://live.staticflickr.com/1816/44130333531_23fe1a2448_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.325455,
+                    48.854122
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44228730925",
+                "lat": "48.854122",
+                "lon": "2.325455",
+                "title": "2018-10-FL-196924",
+                "url": "https://live.staticflickr.com/1937/44228730925_72ef79e369_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.340069,
+                    48.886236
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44333966240",
+                "lat": "48.886236",
+                "lon": "2.340069",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/4900/44333966240_5b21133e0f_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288494,
+                    48.861786
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44335987042",
+                "lat": "48.861786",
+                "lon": "2.288494",
+                "title": "Rise like a phoenix",
+                "url": "https://live.staticflickr.com/1859/44335987042_e13997dd4c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321794,
+                    48.842436
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44348645945",
+                "lat": "48.842436",
+                "lon": "2.321794",
+                "title": "Paris",
+                "url": "https://live.staticflickr.com/1918/44348645945_2f044344ba_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288494,
+                    48.861786
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44395818150",
+                "lat": "48.861786",
+                "lon": "2.288494",
+                "title": "Rise like a phoenix  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/4878/44395818150_511ba8ee27_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295166,
+                    48.873972
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44434482262",
+                "lat": "48.873972",
+                "lon": "2.295166",
+                "title": "The Basiica of the Sacred Heart of Paris (Sacre-Coeur Basilica) from the roof of Arc de Triomphe de l'Etoile - (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/1870/44434482262_e228a3ee87_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.38107,
+                    48.698012
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44487661230",
+                "lat": "48.698012",
+                "lon": "2.38107",
+                "title": "Bois de Boulogne Park,  Paris, France",
+                "url": "https://live.staticflickr.com/4850/44487661230_3d597bc0b2_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294468,
+                    48.858277
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44502166022",
+                "lat": "48.858277",
+                "lon": "2.294468",
+                "title": "...",
+                "url": "https://live.staticflickr.com/1887/44502166022_6049ddb0e1_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349213,
+                    48.853372
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44552875315",
+                "lat": "48.853372",
+                "lon": "2.349213",
+                "title": "Paris / \u041f\u0430\u0440\u0438\u0436",
+                "url": "https://live.staticflickr.com/1978/44552875315_c4224b082f_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.300547,
+                    48.853394
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44679215560",
+                "lat": "48.853394",
+                "lon": "2.300547",
+                "title": "Eiffel Tower from Avenue Charles Risier in Paris, France  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/4836/44679215560_8a2f29ed86_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295027,
+                    48.874144
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44691672302",
+                "lat": "48.874144",
+                "lon": "2.295027",
+                "title": "Looking Down The Avenue de la Grande-Arm\u00e9e At The Iconic Grande Arche de la D\u00e9fense Monument",
+                "url": "https://live.staticflickr.com/1892/44691672302_58213daec2_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32099,
+                    48.865571
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44786310535",
+                "lat": "48.865571",
+                "lon": "2.32099",
+                "title": "De Gaulle",
+                "url": "https://live.staticflickr.com/1950/44786310535_843bedfa8c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.365269,
+                    48.845308
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44815027515",
+                "lat": "48.845308",
+                "lon": "2.365269",
+                "title": "Pont d'Austerlitz / \u041c\u043e\u0441\u0442 \u0410\u0443\u0441\u0442\u0435\u0440\u043b\u0438\u0442\u0446",
+                "url": "https://live.staticflickr.com/4813/44815027515_1a5f730852_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.339913,
+                    48.857436
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44850582265",
+                "lat": "48.857436",
+                "lon": "2.339913",
+                "title": "Walk or run",
+                "url": "https://live.staticflickr.com/4860/44850582265_c7ba24fbfc_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.115169,
+                    48.808305
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44908752024",
+                "lat": "48.808305",
+                "lon": "2.115169",
+                "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
+                "url": "https://live.staticflickr.com/1909/44908752024_279ee5e167_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.252197,
+                    48.824539
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "44990531114",
+                "lat": "48.824539",
+                "lon": "2.252197",
+                "title": "Herb Garden",
+                "url": "https://live.staticflickr.com/4866/44990531114_72e62553d3_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.319516,
+                    48.866761
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45043115764",
+                "lat": "48.866761",
+                "lon": "2.319516",
+                "title": "Champs Elysees / \u0415\u043b\u0438\u0441\u0435\u0439\u0441\u043a\u0438\u0435 \u043f\u043e\u043b\u044f",
+                "url": "https://live.staticflickr.com/4841/45043115764_73b2582b95_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.324797,
+                    48.854319
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45140769871",
+                "lat": "48.854319",
+                "lon": "2.324797",
+                "title": "2018-10-FL-196911",
+                "url": "https://live.staticflickr.com/1962/45140769871_3f4391c222_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.286347,
+                    48.856616
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45401605282",
+                "lat": "48.856616",
+                "lon": "2.286347",
+                "title": "Ville des lumi\u00e8res",
+                "url": "https://live.staticflickr.com/1924/45401605282_7274daf3f1_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349213,
+                    48.853372
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45467037331",
+                "lat": "48.853372",
+                "lon": "2.349213",
+                "title": "Paris / \u041f\u0430\u0440\u0438\u0436",
+                "url": "https://live.staticflickr.com/1932/45467037331_74e9c29856_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.229591,
+                    48.827604
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45482272985",
+                "lat": "48.827604",
+                "lon": "2.229591",
+                "title": "La Seine Musicale et les travaux du Grand Paris Express",
+                "url": "https://live.staticflickr.com/4869/45482272985_8c1ab2b90c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.117861,
+                    48.804969
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45503110822",
+                "lat": "48.804969",
+                "lon": "2.117861",
+                "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
+                "url": "https://live.staticflickr.com/1976/45503110822_85cd8cfe5e_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.117861,
+                    48.804969
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45503111412",
+                "lat": "48.804969",
+                "lon": "2.117861",
+                "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
+                "url": "https://live.staticflickr.com/1957/45503111412_3a3d586857_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.112797,
+                    48.804575
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45503303402",
+                "lat": "48.804575",
+                "lon": "2.112797",
+                "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
+                "url": "https://live.staticflickr.com/1948/45503303402_e01199c4c0_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.109836,
+                    48.81568
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45596984841",
+                "lat": "48.81568",
+                "lon": "2.109836",
+                "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
+                "url": "https://live.staticflickr.com/1969/45596984841_b5657066eb_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.31368,
+                    48.864386
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45647623132",
+                "lat": "48.864386",
+                "lon": "2.31368",
+                "title": "Photo session / \u0424\u043e\u0442\u043e\u0441\u0435\u0441\u0441\u0438\u044f",
+                "url": "https://live.staticflickr.com/1951/45647623132_fe99bd721f_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.31368,
+                    48.864386
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45647624292",
+                "lat": "48.864386",
+                "lon": "2.31368",
+                "title": "Pont Alexandre III / \u041c\u043e\u0441\u0442 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 III",
+                "url": "https://live.staticflickr.com/4849/45647624292_88b89013d4_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.312411,
+                    48.863666
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45648868122",
+                "lat": "48.863666",
+                "lon": "2.312411",
+                "title": "Pont Alexandre III / \u041c\u043e\u0441\u0442 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 III",
+                "url": "https://live.staticflickr.com/1952/45648868122_641de483bd_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32099,
+                    48.865571
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45700749011",
+                "lat": "48.865571",
+                "lon": "2.32099",
+                "title": "Paris place de la Concorde",
+                "url": "https://live.staticflickr.com/4814/45700749011_493a207374_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294586,
+                    48.858361
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45737882302",
+                "lat": "48.858361",
+                "lon": "2.294586",
+                "title": "Champ de Mars",
+                "url": "https://live.staticflickr.com/65535/45737882302_950f3d587c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342931,
+                    48.886716
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45823988994",
+                "lat": "48.886716",
+                "lon": "2.342931",
+                "title": "French Standoff",
+                "url": "https://live.staticflickr.com/7915/45823988994_d4d79a399e_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3219,
+                    48.842116
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45847710334",
+                "lat": "48.842116",
+                "lon": "2.3219",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/7896/45847710334_af56dec880_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322013,
+                    48.841994
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45847714044",
+                "lat": "48.841994",
+                "lon": "2.322013",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/7883/45847714044_14a4ff421d_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322163,
+                    48.842188
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45847721224",
+                "lat": "48.842188",
+                "lon": "2.322163",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/7849/45847721224_1a4fb085e8_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322091,
+                    48.842025
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45847725064",
+                "lat": "48.842025",
+                "lon": "2.322091",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/7896/45847725064_3e4f3d82be_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322091,
+                    48.842025
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45847728594",
+                "lat": "48.842025",
+                "lon": "2.322091",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/7812/45847728594_6d7face374_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322094,
+                    48.842025
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45847737314",
+                "lat": "48.842025",
+                "lon": "2.322094",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/4888/45847737314_458270c067_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.337944,
+                    48.885694
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45860875211",
+                "lat": "48.885694",
+                "lon": "2.337944",
+                "title": "Streets of Montmartre / \u0423\u043b\u0438\u0446\u044b \u041c\u043e\u043d\u043c\u0430\u0440\u0442\u0440\u0430",
+                "url": "https://live.staticflickr.com/1937/45860875211_f01e45bdc1_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.337373,
+                    48.858199
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45927825165",
+                "lat": "48.858199",
+                "lon": "2.337373",
+                "title": "Pont des Arts sous la neige.",
+                "url": "https://live.staticflickr.com/7908/45927825165_f56c6172e0_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.28878,
+                    48.861938
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45928573395",
+                "lat": "48.861938",
+                "lon": "2.28878",
+                "title": "Paris Under the Snow",
+                "url": "https://live.staticflickr.com/4826/45928573395_8462018196_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.335864,
+                    48.861007
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46015386294",
+                "lat": "48.861007",
+                "lon": "2.335864",
+                "title": "Modern sculpture - Jardin des Tuileries (Paris/FR)",
+                "url": "https://live.staticflickr.com/65535/46015386294_8a5eb99e96_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341455,
+                    48.885819
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46100513972",
+                "lat": "48.885819",
+                "lon": "2.341455",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/4888/46100513972_d48fb1fbd3_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.387992,
+                    48.775148
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46113881744",
+                "lat": "48.775148",
+                "lon": "2.387992",
+                "title": "Vitry sous la neige 3",
+                "url": "https://live.staticflickr.com/7814/46113881744_bfa34efc50_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341363,
+                    48.885927
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46150834201",
+                "lat": "48.885927",
+                "lon": "2.341363",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/4886/46150834201_3a749c7f0e_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342525,
+                    48.886005
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46150834831",
+                "lat": "48.886005",
+                "lon": "2.342525",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/4874/46150834831_23f7530057_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.337677,
+                    48.858788
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46167730065",
+                "lat": "48.858788",
+                "lon": "2.337677",
+                "title": "Pont des arts",
+                "url": "https://live.staticflickr.com/7864/46167730065_9bd160ca6c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.100362,
+                    48.899906
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46215044225",
+                "lat": "48.899906",
+                "lon": "2.100362",
+                "title": "Zoom and view Paris-La D\u00e9fense / Lignes avant de contempler le paysage vers Paris near La D\u00e9fense (zoomez sur la photo)",
+                "url": "https://live.staticflickr.com/7832/46215044225_2bb6550fa6_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343036,
+                    48.885891
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46225260132",
+                "lat": "48.885891",
+                "lon": "2.343036",
+                "title": "Paris view from the steps of the Basiica of the Sacred Heart of Paris (Sacre-Coeur Basilica)  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/4826/46225260132_90d068d147_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294855,
+                    48.873647
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46273348771",
+                "lat": "48.873647",
+                "lon": "2.294855",
+                "title": "Eiffel Tower from The Arc de Triomphe de l'Etoile  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/4825/46273348771_c9d628c7c7_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295277,
+                    48.873488
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46398216881",
+                "lat": "48.873488",
+                "lon": "2.295277",
+                "title": "Arc de Triomphe - Le Triomphe de 1810 by Jean-Pierre Cortot  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/4900/46398216881_cfc9cee649_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.301794,
+                    48.851955
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46494506845",
+                "lat": "48.851955",
+                "lon": "2.301794",
+                "title": "View from the Eiffel Tower of Pont de Bir Hakeim and Pont de Grenelle  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/7896/46494506845_a33c7365f0_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322269,
+                    48.841908
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46519587982",
+                "lat": "48.841908",
+                "lon": "2.322269",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/7916/46519587982_11dc13081a_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322269,
+                    48.841908
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46519590882",
+                "lat": "48.841908",
+                "lon": "2.322269",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/7917/46519590882_d9ae9f7ef4_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322269,
+                    48.841908
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46571642351",
+                "lat": "48.841908",
+                "lon": "2.322269",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "url": "https://live.staticflickr.com/7836/46571642351_cd24c7a053_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.358477,
+                    48.822293
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46676659442",
+                "lat": "48.822293",
+                "lon": "2.358477",
+                "title": "Quartier de Choisy, Paris 13e",
+                "url": "https://live.staticflickr.com/7811/46676659442_d6285e4a4f_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.358477,
+                    48.822293
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46676690382",
+                "lat": "48.822293",
+                "lon": "2.358477",
+                "title": "Paris en noir et blanc",
+                "url": "https://live.staticflickr.com/7859/46676690382_bb61b79674_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.358477,
+                    48.822293
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46729301771",
+                "lat": "48.822293",
+                "lon": "2.358477",
+                "title": "Vue panoramique du sud du 13e arrondissement, Paris",
+                "url": "https://live.staticflickr.com/4871/46729301771_5db826ed6d_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295266,
+                    48.873891
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46780522934",
+                "lat": "48.873891",
+                "lon": "2.295266",
+                "title": "Champs-Elysees from the roof of Arc de Triomphe de l'Etoile   -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/7804/46780522934_81dca4b4b4_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.28878,
+                    48.861938
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46795904842",
+                "lat": "48.861938",
+                "lon": "2.28878",
+                "title": "Paris Under the Snow",
+                "url": "https://live.staticflickr.com/4827/46795904842_3269f4a6e9_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.389698,
+                    48.775558
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46839020751",
+                "lat": "48.775558",
+                "lon": "2.389698",
+                "title": "Vitry sous la neige 2",
+                "url": "https://live.staticflickr.com/4890/46839020751_18625359b2_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.28848,
+                    48.861777
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46882042391",
+                "lat": "48.861777",
+                "lon": "2.28848",
+                "title": "18.10pm - An evening in Paris  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/4916/46882042391_d769d6b3b2_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.301163,
+                    48.865109
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "47371889752",
+                "lat": "48.865109",
+                "lon": "2.301163",
+                "title": "Eiffel Tower",
+                "url": "https://live.staticflickr.com/7851/47371889752_d4ee31f496_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343166,
+                    48.885661
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "47630564222",
+                "lat": "48.885661",
+                "lon": "2.343166",
+                "title": "View from Sacre-Coeur Basilica of Paris, France  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/65535/47630564222_6ec04e1cb7_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326344,
+                    48.860302
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "47692044912",
+                "lat": "48.860302",
+                "lon": "2.326344",
+                "title": "Par\u00eds desde el museo de Orsay",
+                "url": "https://live.staticflickr.com/65535/47692044912_a7ea158f37_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.314255,
+                    48.826161
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "47730510042",
+                "lat": "48.826161",
+                "lon": "2.314255",
+                "title": "Parisian Normality Restored",
+                "url": "https://live.staticflickr.com/65535/47730510042_0398481ca6_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.277656,
+                    48.953987
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "47981026651",
+                "lat": "48.953987",
+                "lon": "2.277656",
+                "title": "Paris - Juin 2017",
+                "url": "https://live.staticflickr.com/65535/47981026651_d70fae85fc_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.389032,
+                    48.821671
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "47992871926",
+                "lat": "48.821671",
+                "lon": "2.389032",
+                "title": "incinerator",
+                "url": "https://live.staticflickr.com/65535/47992871926_1cc6db853e_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.359839,
+                    48.851161
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48006456921",
+                "lat": "48.851161",
+                "lon": "2.359839",
+                "title": "\u00cele Saint Louis architecture",
+                "url": "https://live.staticflickr.com/65535/48006456921_60e01c85a9_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342852,
+                    48.885777
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025736451",
+                "lat": "48.885777",
+                "lon": "2.342852",
+                "title": "2019-06-05_17-50-06_ILCE-6300_DSC14454_Kiri",
+                "url": "https://live.staticflickr.com/65535/48025736451_88029a0577_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342902,
+                    48.885791
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025739731",
+                "lat": "48.885791",
+                "lon": "2.342902",
+                "title": "2019-06-05_17-50-14_ILCE-6500_DSC03951",
+                "url": "https://live.staticflickr.com/65535/48025739731_9ba615dba5_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342902,
+                    48.885791
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025740191",
+                "lat": "48.885791",
+                "lon": "2.342902",
+                "title": "2019-06-05_17-50-20_ILCE-6300_DSC14455_Kiri",
+                "url": "https://live.staticflickr.com/65535/48025740191_b9bb891126_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342958,
+                    48.885833
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025750336",
+                "lat": "48.885833",
+                "lon": "2.342958",
+                "title": "2019-06-05_17-50-57_ILCE-6300_DSC14457_Kiri",
+                "url": "https://live.staticflickr.com/65535/48025750336_57ef4dfe61_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343122,
+                    48.885972
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025764716",
+                "lat": "48.885972",
+                "lon": "2.343122",
+                "title": "2019-06-05_17-52-26_ILCE-6500_DSC03963",
+                "url": "https://live.staticflickr.com/65535/48025764716_0121ae133c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342852,
+                    48.885777
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025766393",
+                "lat": "48.885777",
+                "lon": "2.342852",
+                "title": "2019-06-05_17-50-01_ILCE-6500_DSC03948",
+                "url": "https://live.staticflickr.com/65535/48025766393_904e815816_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343163,
+                    48.88613
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025776771",
+                "lat": "48.88613",
+                "lon": "2.343163",
+                "title": "2019-06-05_17-53-14_ILCE-6500_DSC03971",
+                "url": "https://live.staticflickr.com/65535/48025776771_bb00220c4a_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342902,
+                    48.885791
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025777993",
+                "lat": "48.885791",
+                "lon": "2.342902",
+                "title": "2019-06-05_17-50-36_ILCE-6500_DSC03953",
+                "url": "https://live.staticflickr.com/65535/48025777993_b382e62ee6_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342902,
+                    48.885791
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025778013",
+                "lat": "48.885791",
+                "lon": "2.342902",
+                "title": "2019-06-05_17-50-26_ILCE-6500_DSC03952",
+                "url": "https://live.staticflickr.com/65535/48025778013_4a5d248b71_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343163,
+                    48.88613
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025778356",
+                "lat": "48.88613",
+                "lon": "2.343163",
+                "title": "2019-06-05_17-53-15_ILCE-6500_DSC03972",
+                "url": "https://live.staticflickr.com/65535/48025778356_3322fb1879_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343152,
+                    48.886141
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025779261",
+                "lat": "48.886141",
+                "lon": "2.343152",
+                "title": "2019-06-05_17-53-25_ILCE-6500_DSC03973",
+                "url": "https://live.staticflickr.com/65535/48025779261_32cefd7b0e_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343152,
+                    48.886141
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025780926",
+                "lat": "48.886141",
+                "lon": "2.343152",
+                "title": "2019-06-05_17-53-27_ILCE-6500_DSC03974",
+                "url": "https://live.staticflickr.com/65535/48025780926_1f5da34dfb_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342958,
+                    48.885833
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025781438",
+                "lat": "48.885833",
+                "lon": "2.342958",
+                "title": "2019-06-05_17-50-52_ILCE-6300_DSC14456_Kiri",
+                "url": "https://live.staticflickr.com/65535/48025781438_02b6169617_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342958,
+                    48.885833
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025785153",
+                "lat": "48.885833",
+                "lon": "2.342958",
+                "title": "2019-06-05_17-51-02_ILCE-6500_DSC03955",
+                "url": "https://live.staticflickr.com/65535/48025785153_b4646b7a15_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343252,
+                    48.886161
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025790156",
+                "lat": "48.886161",
+                "lon": "2.343252",
+                "title": "2019-06-05_17-55-23_ILCE-6500_DSC03982",
+                "url": "https://live.staticflickr.com/65535/48025790156_de060bd7e2_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343252,
+                    48.886161
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025790361",
+                "lat": "48.886161",
+                "lon": "2.343252",
+                "title": "2019-06-05_17-55-22_ILCE-6500_DSC03981",
+                "url": "https://live.staticflickr.com/65535/48025790361_b635cb733b_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343252,
+                    48.886161
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025817663",
+                "lat": "48.886161",
+                "lon": "2.343252",
+                "title": "2019-06-05_17-55-14_ILCE-6500_DSC03977",
+                "url": "https://live.staticflickr.com/65535/48025817663_2125e620f8_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343252,
+                    48.886161
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025818153",
+                "lat": "48.886161",
+                "lon": "2.343252",
+                "title": "2019-06-05_17-55-15_ILCE-6500_DSC03978",
+                "url": "https://live.staticflickr.com/65535/48025818153_14c0d3dae9_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342852,
+                    48.885777
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025840922",
+                "lat": "48.885777",
+                "lon": "2.342852",
+                "title": "2019-06-05_17-50-03_ILCE-6500_DSC03949",
+                "url": "https://live.staticflickr.com/65535/48025840922_a42d0be0f7_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342902,
+                    48.885791
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025844922",
+                "lat": "48.885791",
+                "lon": "2.342902",
+                "title": "2019-06-05_17-50-13_ILCE-6500_DSC03950",
+                "url": "https://live.staticflickr.com/65535/48025844922_12a8033c3d_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343127,
+                    48.886002
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025872602",
+                "lat": "48.886002",
+                "lon": "2.343127",
+                "title": "2019-06-05_17-52-28_ILCE-6500_DSC03964",
+                "url": "https://live.staticflickr.com/65535/48025872602_6b67e3fdc2_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343163,
+                    48.88613
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48025878552",
+                "lat": "48.88613",
+                "lon": "2.343163",
+                "title": "2019-06-05_17-53-07_ILCE-6300_DSC14463_Kiri",
+                "url": "https://live.staticflickr.com/65535/48025878552_f06d95c142_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291644,
+                    48.860261
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48027077176",
+                "lat": "48.860261",
+                "lon": "2.291644",
+                "title": "2019-06-06_14-04-59_ILCE-6500_DSC04907",
+                "url": "https://live.staticflickr.com/65535/48027077176_df995c57f0_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292002,
+                    48.860061
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48027092836",
+                "lat": "48.860061",
+                "lon": "2.292002",
+                "title": "2019-06-06_14-09-15_ILCE-6500_DSC04922",
+                "url": "https://live.staticflickr.com/65535/48027092836_a89af21d8e_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292283,
+                    48.859936
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48027097996",
+                "lat": "48.859936",
+                "lon": "2.292283",
+                "title": "2019-06-06_14-09-49_ILCE-6300_DSC14660_Kiri",
+                "url": "https://live.staticflickr.com/65535/48027097996_37ab800d1a_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291644,
+                    48.860261
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48027114228",
+                "lat": "48.860261",
+                "lon": "2.291644",
+                "title": "2019-06-06_14-04-56_ILCE-6500_DSC04905",
+                "url": "https://live.staticflickr.com/65535/48027114228_c8041b4f4c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291741,
+                    48.860225
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48027115903",
+                "lat": "48.860225",
+                "lon": "2.291741",
+                "title": "2019-06-06_14-05-03_ILCE-6300_DSC14654_Kiri",
+                "url": "https://live.staticflickr.com/65535/48027115903_3c00d9455f_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292002,
+                    48.860061
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48027128953",
+                "lat": "48.860061",
+                "lon": "2.292002",
+                "title": "2019-06-06_14-09-13_ILCE-6500_DSC04921",
+                "url": "https://live.staticflickr.com/65535/48027128953_18097e6ec3_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292588,
+                    48.859672
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48027143001",
+                "lat": "48.859672",
+                "lon": "2.292588",
+                "title": "2019-06-06_14-34-32_ILCE-6500_DSC04990",
+                "url": "https://live.staticflickr.com/65535/48027143001_b88a756e1f_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292588,
+                    48.859672
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48027145036",
+                "lat": "48.859672",
+                "lon": "2.292588",
+                "title": "2019-06-06_14-34-34_ILCE-6500_DSC04991",
+                "url": "https://live.staticflickr.com/65535/48027145036_3326c10e1b_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292058,
+                    48.860019
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48027146896",
+                "lat": "48.860019",
+                "lon": "2.292058",
+                "title": "2019-06-06_14-35-28_ILCE-6500_DSC04994",
+                "url": "https://live.staticflickr.com/65535/48027146896_0566f2dbf6_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291644,
+                    48.860261
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48027184912",
+                "lat": "48.860261",
+                "lon": "2.291644",
+                "title": "2019-06-06_14-04-57_ILCE-6500_DSC04906",
+                "url": "https://live.staticflickr.com/65535/48027184912_8deca9e0c2_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292088,
+                    48.860058
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48027200552",
+                "lat": "48.860058",
+                "lon": "2.292088",
+                "title": "2019-06-06_14-09-17_ILCE-6500_DSC04923",
+                "url": "https://live.staticflickr.com/65535/48027200552_691feecfd8_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.29567,
+                    48.869655
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48067078866",
+                "lat": "48.869655",
+                "lon": "2.29567",
+                "title": "Eiffel Tower from Arc de Triomphe",
+                "url": "https://live.staticflickr.com/65535/48067078866_98175871ac_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342958,
+                    48.885833
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48074697486",
+                "lat": "48.885833",
+                "lon": "2.342958",
+                "title": "2019-06-05_17-51-02_ILCE-6500_DSC03955_DxO",
+                "url": "https://live.staticflickr.com/65535/48074697486_511b781fe3_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342852,
+                    48.885777
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48074801037",
+                "lat": "48.885777",
+                "lon": "2.342852",
+                "title": "2019-06-05_17-50-03_ILCE-6500_DSC03949_DxO",
+                "url": "https://live.staticflickr.com/65535/48074801037_85737a09bd_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291644,
+                    48.860261
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48074897498",
+                "lat": "48.860261",
+                "lon": "2.291644",
+                "title": "2019-06-06_14-04-57_ILCE-6500_DSC04906_DxO",
+                "url": "https://live.staticflickr.com/65535/48074897498_97f85a0699_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342958,
+                    48.885833
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48085685473",
+                "lat": "48.885833",
+                "lon": "2.342958",
+                "title": "2019-06-05_17-51-02_ILCE-6500_DSC03955_DxO",
+                "url": "https://live.staticflickr.com/65535/48085685473_02abde7176_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342852,
+                    48.885777
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48085735137",
+                "lat": "48.885777",
+                "lon": "2.342852",
+                "title": "2019-06-05_17-50-03_ILCE-6500_DSC03949_DxO",
+                "url": "https://live.staticflickr.com/65535/48085735137_6be252de76_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292602,
+                    49.030116
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48097259427",
+                "lat": "49.030116",
+                "lon": "2.292602",
+                "title": "Montmorency forest",
+                "url": "https://live.staticflickr.com/65535/48097259427_855f509838_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291644,
+                    48.860261
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48099987193",
+                "lat": "48.860261",
+                "lon": "2.291644",
+                "title": "2019-06-06_14-04-57_ILCE-6500_DSC04906_DxO",
+                "url": "https://live.staticflickr.com/65535/48099987193_350c74dc3a_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.260351,
+                    48.861976
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48229411287",
+                "lat": "48.861976",
+                "lon": "2.260351",
+                "title": "Boulogne wood",
+                "url": "https://live.staticflickr.com/65535/48229411287_ee96b22d5c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343091,
+                    48.886109
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48233450081",
+                "lat": "48.886109",
+                "lon": "2.343091",
+                "title": "Paris",
+                "url": "https://live.staticflickr.com/65535/48233450081_013909f08e_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321969,
+                    48.842211
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48283823106",
+                "lat": "48.842211",
+                "lon": "2.321969",
+                "title": "Blurred view of Paris, France",
+                "url": "https://live.staticflickr.com/65535/48283823106_e8233afb6b_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321955,
+                    48.842241
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48283824411",
+                "lat": "48.842241",
+                "lon": "2.321955",
+                "title": "Paris, Eiffel tower at evening sunset blue hour",
+                "url": "https://live.staticflickr.com/65535/48283824411_8a45798d5e_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321974,
+                    48.842244
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48283921842",
+                "lat": "48.842244",
+                "lon": "2.321974",
+                "title": "Paris, Eiffel tower at evening sunset blue hour",
+                "url": "https://live.staticflickr.com/65535/48283921842_959564d693_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322063,
+                    48.842288
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48283925877",
+                "lat": "48.842288",
+                "lon": "2.322063",
+                "title": "Paris, Eiffel tower at evening, France, Europe",
+                "url": "https://live.staticflickr.com/65535/48283925877_23dd4e9bf4_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322016,
+                    48.842236
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48283926622",
+                "lat": "48.842236",
+                "lon": "2.322016",
+                "title": "Paris, Eiffel tower at evening, France, Europe",
+                "url": "https://live.staticflickr.com/65535/48283926622_a0bd5e8d1c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321713,
+                    48.842036
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48289619671",
+                "lat": "48.842036",
+                "lon": "2.321713",
+                "title": "Paris, Eiffel tower at evening, France, Europe",
+                "url": "https://live.staticflickr.com/65535/48289619671_f1ae09ec03_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322177,
+                    48.842152
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48289724697",
+                "lat": "48.842152",
+                "lon": "2.322177",
+                "title": "Aerial view of Paris, France",
+                "url": "https://live.staticflickr.com/65535/48289724697_674407a9c1_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322066,
+                    48.842266
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48289725407",
+                "lat": "48.842266",
+                "lon": "2.322066",
+                "title": "Aerial view of Paris, France",
+                "url": "https://live.staticflickr.com/65535/48289725407_a64fd17a97_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321972,
+                    48.842247
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48289725777",
+                "lat": "48.842247",
+                "lon": "2.321972",
+                "title": "Paris, Eiffel tower at evening, France, Europe",
+                "url": "https://live.staticflickr.com/65535/48289725777_6eef1f1dd1_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.314555,
+                    48.863191
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48436252201",
+                "lat": "48.863191",
+                "lon": "2.314555",
+                "title": "Pont Alexandre III bridge from the Seine River in Paris, France  - (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/65535/48436252201_b604edf845_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294472,
+                    48.858297
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48463686586",
+                "lat": "48.858297",
+                "lon": "2.294472",
+                "title": "Place de la Concorde, Grand Palais & The Basiica of the Sacred Heart of Paris  from the Eiffel Tower  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/65535/48463686586_7429c25fdd_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294777,
+                    48.858286
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48469313351",
+                "lat": "48.858286",
+                "lon": "2.294777",
+                "title": "The Basiica of the Sacred Heart of Paris (Sacre-Coeur Basilica) from the Eiffel Tower  -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/65535/48469313351_76da733554_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.33129,
+                    48.920232
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48671171213",
+                "lat": "48.920232",
+                "lon": "2.33129",
+                "title": "Ponts sur la Seine depuis les hauts de St-Ouen",
+                "url": "https://live.staticflickr.com/65535/48671171213_4f9d32d807_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.287259,
+                    48.856159
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48684513663",
+                "lat": "48.856159",
+                "lon": "2.287259",
+                "title": "Paris s'\u00e9veille",
+                "url": "https://live.staticflickr.com/65535/48684513663_1c556bc262_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343091,
+                    48.886224
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48692035182",
+                "lat": "48.886224",
+                "lon": "2.343091",
+                "title": "View from Sacr\u00e9-C\u0153ur",
+                "url": "https://live.staticflickr.com/65535/48692035182_7274a4545c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292644,
+                    48.859467
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48754063963",
+                "lat": "48.859467",
+                "lon": "2.292644",
+                "title": "LA TOUR EIFFEL",
+                "url": "https://live.staticflickr.com/65535/48754063963_4c3046c151_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.347919,
+                    48.854331
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48771819347",
+                "lat": "48.854331",
+                "lon": "2.347919",
+                "title": "Eiffel tower",
+                "url": "https://live.staticflickr.com/65535/48771819347_6113d43eea_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.344102,
+                    48.853933
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48995403663",
+                "lat": "48.853933",
+                "lon": "2.344102",
+                "title": "Autumn in Paris",
+                "url": "https://live.staticflickr.com/65535/48995403663_c0f3fffeeb_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343197,
+                    48.885889
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49005099026",
+                "lat": "48.885889",
+                "lon": "2.343197",
+                "title": "Katedra Naj\u015bwi\u0119tszej Marii Panny",
+                "url": "https://live.staticflickr.com/65535/49005099026_753e0489aa_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343197,
+                    48.885889
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49005099856",
+                "lat": "48.885889",
+                "lon": "2.343197",
+                "title": "Widok z Montmartre",
+                "url": "https://live.staticflickr.com/65535/49005099856_144c8f33fe_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.289027,
+                    48.86143
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49007288367",
+                "lat": "48.86143",
+                "lon": "2.289027",
+                "title": "Trocadero",
+                "url": "https://live.staticflickr.com/65535/49007288367_c229573498_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295026,
+                    48.87379
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49038706231",
+                "lat": "48.87379",
+                "lon": "2.295026",
+                "title": "Paris #23",
+                "url": "https://live.staticflickr.com/65535/49038706231_eeeae0aca5_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.387752,
+                    48.816141
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49067780563",
+                "lat": "48.816141",
+                "lon": "2.387752",
+                "title": "Cormailles park",
+                "url": "https://live.staticflickr.com/65535/49067780563_c1e6bb5cfe_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341557,
+                    48.857374
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49074884286",
+                "lat": "48.857374",
+                "lon": "2.341557",
+                "title": "Neige d'automne.",
+                "url": "https://live.staticflickr.com/65535/49074884286_b47c3bc7fe_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.219377,
+                    48.872852
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49177272592",
+                "lat": "48.872852",
+                "lon": "2.219377",
+                "title": "Libert\u00e9, \u00e9galit\u00e9, fraternit\u00e9",
+                "url": "https://live.staticflickr.com/65535/49177272592_066f71e92a_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.319797,
+                    48.86408
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49232303887",
+                "lat": "48.86408",
+                "lon": "2.319797",
+                "title": "Pont Alexandre III & Eiffel Tower from Pont de la Concorde in Paris, France  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/65535/49232303887_7ac8344c1a_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.336654,
+                    48.860649
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49420308211",
+                "lat": "48.860649",
+                "lon": "2.336654",
+                "title": "IMG_2368 (Medium)",
+                "url": "https://live.staticflickr.com/65535/49420308211_23641bc84c_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.336654,
+                    48.860649
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49420522007",
+                "lat": "48.860649",
+                "lon": "2.336654",
+                "title": "IMG_2377 (Medium)",
+                "url": "https://live.staticflickr.com/65535/49420522007_ed11138a6e_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.391307,
+                    48.81556
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49439748347",
+                "lat": "48.81556",
+                "lon": "2.391307",
+                "title": "Ivry-port railways",
+                "url": "https://live.staticflickr.com/65535/49439748347_4e8ac4fb2d_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.104325,
+                    48.973963
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49541609761",
+                "lat": "48.973963",
+                "lon": "2.104325",
+                "title": "En prenant de la hauteur ...",
+                "url": "https://live.staticflickr.com/65535/49541609761_47eb4cb64f_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35149,
+                    48.857005
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49553036381",
+                "lat": "48.857005",
+                "lon": "2.35149",
+                "title": "Il Parco del Louvre...",
+                "url": "https://live.staticflickr.com/65535/49553036381_10deb67177_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35149,
+                    48.857005
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49553037241",
+                "lat": "48.857005",
+                "lon": "2.35149",
+                "title": "La Tour Eiffel",
+                "url": "https://live.staticflickr.com/65535/49553037241_e3ab231789_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.31328,
+                    48.863619
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49565824473",
+                "lat": "48.863619",
+                "lon": "2.31328",
+                "title": "Pont Alexandre III",
+                "url": "https://live.staticflickr.com/65535/49565824473_8b9dc7d230_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343055,
+                    48.885555
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49588198448",
+                "lat": "48.885555",
+                "lon": "2.343055",
+                "title": "Landscape from the Sacr\u00e9-C\u0153ur",
+                "url": "https://live.staticflickr.com/65535/49588198448_82c33e1295_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.144886,
+                    48.994633
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49605104008",
+                "lat": "48.994633",
+                "lon": "2.144886",
+                "title": "En prenant de la hauteur",
+                "url": "https://live.staticflickr.com/65535/49605104008_ea1ea4459d_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.232594,
+                    48.849961
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49617136927",
+                "lat": "48.849961",
+                "lon": "2.232594",
+                "title": "Parc de Boulogne-Edmond-de-Rothschild",
+                "url": "https://live.staticflickr.com/65535/49617136927_c836bc01c4_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.312965,
+                    48.858602
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49623736496",
+                "lat": "48.858602",
+                "lon": "2.312965",
+                "title": "It all depends on how you see things...",
+                "url": "https://live.staticflickr.com/65535/49623736496_aee34337c3_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292237,
+                    48.85993
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "49693188121",
+                "lat": "48.85993",
+                "lon": "2.292237",
+                "title": "Approaching Paris",
+                "url": "https://live.staticflickr.com/65535/49693188121_e1a61fe7d3_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.350001,
+                    48.851783
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "8290586836",
+                "lat": "48.851783",
+                "lon": "2.350001",
+                "title": "Our Lady of Paris Bathed in Pure Gold",
+                "url": "https://live.staticflickr.com/8215/8290586836_10c2772e75_m.jpg",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.348648,
+                    48.856401
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "28637977744",
+                "lat": "48.856401",
+                "lon": "2.348648",
+                "title": "colored Paris sunset",
+                "url": "https://live.staticflickr.com/8232/28637977744_7d0e838212_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.361832,
+                    48.854984
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "29580889467",
+                "lat": "48.854984",
+                "lon": "2.361832",
+                "title": "Saint-Paul",
+                "url": "https://live.staticflickr.com/1848/29580889467_195c15bd35_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.301188,
+                    48.853038
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "29700206217",
+                "lat": "48.853038",
+                "lon": "2.301188",
+                "title": "Monde vert silencieux -  (Selected by GETTY IMAGES)",
+                "url": "https://live.staticflickr.com/1872/29700206217_b2eed765da_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.287216,
+                    48.856018
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "30426596707",
+                "lat": "48.856018",
+                "lon": "2.287216",
+                "title": "Paris - FRANCE",
+                "url": "https://live.staticflickr.com/1961/30426596707_7b314c337b_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294499,
+                    48.858222
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "30526468357",
+                "lat": "48.858222",
+                "lon": "2.294499",
+                "title": "Eiffel Tower at twilight",
+                "url": "https://live.staticflickr.com/1938/30526468357_fc9ffa9bb3_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.421383,
+                    48.841352
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "30950524057",
+                "lat": "48.841352",
+                "lon": "2.421383",
+                "title": "Saint-Mand\u00e9 lake",
+                "url": "https://live.staticflickr.com/4915/30950524057_18d816d5e0_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.287216,
+                    48.856018
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "31097881678",
+                "lat": "48.856018",
+                "lon": "2.287216",
+                "title": "PARIS - FRANCE",
+                "url": "https://live.staticflickr.com/1919/31097881678_b17ff85e0d_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.507169,
+                    48.830052
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "32920031207",
+                "lat": "48.830052",
+                "lon": "2.507169",
+                "title": "IMG_0129",
+                "url": "https://live.staticflickr.com/65535/32920031207_ebfc808d6d_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.287945,
+                    48.862456
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "33092914418",
+                "lat": "48.862456",
+                "lon": "2.287945",
+                "title": "Parigi by night",
+                "url": "https://live.staticflickr.com/4832/33092914418_108c4764f0_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288497,
+                    48.861758
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "33171513718",
+                "lat": "48.861758",
+                "lon": "2.288497",
+                "title": "The Eiffel Tower by night  -  (Selected by SHUTTERSTOCK)",
+                "url": "https://live.staticflickr.com/7838/33171513718_8224f39eb1_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.335088,
+                    48.861227
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "33672856188",
+                "lat": "48.861227",
+                "lon": "2.335088",
+                "title": "Mus\u00e9e du Louvre~",
+                "url": "https://live.staticflickr.com/7862/33672856188_34172785d2_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.417786,
+                    48.829836
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "33858750748",
+                "lat": "48.829836",
+                "lon": "2.417786",
+                "title": "IMG_1266",
+                "url": "https://live.staticflickr.com/65535/33858750748_4ec2e72233_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.345666,
+                    48.852938
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "40211279353",
+                "lat": "48.852938",
+                "lon": "2.345666",
+                "title": "Death and Light",
+                "url": "https://live.staticflickr.com/7809/40211279353_333b24e3c2_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.287322,
+                    48.862855
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "41765361660",
+                "lat": "48.862855",
+                "lon": "2.287322",
+                "title": "Eiffel Tower by night",
+                "url": "https://live.staticflickr.com/853/41765361660_ac79c1b63e_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326255,
+                    48.859544
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "42707678390",
+                "lat": "48.859544",
+                "lon": "2.326255",
+                "title": "P7132134.jpg",
+                "url": "https://live.staticflickr.com/1850/42707678390_6184c5354f_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.301327,
+                    48.853322
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "42749376664",
+                "lat": "48.853322",
+                "lon": "2.301327",
+                "title": "France, Paris",
+                "url": "https://live.staticflickr.com/1828/42749376664_b594d4bd20_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.333908,
+                    48.861806
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "42889259530",
+                "lat": "48.861806",
+                "lon": "2.333908",
+                "title": "Louvre Museum",
+                "url": "https://live.staticflickr.com/1869/42889259530_01cdc19cd4_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288497,
+                    48.861758
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "43563193445",
+                "lat": "48.861758",
+                "lon": "2.288497",
+                "title": "Silent guardian",
+                "url": "https://live.staticflickr.com/1882/43563193445_d4a9129e72_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326877,
+                    48.859669
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "43611114625",
+                "lat": "48.859669",
+                "lon": "2.326877",
+                "title": "P7132215.jpg",
+                "url": "https://live.staticflickr.com/1892/43611114625_05fdf9b69a_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.287216,
+                    48.856018
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "44140597050",
+                "lat": "48.856018",
+                "lon": "2.287216",
+                "title": "Paris - FRANCE",
+                "url": "https://live.staticflickr.com/4835/44140597050_a1b036e44d_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342491,
+                    48.884331
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "44351210042",
+                "lat": "48.884331",
+                "lon": "2.342491",
+                "title": "Always follow the cat.",
+                "url": "https://live.staticflickr.com/1872/44351210042_19671b8927_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.103538,
+                    48.820767
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "44407044275",
+                "lat": "48.820767",
+                "lon": "2.103538",
+                "title": "Camins de Versailles",
+                "url": "https://live.staticflickr.com/1976/44407044275_e94e0454a0_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294272,
+                    48.856777
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "44422497631",
+                "lat": "48.856777",
+                "lon": "2.294272",
+                "title": "Tower of light",
+                "url": "https://live.staticflickr.com/1845/44422497631_a37164f9e4_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.393394,
+                    48.815799
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "44442424760",
+                "lat": "48.815799",
+                "lon": "2.393394",
+                "title": "Lenine street 2018",
+                "url": "https://live.staticflickr.com/1944/44442424760_ac5a58828b_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326377,
+                    48.859611
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "44520055971",
+                "lat": "48.859611",
+                "lon": "2.326377",
+                "title": "P7132173.jpg",
+                "url": "https://live.staticflickr.com/1845/44520055971_3632a20955_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326216,
+                    48.860186
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "44520205821",
+                "lat": "48.860186",
+                "lon": "2.326216",
+                "title": "P7132288.jpg",
+                "url": "https://live.staticflickr.com/1843/44520205821_dd0e5433b2_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326469,
+                    48.859952
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "44520238871",
+                "lat": "48.859952",
+                "lon": "2.326469",
+                "title": "P7132348.jpg",
+                "url": "https://live.staticflickr.com/1878/44520238871_440a6d64d6_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326505,
+                    48.859915
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "44569940001",
+                "lat": "48.859915",
+                "lon": "2.326505",
+                "title": "Elevators",
+                "url": "https://live.staticflickr.com/1885/44569940001_7f8b50e057_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.336169,
+                    48.864288
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "44850580115",
+                "lat": "48.864288",
+                "lon": "2.336169",
+                "title": "Under Palais Royal arch",
+                "url": "https://live.staticflickr.com/4813/44850580115_2c25b2b7d5_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288502,
+                    48.861755
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "44893939884",
+                "lat": "48.861755",
+                "lon": "2.288502",
+                "title": "To Paris comes the evening",
+                "url": "https://live.staticflickr.com/1971/44893939884_c526d17d83_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.320679,
+                    48.842336
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "45202074104",
+                "lat": "48.842336",
+                "lon": "2.320679",
+                "title": "Blue hour in Paris",
+                "url": "https://live.staticflickr.com/4846/45202074104_70c8cd0b57_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.421866,
+                    48.841347
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "45217160104",
+                "lat": "48.841347",
+                "lon": "2.421866",
+                "title": "Autumn reflection",
+                "url": "https://live.staticflickr.com/4822/45217160104_334f1611ed_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.393641,
+                    48.860016
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "45719221395",
+                "lat": "48.860016",
+                "lon": "2.393641",
+                "title": "P\u00e8re Lachaise",
+                "url": "https://live.staticflickr.com/65535/45719221395_71e7dd7d99_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.388411,
+                    48.842091
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "45879806441",
+                "lat": "48.842091",
+                "lon": "2.388411",
+                "title": "Pont nocturne",
+                "url": "https://live.staticflickr.com/4892/45879806441_b7f3303aa5_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.28713,
+                    48.855962
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "46005563185",
+                "lat": "48.855962",
+                "lon": "2.28713",
+                "title": "Being in Paris",
+                "url": "https://live.staticflickr.com/7847/46005563185_3401015331_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3126,
+                    48.854813
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "46081336462",
+                "lat": "48.854813",
+                "lon": "2.3126",
+                "title": "Night at Les Invalides, Paris",
+                "url": "https://live.staticflickr.com/4897/46081336462_a63a94a26f_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.301297,
+                    48.872413
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "46145690722",
+                "lat": "48.872413",
+                "lon": "2.301297",
+                "title": "2018-12-FL-201099",
+                "url": "https://live.staticflickr.com/4827/46145690722_3c91985f6f_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.29022,
+                    48.860818
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "46539993831",
+                "lat": "48.860818",
+                "lon": "2.29022",
+                "title": "Tour Eiffel",
+                "url": "https://live.staticflickr.com/7855/46539993831_8130591023_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.393641,
+                    48.860016
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "46581409932",
+                "lat": "48.860016",
+                "lon": "2.393641",
+                "title": "P\u00e8re Lachaise",
+                "url": "https://live.staticflickr.com/65535/46581409932_e009d4d7ef_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.393641,
+                    48.860016
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "46677158031",
+                "lat": "48.860016",
+                "lon": "2.393641",
+                "title": "P\u00e8re Lachaise",
+                "url": "https://live.staticflickr.com/65535/46677158031_b8038ce0d5_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288502,
+                    48.861755
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "46955984992",
+                "lat": "48.861755",
+                "lon": "2.288502",
+                "title": "Eiffel tower from Place  du Trocadero, Paris, France  -  (Selected by SHUTTERSTOCK)",
+                "url": "https://live.staticflickr.com/4837/46955984992_2eb6ecde0f_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.29095,
+                    48.860027
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "47373933702",
+                "lat": "48.860027",
+                "lon": "2.29095",
+                "title": "France, Paris",
+                "url": "https://live.staticflickr.com/7900/47373933702_72829b83c3_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288497,
+                    48.861775
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48319447522",
+                "lat": "48.861775",
+                "lon": "2.288497",
+                "title": "Strangers when we meet",
+                "url": "https://live.staticflickr.com/65535/48319447522_78a5fc088e_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.319286,
+                    48.864261
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48425229422",
+                "lat": "48.864261",
+                "lon": "2.319286",
+                "title": "Eiffel Tower",
+                "url": "https://live.staticflickr.com/65535/48425229422_1551919847_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.087702,
+                    48.813442
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48763620462",
+                "lat": "48.813442",
+                "lon": "2.087702",
+                "title": "Versailles",
+                "url": "https://live.staticflickr.com/65535/48763620462_5f7db284ca_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321902,
+                    48.842195
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48810676606",
+                "lat": "48.842195",
+                "lon": "2.321902",
+                "title": "Paris At Night",
+                "url": "https://live.staticflickr.com/65535/48810676606_90215f7407_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.315669,
+                    48.863518
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48834803106",
+                "lat": "48.863518",
+                "lon": "2.315669",
+                "title": "Boat Ride on the Seine",
+                "url": "https://live.staticflickr.com/65535/48834803106_af2742f695_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291636,
+                    48.858898
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "49053242798",
+                "lat": "48.858898",
+                "lon": "2.291636",
+                "title": "La ville lumi\u00e8re",
+                "url": "https://live.staticflickr.com/65535/49053242798_aa27f29742_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291636,
+                    48.858898
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "49058493977",
+                "lat": "48.858898",
+                "lon": "2.291636",
+                "title": "The city of light",
+                "url": "https://live.staticflickr.com/65535/49058493977_262cfedba9_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288497,
+                    48.861775
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "49203415123",
+                "lat": "48.861775",
+                "lon": "2.288497",
+                "title": "The Eiffel Tower",
+                "url": "https://live.staticflickr.com/65535/49203415123_23933b989d_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.393732,
+                    48.861129
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "49257768092",
+                "lat": "48.861129",
+                "lon": "2.393732",
+                "title": "Les pav\u00e9s du P\u00e8re Lachaise",
+                "url": "https://live.staticflickr.com/65535/49257768092_f2d9507822_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.310733,
+                    48.86518
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "49296237672",
+                "lat": "48.86518",
+                "lon": "2.310733",
+                "title": "Sculpture Le R\u00eave du po\u00e8te (Est.1910) - Jardin de la Nouvelle France (Paris/FR)",
+                "url": "https://live.staticflickr.com/65535/49296237672_4a907511c9_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.387355,
+                    48.820177
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "49439738352",
+                "lat": "48.820177",
+                "lon": "2.387355",
+                "title": "Ivry-port railways",
+                "url": "https://live.staticflickr.com/65535/49439738352_4734fcc4e9_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343027,
+                    48.885919
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "49480147066",
+                "lat": "48.885919",
+                "lon": "2.343027",
+                "title": "Paris By Night From Montmartre",
+                "url": "https://live.staticflickr.com/65535/49480147066_d10e428f28_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349475,
+                    48.852298
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "49530695973",
+                "lat": "48.852298",
+                "lon": "2.349475",
+                "title": "Notre-Dame  2013-03 LX1+24 1000855",
+                "url": "https://live.staticflickr.com/65535/49530695973_e8c10b2ed4_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321215,
+                    48.865589
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "49650822991",
+                "lat": "48.865589",
+                "lon": "2.321215",
+                "title": "www.instagram.com/lamarjackson.photography/  #balade #nocturne #nuit #paris #bynight #lights #photography #canon #parismonamour #photographer #quai #quaideseine #street #photo #instaphoto #travel #aloneinthedark #alightinthenight #luxury #landscape #insta",
+                "url": "https://live.staticflickr.com/65535/49650822991_7d89603673_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35149,
+                    48.857005
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "49653544433",
+                "lat": "48.857005",
+                "lon": "2.35149",
+                "title": "www.instagram.com/lamarjackson.photography/ #paris #parisbynight #photography #photos #lights #landscape #subway #viree #photoshoot #photographie #lamarjacksonphotography #photographer #photographe #paysage #metro #ladefense #ladefenseparis",
+                "url": "https://live.staticflickr.com/65535/49653544433_e99f282956_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.274588,
+                    48.841132
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "49687606722",
+                "lat": "48.841132",
+                "lon": "2.274588",
+                "title": "Andr\u00e9 Citro\u00ebn TudioJepegii",
+                "url": "https://live.staticflickr.com/65535/49687606722_cf10267e0a_m.jpg",
+                "marker-color": "#5e4fa2"
+            }
+        }
+    ]
+}
