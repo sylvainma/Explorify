@@ -99,10 +99,11 @@ class GenerateDataset():
                 print(f"Saved image w/ id {imid}")
             except Exception as e:
                 print("whoops, it failed", str(e))
+
         # Feature extraction
         sample = [{"id":imid, "image":img}]
-        print(process_samples(base_model_name, weights_file, sample))
-        
+        process_samples(base_model_name, weights_file, sample)
+        metadata["aesthetic_score"] = sample[0]["mean_score_prediction"]
         embedding = self._get_feature_embedding(img)
 
         return metadata, binary, embedding
@@ -170,11 +171,10 @@ def generate(api_credentials, city, radius, max_photos, dataset_file, save_dir):
 
             # Verbose
             if i % batches == 0 or i in [0, n_photos-1]:
-                print(f"Process {i+1}/{n_photos}...", end="")
+                print(f"Process {i+1}/{n_photos}...")
 
             # Process photo and save in h5 file
             try:
-                print(" .", end = '')
                 metadata, binary, embedding = dataset.process(photo)
                 g = f.create_group(metadata["id"])
                 g.create_dataset("binary", data=binary)
