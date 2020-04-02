@@ -30,7 +30,12 @@ var image;
 featureLayer.on("ready", function(e) {
   featureLayer.eachLayer(function (layer) {
     //console.log(layer)
-    $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">' + getTitle(layer) + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+    //$("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">' + getTitle(layer) + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+    $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
+    function (data) {
+    $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/>'+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+
+    });
     layer.on("click", function (e) {
       map.closePopup();
 
@@ -56,6 +61,7 @@ featureLayer.on("ready", function(e) {
       $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
       function (data) {
       $("#feature-info").html('<img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/>');
+
       });
       $("#featureModal").modal("show");
       $("#share-btn").click(function() {
