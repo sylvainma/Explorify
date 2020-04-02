@@ -26,20 +26,16 @@ var markerClusters = new L.MarkerClusterGroup({
 });
 
 var featureLayer = L.mapbox.featureLayer();
-var content;
+var image;
 featureLayer.on("ready", function(e) {
   featureLayer.eachLayer(function (layer) {
-    $("#feature-list tbody").append(getImage(layer));
+    //console.log(layer)
+    $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">' + getTitle(layer) + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
     layer.on("click", function (e) {
       map.closePopup();
 
-      $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+e.target.feature.properties["id"]+'&format=json&jsoncallback=?',
-    function(data){
-
-      content = '<img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/>'
-    });
-      //var content = "";
-      //content += "<p><a href='http://flickr.com/photo.gne?id="+ e.target.feature.properties["id"] +"'>See on Flickr</a></p>";
+      var content = "";
+      content += "<p><a href='http://flickr.com/photo.gne?id="+ e.target.feature.properties["id"] +"'>See on Flickr</a></p>";
       content += "<table class='table table-striped table-bordered table-condensed'>";
       if (userFields.length > 0) {
         $.each(userFields, function(index, property) {
@@ -56,10 +52,16 @@ featureLayer.on("ready", function(e) {
       }
       content += "<table>";
       $("#feature-title").html(getTitle(e.target));
-      $("#feature-info").html(content);
+      //$("#feature-info").html(getImage(e.target));
+      $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
+      function (data) {
+      $("#feature-info").html('<img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/>');
+      });
       $("#featureModal").modal("show");
       $("#share-btn").click(function() {
+        console.log(location)
         var link = location.toString() + "&id=" + L.stamp(e.target);
+        console.log(link)
         $("#share-hyperlink").attr("href", link);
         $("#share-twitter").attr("href", "https://twitter.com/intent/tweet?url=" + encodeURIComponent(link));
         $("#share-facebook").attr("href", "https://facebook.com/sharer.php?u=" + encodeURIComponent(link));
@@ -197,15 +199,15 @@ function getTitle(layer) {
     }
   }
 }
-function getImage(layer){
-  var content;
-  $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
+function getImage(layer) {
+$.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
 function(data){
-
-  content = '<img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/>'
-console.log(content)
+  image = '<p><img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/></p>'
+  console.log("before",image)
+  return image
 });
-return content;
+//console.log(p.responseJSON)
+return image
 }
 function formatProperty(value) {
   if (typeof value == "string" && (value.indexOf("http") === 0 || value.indexOf("https") === 0)) {
@@ -251,7 +253,7 @@ if (urlParams.fields) {
 if (urlParams.cluster && (urlParams.cluster === "false" || urlParams.cluster === "False" || urlParams.cluster === "0")) {
   cluster = false;
 } else {
-  cluster = true; // Sylvain: should be true here, set false for experimentations
+  cluster = false; // Sylvain: should be true here, set false for experimentations
 }
 
 if (urlParams.attribution) {
