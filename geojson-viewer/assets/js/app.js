@@ -18,23 +18,80 @@ var baseLayers = {
   "Street Map": mapboxOSM,
   "Aerial Imagery": mapboxSat
 };
-
-var markerClusters = new L.MarkerClusterGroup({
+/*
+var markerClusters = function(color){ return new L.MarkerClusterGroup({
   spiderfyOnMaxZoom: true,
   showCoverageOnHover: false,
-  zoomToBoundsOnClick: true
+  zoomToBoundsOnClick: true,
+  polygonOptions: {
+        fillColor: '#3887be',
+        color: '#3887be',
+        weight: 2,
+        opacity: 1,
+        fillOpacity: 0.5
+        },
+  iconCreateFunction: function(clus) {
+    return new L.DivIcon({
+      iconSize: [20, 20],
+      html: '<div style="text-align:center;color:#fff;background:' +
+      color + '">' + clus.getChildCount() + '</div>'
+    });
+  }
+})addTo(map);
+}
+*/
+var markerClusters = new L.MarkerClusterGroup({
+  spiderfyOnMaxZoom: true,
+  showCoverageOnHover: true,
+  zoomToBoundsOnClick: true,
+  polygonOptions: {
+        fillColor: '#3887be',
+        color: '#3887be',
+        weight: 2,
+        opacity: 1,
+        fillOpacity: 0.5
+        }
 });
-
 var featureLayer = L.mapbox.featureLayer();
-var image;
+var group =[];
+
 featureLayer.on("ready", function(e) {
+  function makeGroup(color){
+    var markerClusters = new L.MarkerClusterGroup({
+      spiderfyOnMaxZoom: true,
+      showCoverageOnHover: true,
+      zoomToBoundsOnClick: true,
+      polygonOptions: {
+            fillColor: '#3887be',
+            color: '#3887be',
+            weight: 2,
+            opacity: 1,
+            fillOpacity: 0.5
+            }
+    });
+    console.log(color)
+  markerClusters.options["iconCreateFunction"]= function(clus) {
+            return new L.DivIcon({
+              iconSize: [30, 30],
+              html: '<div class = "leaflet-div-icon" style="text-align:center;color:#000;background:' +
+              color + ';border-color:' +color+'">' + clus.getChildCount() + '</div>'
+            });
+          }
+  markerClusters.addTo(map)
+  return markerClusters
+}
   featureLayer.eachLayer(function (layer) {
     //console.log(layer)
     //$("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">' + getTitle(layer) + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+    if (!(layer.feature.properties.cluster in group)){
+        group[layer.feature.properties.cluster] = makeGroup(layer.feature.properties["marker-color"])
+        //console.log(layer.feature.properties["marker-color"])
+      }
+      group[layer.feature.properties.cluster].addLayer(layer);
+
     $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
     function (data) {
     $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/>'+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-
     });
     layer.on("click", function (e) {
       map.closePopup();
@@ -56,6 +113,7 @@ featureLayer.on("ready", function(e) {
         });
       }
       content += "<table>";
+
       $("#feature-title").html(getTitle(e.target));
       //$("#feature-info").html(getImage(e.target));
       $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
@@ -65,9 +123,7 @@ featureLayer.on("ready", function(e) {
       });
       $("#featureModal").modal("show");
       $("#share-btn").click(function() {
-        console.log(location)
         var link = location.toString() + "&id=" + L.stamp(e.target);
-        console.log(link)
         $("#share-hyperlink").attr("href", link);
         $("#share-twitter").attr("href", "https://twitter.com/intent/tweet?url=" + encodeURIComponent(link));
         $("#share-facebook").attr("href", "https://facebook.com/sharer.php?u=" + encodeURIComponent(link));
@@ -109,7 +165,7 @@ featureLayer.once("ready", function(e) {
       map.fitWorld();
     } else {
       map.fitBounds(this.getBounds(), {
-        maxZoom: 17
+        maxZoom: 19
       });
     }
   }
@@ -147,7 +203,7 @@ var locateControl = L.control.locate({
     outsideMapBoundsMsg: "You seem located outside the boundaries of the map"
   },
   locateOptions: {
-    maxZoom: 18,
+    maxZoom: 19,
     watch: true,
     enableHighAccuracy: true,
     maximumAge: 10000,
@@ -170,12 +226,11 @@ function fetchDataWithUrl() {
     });
   }
 }
-
 function fetchDataLocally() {
   $("#loading").show();
   featureLayer.clearLayers();
   $("#feature-list tbody").empty();
-  featureLayer.loadURL(decodeURIComponent("data.geojson")).on("ready", function(layer) {
+  featureLayer.loadURL(decodeURIComponent("atlantadata.geojson")).on("ready", function(layer) {
     $("#loading").hide();
   });
 }
@@ -205,16 +260,8 @@ function getTitle(layer) {
     }
   }
 }
-function getImage(layer) {
-$.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
-function(data){
-  image = '<p><img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/></p>'
-  console.log("before",image)
-  return image
-});
-//console.log(p.responseJSON)
-return image
-}
+
+
 function formatProperty(value) {
   if (typeof value == "string" && (value.indexOf("http") === 0 || value.indexOf("https") === 0)) {
     return "<a href='" + value + "' target='_blank'>" + value + "</a>";
@@ -226,7 +273,7 @@ function formatProperty(value) {
 function zoomToFeature(id) {
   var layer = featureLayer.getLayer(id);
   if (layer instanceof L.Marker) {
-    map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 17);
+    map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 19);
   }
   else {
     map.fitBounds(layer.getBounds());
@@ -267,6 +314,7 @@ if (urlParams.attribution) {
   map.attributionControl.setPrefix(attribution);
 }
 
+/*
 if (cluster === true) {
   map.addLayer(markerClusters);
   layerControl.addOverlay(markerClusters, "<span name='title'>GeoJSON Data</span>");
@@ -274,7 +322,7 @@ if (cluster === true) {
   map.addLayer(featureLayer);
   layerControl.addOverlay(featureLayer, "<span name='title'>GeoJSON Data</span>");
 }
-
+*/
 $("#refresh-btn").click(function() {
   fetchData();
   $(".navbar-collapse.in").collapse("hide");

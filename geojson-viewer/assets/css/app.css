@@ -9,8 +9,15 @@ body {
 input[type="radio"], input[type="checkbox"] {
   margin: 0;
 }
+.leaflet-div-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+
+    }
+
 #sidebar {
-  width: 250px;
+  width: 600px;
   height: 100%;
   max-width: 100%;
   float: left;
@@ -54,6 +61,11 @@ input[type="radio"], input[type="checkbox"] {
   -webkit-hyphens: auto;
     hyphens: auto;
 }
+#feature-info img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .progress-bar-full {
   width: 100%;
 }
@@ -74,6 +86,13 @@ input[type="radio"], input[type="checkbox"] {
   top: 103px;
   bottom: 0px;
   overflow: auto;
+}
+.sidebar-table img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
 .leaflet-control-locate a {
   padding: 3px 0 0 6px;
