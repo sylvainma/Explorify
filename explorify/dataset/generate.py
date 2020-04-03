@@ -15,6 +15,12 @@ import torchvision.transforms as transforms
 import flickr_api
 from flickr_api import Walker, Photo
 
+scoring_path = os.path.abspath("../scoring/NIMA") 
+weights_file = os.path.join(scoring_path, "models/MobileNet/weights_mobilenet_aesthetic_0.07.hdf5")
+base_model_name = "MobileNet"
+sys.path.insert(1, scoring_path)
+
+from src.evaluater.predict import process_samples
 from utils import load_credentials, str_time
 
 
@@ -74,6 +80,11 @@ class GenerateDataset():
             tag.update({'author': {}})
 
         return jsons.dump(infos_)
+    
+    def _get_score(self, img):
+        sample = [{"image":img}]
+        process_samples(base_model_name, weights_file, sample)
+        return sample.pop()["mean_score_prediction"]
 
     def process(self, p):
         # Metadata as dictionnary
@@ -82,7 +93,10 @@ class GenerateDataset():
         # Download image
         url_medium = metadata["photo_file_urls"]["Medium"]
         binary, img = self._get_image(url_medium)
-        
+
+        # Aesthetic scoring
+        metadata["aesthetic_score"] = self._get_score(img)
+
         # Feature extraction
         embedding = self._get_feature_embedding(img)
 
@@ -155,7 +169,6 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
 
             # Process photo and save in h5 file
             try:
-                print(" .", end = '')
                 metadata, binary, embedding = dataset.process(photo)
                 g = f.create_group(metadata["id"])
                 g.create_dataset("binary", data=binary)
@@ -175,7 +188,7 @@ if __name__ == "__main__":
     parser.add_argument('-m', '--max-photos', type=int, default=int(1e4), help="Maximum number of photos to store")
     parser.add_argument('-d', '--dataset-file', type=str, default="./dataset.h5", help="Path to h5 file to create")
     args = parser.parse_args()
-
+    
     flickr_api.enable_cache()
     api_credentials = load_credentials()
     generate(api_credentials, args.city, args.radius, args.max_photos, args.dataset_file)
