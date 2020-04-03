@@ -15,6 +15,7 @@ import torchvision.transforms as transforms
 import flickr_api
 from flickr_api import Walker, Photo
 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = "3"
 scoring_path = os.path.abspath("../scoring/NIMA") 
 weights_file = os.path.join(scoring_path, "models/MobileNet/weights_mobilenet_aesthetic_0.07.hdf5")
 base_model_name = "MobileNet"

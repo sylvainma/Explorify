@@ -15,7 +15,6 @@ class GeoJson():
     def _get_features(self, cols, row, lng, lat, color):
         properties = {k: str(v) for k,v in zip(cols, [row[col] for col in cols])}
         properties['marker-color'] = rgb2hex(color[:3])
-        #properties['marker-color'] = "#000000"
         return {
             'type': 'Feature',
                 'geometry': {
