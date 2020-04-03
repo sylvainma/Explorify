@@ -12,7 +12,8 @@ class LoadDataset():
         self.f = h5py.File(self.dataset_file , "r")
 
     def __del__(self):
-        self.f.close()
+        if self.f is not None:
+            self.f.close()
 
     def _load(self, p):
         metadata, binary, embedding = p.attrs["metadata"], p["binary"][...], p["embedding"][...]
