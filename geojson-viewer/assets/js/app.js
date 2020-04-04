@@ -71,7 +71,7 @@ featureLayer.on("ready", function(e) {
     });
   markerClusters.options["iconCreateFunction"]= function(clus) {
             return new L.DivIcon({
-              iconSize: [30, 30],
+              iconSize: [1, 1],
               html: '<div class = "leaflet-div-icon" style="text-align:center;color:#000;background:' +
               color + ';border-color:' +color+'">' + clus.getChildCount() + '</div>'
             });
@@ -270,15 +270,29 @@ function formatProperty(value) {
   }
 }
 
+var tempIcon = new L.DivIcon({
+  //className: 'my-div-icon',
+  iconSize: [1, 1],
+  html: '<div class = "leaflet-div-icon" id="gj_temp" style="text-align:center;color:#fff;background:#000"> GJ </div>'
+});
+
 function zoomToFeature(id) {
+
+  $("#gj_temp").remove();
   var layer = featureLayer.getLayer(id);
   if (layer instanceof L.Marker) {
     map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 19);
+    console.log("Im here")
+
+
+    L.marker([layer.getLatLng().lat, layer.getLatLng().lng],{icon: tempIcon}).addTo(map);
+    //var markerAdd = L.marker([layer.getLatLng().lat, layer.getLatLng().lng]).addTo(map);
+
   }
   else {
     map.fitBounds(layer.getBounds());
   }
-  layer.fire("click");
+  //layer.fire("click");
   /* Hide sidebar and go to the map on small screens */
   if (document.body.clientWidth <= 767) {
     $("#sidebar").hide();
