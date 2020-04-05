@@ -53,9 +53,12 @@ var markerClusters = new L.MarkerClusterGroup({
         }
 });
 var featureLayer = L.mapbox.featureLayer();
+var fl2 = L.mapbox.featureLayer();
+
 var group =[];
 
 featureLayer.on("ready", function(e) {
+  console.log("Ready,steady,go")
   function makeGroup(color){
     var markerClusters = new L.MarkerClusterGroup({
       spiderfyOnMaxZoom: true,
@@ -88,7 +91,8 @@ featureLayer.on("ready", function(e) {
       }
       group[layer.feature.properties.cluster].addLayer(layer);
 
-    $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ getTitle(layer)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+    //$("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ getTitle(layer)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+
     //$.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
     //function (data) {
     //$("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/>'+'<br />'+ getTitle(layer)+"Score:"+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
@@ -135,6 +139,8 @@ featureLayer.on("ready", function(e) {
     var title = decodeURI(urlParams.title);
     $("[name='title']").html(title);
   }
+
+/*
   if (urlParams.sort && urlParams.sort == "desc") {
     sortOrder = "desc";
   }
@@ -143,6 +149,7 @@ featureLayer.on("ready", function(e) {
   }
   var featureList = new List("features", {valueNames: ["feature-score","feature-name"]});
   featureList.sort("feature-score", {order: sortOrder});
+*/
   markerClusters.clearLayers().addLayer(featureLayer);
 });
 
@@ -282,7 +289,7 @@ function zoomToFeature(id) {
   var layer = featureLayer.getLayer(id);
   if (layer instanceof L.Marker) {
     map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 19);
-    console.log("Im here")
+    //console.log("Im here")
 
 
     L.marker([layer.getLatLng().lat, layer.getLatLng().lng],{icon: tempIcon}).addTo(map);
@@ -388,4 +395,41 @@ $(document).ready(function() {
 
 $(document).on("click", ".feature-row", function(e) {
   zoomToFeature(parseInt($(this).attr("id"), 10));
+  //console.log(map.getBounds())
+});
+
+function populateSideBar(bounds){
+  //console.log(bounds);
+  $("#feature-list tbody").html("")
+
+  featureLayer.eachLayer(function (layer){
+
+  //  console.log(layer.feature.geometry.coordinates);
+    //console.log(layer.feature.geometry.coordinates[0]);
+
+  if((layer.feature.geometry.coordinates[1] <= bounds._northEast.lat)&&(layer.feature.geometry.coordinates[1] >= bounds._southWest.lat)&&(layer.feature.geometry.coordinates[0] <= bounds._northEast.lng)&&(layer.feature.geometry.coordinates[0] >= bounds._southWest.lng)){
+    $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ getTitle(layer)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+    //console.log("Hi");
+    };
+  });
+  if (urlParams.sort && urlParams.sort == "desc") {
+    sortOrder = "desc";
+  }
+  else {
+    sortOrder = "asc";
+  }
+  var featureList = new List("features", {valueNames: ["feature-score","feature-name"]});
+  featureList.sort("feature-score", {order: sortOrder});
+
+  //console.log(bounds)
+}
+
+map.on('moveend', function(){
+  //markerClusters.clearLayers();
+  //featureLayer.clearLayers();
+
+  //$("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ getTitle(layer)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+
+  populateSideBar(map.getBounds());
+  //    if((feature.geometry.coordinates[1] <= newBounds._northEast.lat)&&(feature.geometry.coordinates[1] >= newBounds._southWest.lat)&&(feature.geometry.coordinates[0] <= newBounds._northEast.lon)&&(feature.geometry.coordinates[0] >= newBounds._southWest.lon)){
 });
