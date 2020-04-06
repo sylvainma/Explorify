@@ -6,41 +6,55 @@ from matplotlib.colors import rgb2hex
 
 class GeoJson():
 
-    def _get_geojson(self, features):
+    def __init__(self, dataset, pairs):
+        self.dataset = dataset
+        self.pairs = pairs
+        self._format_data()
+
+    def _format_data(self):
+        aesthetic_scores = []
+        properties = {}
+        for id, label in self.pairs:
+            metadata, _, _ = self.dataset.get_id(int(id))
+            aesthetic_scores.append(float(metadata["aesthetic_score"]))
+            properties[id] = {
+                "id": metadata["id"],
+                "cluster": int(label),
+                "lat": float(metadata["location"]["latitude"]),
+                "lon": float(metadata["location"]["longitude"]),
+                "title": str(metadata["title"]) if ("title" in metadata.keys() and metadata["title"] != "") else "(No title)",
+                "url": metadata["photo_file_urls"]["Small"],
+                "urls": metadata["photo_file_urls"],
+                "tags": [t["text"] for t in metadata["tags"]],
+                "aesthetic_score": float(metadata["aesthetic_score"])
+            }
+
+        # Aesthetic score rescaling
+        min_aes = np.min(aesthetic_scores)
+        max_aes = np.max(aesthetic_scores)
+        recale_aesthetic_score = lambda s: round((s - min_aes) / (max_aes - min_aes) * 5, 2)
+        for id, _ in self.pairs:
+            properties[id].update({"aesthetic_score_scaled": recale_aesthetic_score(properties[id]["aesthetic_score"])})
+
+        features = [self._get_feature(properties[id]["lat"], properties[id]["lon"], properties[id]) for id, _ in self.pairs]
+        self.data = self._get_feature_collection(features)
+
+    def _get_feature(self, lat, lon, properties):
+        return {
+            'type': 'Feature',
+                'geometry': {
+                'type': 'Point',
+                'coordinates': [lat, lon]
+            },
+            'properties': properties
+        }
+
+    def _get_feature_collection(self, features):
         return {
             'type': 'FeatureCollection',
             'features': features
         }
 
-    def _get_features(self, cols, row, lng, lat, color):
-        properties = {k: str(v) for k,v in zip(cols, [row[col] for col in cols])}
-        properties['marker-color'] = rgb2hex(color[:3])
-        return {
-            'type': 'Feature',
-                'geometry': {
-                'type': 'Point',
-                'coordinates': [row[lat], row[lng]]
-            },
-            'properties': properties
-        }
-
-    def to_geojson(self, df, groupby, lat, lng, cols):
-
-        clusters = df.groupby(groupby)
-
-        features = []
-        colors = plt.cm.Spectral(np.linspace(0, 1, len(clusters)))
-        for _, group in clusters:
-            i = np.random.randint(colors.shape[0])
-            color = colors[i]
-            group.apply(lambda row: features.append(self._get_features(
-                cols, row, lat, lng, color)
-            ), axis=1)
-            colors = np.delete(colors, i, 0)
-
-        self.data = self._get_geojson(features)
-        return self
-
     def save_to(self, path):
         with open(path, "w") as f:
-            json.dump(self.data, f, indent = 4)
+            json.dump(self.data, f, indent=4)
