@@ -137,7 +137,6 @@ var map = L.map("map", {
   layers: [mapboxOSM]
 }).fitWorld();
 map.attributionControl.setPrefix("");
-L.marker([50.505, 30.57], {icon: myIcon}).addTo(map);
 
 var layerControl = L.control.layers(baseLayers, null, {
   collapsed: document.body.clientWidth <= 767 ? true : false
