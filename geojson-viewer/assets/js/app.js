@@ -18,28 +18,7 @@ var baseLayers = {
   "Street Map": mapboxOSM,
   "Aerial Imagery": mapboxSat
 };
-/*
-var markerClusters = function(color){ return new L.MarkerClusterGroup({
-  spiderfyOnMaxZoom: true,
-  showCoverageOnHover: false,
-  zoomToBoundsOnClick: true,
-  polygonOptions: {
-        fillColor: '#3887be',
-        color: '#3887be',
-        weight: 2,
-        opacity: 1,
-        fillOpacity: 0.5
-        },
-  iconCreateFunction: function(clus) {
-    return new L.DivIcon({
-      iconSize: [20, 20],
-      html: '<div style="text-align:center;color:#fff;background:' +
-      color + '">' + clus.getChildCount() + '</div>'
-    });
-  }
-})addTo(map);
-}
-*/
+
 var markerClusters = new L.MarkerClusterGroup({
   spiderfyOnMaxZoom: true,
   showCoverageOnHover: true,
@@ -53,9 +32,19 @@ var markerClusters = new L.MarkerClusterGroup({
         }
 });
 var featureLayer = L.mapbox.featureLayer();
-var fl2 = L.mapbox.featureLayer();
 
 var group =[];
+featureLayer.on('layeradd', function(e) {
+        var marker = e.layer,
+        feature = marker.feature;
+        var icon = L.divIcon({
+				className: 'custom-div-icon',
+        html: '<div class="marker-pin" style= "background:'+e.layer.feature.properties["marker-color"]+';"></div><i class="fa fa-camera awesome">',
+        iconSize: [30, 42],
+        iconAnchor: [15, 42]
+    });
+    marker.setIcon(icon);
+});
 
 featureLayer.on("ready", function(e) {
   console.log("Ready,steady,go")
@@ -83,48 +72,25 @@ featureLayer.on("ready", function(e) {
   return markerClusters
 }
   featureLayer.eachLayer(function (layer) {
-    //console.log(layer)
-    //$("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">' + getTitle(layer) + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+
     if (!(layer.feature.properties.cluster in group)){
         group[layer.feature.properties.cluster] = makeGroup(layer.feature.properties["marker-color"])
-        //console.log(layer.feature.properties["marker-color"])
       }
+
       group[layer.feature.properties.cluster].addLayer(layer);
 
     //$("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ getTitle(layer)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+    $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ eval(layer.feature.properties.tags)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
 
-    //$.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
-    //function (data) {
-    //$("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/>'+'<br />'+ getTitle(layer)+"Score:"+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-    //});
     layer.on("click", function (e) {
       map.closePopup();
-
-      var content = "";
-      //content += "<p><a href='http://flickr.com/photo.gne?id="+ e.target.feature.properties["id"] +"'>See on Flickr</a></p>";
-      //content += "<table class='table table-striped table-bordered table-condensed'>";
-      if (userFields.length > 0) {
-        $.each(userFields, function(index, property) {
-          if (e.target.feature.properties[property]) {
-            content += "<tr><th>" + property + "</th><td>" + formatProperty(e.target.feature.properties[property]) + "</td></tr>";
-          }
-        });
-      } else {
-        $.each(e.target.feature.properties, function(index, property) {
-          if (property) {
-            content += "<tr><th>" + index + "</th><td>" + formatProperty(property) + "</td></tr>";
-          }
-        });
-      }
-      content += "<table>";
-
       $("#feature-title").html(getTitle(e.target));
-      //$("#feature-info").html(getImage(e.target));
-      $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
+
+      /*$.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=8dfc2d764539be1fde7d73e3b53a2363&photo_id='+layer.feature.properties["id"]+'&format=json&jsoncallback=?',
       function (data) {
       $("#feature-info").html('<img src="https://farm' + data.photo.farm + '.staticflickr.com/' + data.photo.server + '/' + data.photo.id + '_' + data.photo.secret + '.jpg"/>');
-
-      });
+    });*/
+      $("#feature-info").html('<img src='+layer.feature.properties.url +'/>');
       $("#featureModal").modal("show");
       $("#share-btn").click(function() {
         var link = location.toString() + "&id=" + L.stamp(e.target);
@@ -139,18 +105,6 @@ featureLayer.on("ready", function(e) {
     var title = decodeURI(urlParams.title);
     $("[name='title']").html(title);
   }
-
-/*
-  if (urlParams.sort && urlParams.sort == "desc") {
-    sortOrder = "desc";
-  }
-  else {
-    sortOrder = "asc";
-  }
-  var featureList = new List("features", {valueNames: ["feature-score","feature-name"]});
-  featureList.sort("feature-score", {order: sortOrder});
-*/
-  markerClusters.clearLayers().addLayer(featureLayer);
 });
 
 featureLayer.once("ready", function(e) {
@@ -183,6 +137,7 @@ var map = L.map("map", {
   layers: [mapboxOSM]
 }).fitWorld();
 map.attributionControl.setPrefix("");
+L.marker([50.505, 30.57], {icon: myIcon}).addTo(map);
 
 var layerControl = L.control.layers(baseLayers, null, {
   collapsed: document.body.clientWidth <= 767 ? true : false
@@ -277,24 +232,22 @@ function formatProperty(value) {
   }
 }
 
-var tempIcon = new L.DivIcon({
-  //className: 'my-div-icon',
-  iconSize: [1, 1],
-  html: '<div class = "leaflet-div-icon" id="gj_temp" style="text-align:center;color:#fff;background:#000"> GJ </div>'
-});
-
+var circle1;
 function zoomToFeature(id) {
-
-  $("#gj_temp").remove();
+  if (circle1!=undefined){
+  map.removeLayer(circle1);
+}
   var layer = featureLayer.getLayer(id);
   if (layer instanceof L.Marker) {
     map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 19);
-    //console.log("Im here")
+    console.log(layer.getLatLng())
 
-
-    L.marker([layer.getLatLng().lat, layer.getLatLng().lng],{icon: tempIcon}).addTo(map);
-    //var markerAdd = L.marker([layer.getLatLng().lat, layer.getLatLng().lng]).addTo(map);
-
+    circle1 = L.circle([layer.getLatLng().lat, layer.getLatLng().lng], 5, {
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5,
+        radius: 500
+    }).addTo(map);
   }
   else {
     map.fitBounds(layer.getBounds());
@@ -395,21 +348,15 @@ $(document).ready(function() {
 
 $(document).on("click", ".feature-row", function(e) {
   zoomToFeature(parseInt($(this).attr("id"), 10));
-  //console.log(map.getBounds())
 });
 
 function populateSideBar(bounds){
-  //console.log(bounds);
   $("#feature-list tbody").html("")
 
   featureLayer.eachLayer(function (layer){
 
-  //  console.log(layer.feature.geometry.coordinates);
-    //console.log(layer.feature.geometry.coordinates[0]);
-
   if((layer.feature.geometry.coordinates[1] <= bounds._northEast.lat)&&(layer.feature.geometry.coordinates[1] >= bounds._southWest.lat)&&(layer.feature.geometry.coordinates[0] <= bounds._northEast.lng)&&(layer.feature.geometry.coordinates[0] >= bounds._southWest.lng)){
-    $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ getTitle(layer)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-    //console.log("Hi");
+    $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ eval(layer.feature.properties.tags)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
     };
   });
   if (urlParams.sort && urlParams.sort == "desc") {
@@ -420,16 +367,8 @@ function populateSideBar(bounds){
   }
   var featureList = new List("features", {valueNames: ["feature-score","feature-name"]});
   featureList.sort("feature-score", {order: sortOrder});
-
-  //console.log(bounds)
 }
 
 map.on('moveend', function(){
-  //markerClusters.clearLayers();
-  //featureLayer.clearLayers();
-
-  //$("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ getTitle(layer)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-
   populateSideBar(map.getBounds());
-  //    if((feature.geometry.coordinates[1] <= newBounds._northEast.lat)&&(feature.geometry.coordinates[1] >= newBounds._southWest.lat)&&(feature.geometry.coordinates[0] <= newBounds._northEast.lon)&&(feature.geometry.coordinates[0] >= newBounds._southWest.lon)){
 });
