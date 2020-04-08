@@ -27,41 +27,38 @@ var markerClusters = new L.MarkerClusterGroup({
 
 var featureLayer = L.mapbox.featureLayer();
 
-featureLayer.on("ready", function(e) {
+var showInfoImage = function(layer) {
+  map.closePopup();
+  var content = "";
+  content += "<img align='center' src='"+ layer.feature.properties["url"] +"'/>";
+  content += "<p><a href='http://flickr.com/photo.gne?id="+ layer.feature.properties["id"] +"'>See on Flickr</a></p>";
+  content += "<table class='table table-striped table-bordered table-condensed'>";
+  if (userFields.length > 0) {
+    $.each(userFields, function(index, property) {
+      if (layer.feature.properties[property]) {
+        content += "<tr><th>" + property + "</th><td>" + formatProperty(layer.feature.properties[property]) + "</td></tr>";
+      }
+    });
+  } else {
+    $.each(layer.feature.properties, function(index, property) {
+      if (property) {
+        content += "<tr><th>" + index + "</th><td>" + formatProperty(property) + "</td></tr>";
+      }
+    });
+  }
+  content += "<table>";
+  $("#feature-title").html(getTitle(layer));
+  $("#feature-info").html(content);
+  $("#featureModal").modal("show");
+  $("#share-btn").click(function() {
+    var link = location.toString() + "&id=" + L.stamp(layer);
+    $("#share-hyperlink").attr("href", link);
+    $("#share-twitter").attr("href", "https://twitter.com/intent/tweet?url=" + encodeURIComponent(link));
+    $("#share-facebook").attr("href", "https://facebook.com/sharer.php?u=" + encodeURIComponent(link));
+  });
+};
 
-  // featureLayer.eachLayer(function (layer) {
-  //   $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">' + getTitle(layer) + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-  //   layer.on("click", function (e) {
-  //     map.closePopup();
-  //     var content = "";
-  //     content += "<img align='center' src='"+ e.target.feature.properties["url"] +"'/>";
-  //     content += "<p><a href='http://flickr.com/photo.gne?id="+ e.target.feature.properties["id"] +"'>See on Flickr</a></p>";
-  //     content += "<table class='table table-striped table-bordered table-condensed'>";
-  //     if (userFields.length > 0) {
-  //       $.each(userFields, function(index, property) {
-  //         if (e.target.feature.properties[property]) {
-  //           content += "<tr><th>" + property + "</th><td>" + formatProperty(e.target.feature.properties[property]) + "</td></tr>";
-  //         }
-  //       });
-  //     } else {
-  //       $.each(e.target.feature.properties, function(index, property) {
-  //         if (property) {
-  //           content += "<tr><th>" + index + "</th><td>" + formatProperty(property) + "</td></tr>";
-  //         }
-  //       });
-  //     }
-  //     content += "<table>";
-  //     $("#feature-title").html(getTitle(e.target));
-  //     $("#feature-info").html(content);
-  //     $("#featureModal").modal("show");
-  //     $("#share-btn").click(function() {
-  //       var link = location.toString() + "&id=" + L.stamp(e.target);
-  //       $("#share-hyperlink").attr("href", link);
-  //       $("#share-twitter").attr("href", "https://twitter.com/intent/tweet?url=" + encodeURIComponent(link));
-  //       $("#share-facebook").attr("href", "https://facebook.com/sharer.php?u=" + encodeURIComponent(link));
-  //     });
-  //   });
-  // });
+featureLayer.on("ready", function(e) {
 
   // All Flickr images indices in the geojson
   var photos = [];
@@ -108,6 +105,10 @@ featureLayer.on("ready", function(e) {
             <td><img src="${p2.properties.url}" /></td>
           </tr>
           <tr>
+            <td><button type="button" class="btn btn-primary photo-info-btn" idPhoto="${p1.id}">Show info</button></td>
+            <td><button type="button" class="btn btn-primary photo-info-btn" idPhoto="${p2.id}">Show info</button></td>
+          </tr>
+          <tr>
             <td colspan="2">
               <button type="button" class="btn btn-success" id="label-yes-btn">
                 Same cluster
@@ -120,10 +121,9 @@ featureLayer.on("ready", function(e) {
                 Different one
               </button>
             </td>
-        </tr>
+          </tr>
           </table>
         </td>
-        <td style="vertical-align: middle;"></td>
       </tr>
     `);
     map.addLayer(p1.layer);
@@ -164,6 +164,19 @@ featureLayer.on("ready", function(e) {
     cleanPair()
     updateCurrentPair(+1);
     showPair(currentPair);
+  });
+
+  // When markers are clicked 
+  featureLayer.eachLayer(function (layer) {
+    layer.on("click", function (e) {
+      showInfoImage(e.target);
+    });
+  });
+  // When show buttons are clicked
+  $(".photo-info-btn").click(function() {
+    var layer = photos.filter(photo => photo.id == $(this).attr("idPhoto")).pop().layer;
+    console.log(layer)
+    showInfoImage(layer);
   });
 
 });

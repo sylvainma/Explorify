@@ -153,8 +153,9 @@ input[type="radio"], input[type="checkbox"] {
   background-clip: padding-box;
 }
 
-
-
+.pair-table {
+  width: 100%;
+}
 
 .pair-table tr {
   border-top: 12px solid transparent;
