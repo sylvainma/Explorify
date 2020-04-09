@@ -9,7 +9,21 @@ class GeoJson():
     def __init__(self, dataset, pairs):
         self.dataset = dataset
         self.pairs = pairs
+        self._compute_colors()
         self._format_data()
+
+    def _compute_colors(self):
+        np.random.seed(1994)
+        labels = set([label for _, label in self.pairs if label != -1])
+        n_labels = len(labels)#+ sum([1 for _, label in self.pairs if label == -1])
+        colors = plt.cm.Spectral(np.linspace(0, 1, n_labels))
+        self.colors = {}
+        self.colors[-1] = "#000000"
+        for label in labels:
+            i = np.random.randint(colors.shape[0])
+            color = colors[i]
+            self.colors[label] = rgb2hex(color[:3])
+            colors = np.delete(colors, i, 0)
 
     def _format_data(self):
         aesthetic_scores = []
@@ -26,8 +40,9 @@ class GeoJson():
                 "url": metadata["photo_file_urls"]["Small"],
                 "urls": metadata["photo_file_urls"],
                 "tags": [t["text"] for t in metadata["tags"]],
-                "aesthetic_score": float(metadata["aesthetic_score"])
+                "aesthetic_score": float(metadata["aesthetic_score"]),
             }
+            properties[id]["marker-color"] = self.colors[label]
 
         # Aesthetic score rescaling
         min_aes = np.min(aesthetic_scores)
@@ -44,7 +59,7 @@ class GeoJson():
             'type': 'Feature',
                 'geometry': {
                 'type': 'Point',
-                'coordinates': [lat, lon]
+                'coordinates': [lon, lat]
             },
             'properties': properties
         }
