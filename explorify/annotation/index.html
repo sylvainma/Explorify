@@ -42,16 +42,18 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="dropdown">
-                <a class="dropdown-toggle" id="downloadDrop" href="#" role="button" data-toggle="dropdown"><i class="fa fa-refresh white"></i>&nbsp;&nbsp;Refresh <b class="caret"></b></a>
-                <ul class="dropdown-menu dropdown-menu-form">
-                  <li><a href="#" id="refresh-btn" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-refresh"></i>&nbsp;&nbsp;Refresh Now</a></li>
-                  <li class="dropdown-input"><input type="checkbox" id="auto-refresh">&nbsp;&nbsp;Auto Refresh (every minute)</li>
-                </ul>
-            </li>
             <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="full-extent-btn"><i class="fa fa-arrows-alt white"></i>&nbsp;&nbsp;Full Extent</a></li>
-            <li><a href="" id="download" download="" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-cloud-download white"></i>&nbsp;&nbsp;Download Data</a></li>
-            <li class="hidden-xs"><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="list-btn"><i class="fa fa-search white"></i>&nbsp;&nbsp;Search</a></li>
+            <li>
+              <input id="upload_input" type="file" style="display:none" />
+              <a href="" id="upload_link" data-toggle="collapse" data-target=".navbar-collapse.in">
+                <i class="fa fa-cloud-upload white"></i>&nbsp;&nbsp;Upload annotations CSV
+              </a>
+            </li>
+            <li>
+              <a href="" id="download" download="" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in">
+                <i class="fa fa-cloud-download white"></i>&nbsp;&nbsp;Download annotations CSV
+              </a>
+            </li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -66,6 +68,14 @@
               <button type="button" class="btn btn-xs btn-default pull-right" id="sidebar-hide-btn"><i class="fa fa-chevron-left"></i></button></h3>
             </div>
             <div class="panel-body">
+              <!-- Instructions -->
+              <div class="row">
+                <div class="col-xs-12 col-md-12">
+                  <h4 class="text-center">Instructions</h4>
+                  <p>Click on <i>Same cluster</i> if it seems relevant to have the images clustered together based on: <b>1)</b> location <b>2)</b> visual content <b>3)</b> metadata (<i>show info</i>).</p>
+                </div>
+              </div>
+              <!-- Buttons -->
               <div class="row">
                 <div class="col-xs-4 col-md-4">
                   <button type="button" class="btn btn-primary pull-left sort" id="prev-btn" disabled><i class="fa fa-chevron-left"></i>&nbsp;&nbsp;Prev</button>
@@ -78,6 +88,7 @@
                 </div>
               </div>
             </div>
+            <!-- Content -->
             <div class="sidebar-table">
               <table class="table table-hover" id="feature-list">
                 <thead class="hidden">

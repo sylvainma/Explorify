@@ -92,10 +92,13 @@ featureLayer.on("ready", function(e) {
     }
   });
 
+  // Initialize annotations
+  var annotations = {}
+
   // Show pairs
   var currentPair = 0;
-  var showPair = function (pair) {
-    [p1, p2] = pairs[pair];
+  var showPair = function () {
+    [p1, p2] = pairs[currentPair];
     $("#feature-list tbody").append(`
       <tr class="feature-row" idOne="${p1.id}" idTwo="${p2.id}">
         <td class="feature-name">
@@ -117,9 +120,14 @@ featureLayer.on("ready", function(e) {
           </tr>
           <tr>
             <td colspan="2">
-              <button type="button" class="btn btn-danger" id="label-yes-btn">
+              <button type="button" class="btn btn-danger" id="label-no-btn">
                 Different one
               </button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              ${currentPair in annotations ? "Already annotated "+annotations[currentPair] : ""}
             </td>
           </tr>
           </table>
@@ -130,9 +138,29 @@ featureLayer.on("ready", function(e) {
     map.addLayer(p2.layer);
     map.fitBounds([
       [p1.properties.lat, p1.properties.lon], 
-      [p2.properties.lat, p2.properties.lon]])
+      [p2.properties.lat, p2.properties.lon]]);
+
+    // When cluster label buttons are clicked
+    $("#label-yes-btn").click(function() {
+      annotations[currentPair] = [p1.id, p2.id, 1];
+      cleanPair();
+      updateCurrentPair(+1);
+      showPair();
+    });
+    $("#label-no-btn").click(function() {
+      annotations[currentPair] = [p1.id, p2.id, 0];
+      cleanPair();
+      updateCurrentPair(+1);
+      showPair();
+    });
+
+    // When show buttons are clicked
+    $(".photo-info-btn").click(function() {
+      var layer = photos.filter(photo => photo.id == $(this).attr("idPhoto")).pop().layer;
+      showInfoImage(layer);
+    });
   }
-  showPair(currentPair);
+  showPair(); // show first when page opens
 
   // Clean pair when prev/next is clicked
   var cleanPair = function() {
@@ -147,6 +175,11 @@ featureLayer.on("ready", function(e) {
     currentPair += delta;
     currentPair = Math.max(0, currentPair);
     currentPair = Math.min(pairs.length, currentPair);
+    if (currentPair == pairs.length-1){
+      $("#next-btn").prop('disabled', true);
+    } else {
+      $("#next-btn").prop('disabled', false);
+    }
     if (currentPair == 0){
       $("#prev-btn").prop('disabled', true);
     } else {
@@ -158,12 +191,12 @@ featureLayer.on("ready", function(e) {
   $("#prev-btn").click(function() {
     cleanPair();
     updateCurrentPair(-1);
-    showPair(currentPair);
+    showPair();
   });
   $("#next-btn").click(function() {
     cleanPair()
     updateCurrentPair(+1);
-    showPair(currentPair);
+    showPair();
   });
 
   // When markers are clicked 
@@ -172,14 +205,60 @@ featureLayer.on("ready", function(e) {
       showInfoImage(e.target);
     });
   });
-  // When show buttons are clicked
-  $(".photo-info-btn").click(function() {
-    var layer = photos.filter(photo => photo.id == $(this).attr("idPhoto")).pop().layer;
-    console.log(layer)
-    showInfoImage(layer);
+
+  // Download
+  $("#download").click(function() {
+    var csv = "id1,id2,together\n";
+    csv += Object.keys(annotations).map(function(k){
+      return annotations[k].join();
+    }).join('\n');
+    $("#download").attr("href", 'data:text/csv;charset=utf-8,' + encodeURI(csv));
+    $("#download").attr("download", "annotations_"+ Date.now());
   });
 
+  // Upload
+  $("#upload_link").on('click', function(e){
+      e.preventDefault();
+      $("#upload_input:hidden").trigger('click');
+  });
+  var uploadFun = function() {
+    var csv = $('#upload_input');
+    var csvFile = csv[0].files[0];
+    var ext = csv.val().split(".").pop().toLowerCase();
+
+    // If input file is not a CSV
+    if($.inArray(ext, ["csv"]) === -1){
+      alert("You must upload a CSV file");
+        return false;
+    }
+    // If correctly uploaded, start to read
+    if(csvFile != undefined){
+        reader = new FileReader();
+        reader.onload = function(e){
+          csvResult = e.target.result.split(/\r|\n|\r\n/);
+          // Every row is saved into csvResult as an array
+          console.log(csvResult);
+        }
+        reader.readAsText(csvFile);
+    }
+  };
+  document.getElementById('upload_input').addEventListener('change', uploadFun);
+
 });
+
+// Ask to download the CSV before leaving
+// var canLeave = false;
+// window.onbeforeunload = function (e) {
+//   if (canLeave) return null
+//   e = e || window.event;
+//   var msg = "You haven't downloaded your annotations, are you sure you want to leave?";
+//   // For IE and Firefox prior to version 4
+//     if (e) {
+//       e.returnValue = msg;
+//   }
+//   // For Safari
+//   return msg;
+// };
 
 featureLayer.once("ready", function(e) {});
 
@@ -318,7 +397,7 @@ if (urlParams.fields) {
 if (urlParams.cluster && (urlParams.cluster === "false" || urlParams.cluster === "False" || urlParams.cluster === "0")) {
   cluster = false;
 } else {
-  cluster = false; // Sylvain: should be true here, set false for experimentations
+  cluster = false;
 }
 
 if (urlParams.attribution) {
@@ -379,5 +458,4 @@ $("#sidebar-hide-btn").click(function() {
 
 $(document).ready(function() {
   fetchData();
-  $("#download").attr("href", urlParams.src);
 });
