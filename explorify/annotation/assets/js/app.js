@@ -73,6 +73,7 @@ featureLayer.on("ready", function(e) {
       pairs.push([photos[i], photos[j]]);
     }
   }
+  pairs = pairs.sort(() => Math.random() - 0.5);
 
   // Sort by proximity (closest photos will be annotated first)
   pairs = pairs.sort(function (a, b) { 
@@ -216,33 +217,33 @@ featureLayer.on("ready", function(e) {
     $("#download").attr("download", "annotations_"+ Date.now());
   });
 
-  // Upload
-  $("#upload_link").on('click', function(e){
-      e.preventDefault();
-      $("#upload_input:hidden").trigger('click');
-  });
-  var uploadFun = function() {
-    var csv = $('#upload_input');
-    var csvFile = csv[0].files[0];
-    var ext = csv.val().split(".").pop().toLowerCase();
+  // // Upload
+  // $("#upload_link").on('click', function(e){
+  //     e.preventDefault();
+  //     $("#upload_input:hidden").trigger('click');
+  // });
+  // var uploadFun = function() {
+  //   var csv = $('#upload_input');
+  //   var csvFile = csv[0].files[0];
+  //   var ext = csv.val().split(".").pop().toLowerCase();
 
-    // If input file is not a CSV
-    if($.inArray(ext, ["csv"]) === -1){
-      alert("You must upload a CSV file");
-        return false;
-    }
-    // If correctly uploaded, start to read
-    if(csvFile != undefined){
-        reader = new FileReader();
-        reader.onload = function(e){
-          csvResult = e.target.result.split(/\r|\n|\r\n/);
-          // Every row is saved into csvResult as an array
-          console.log(csvResult);
-        }
-        reader.readAsText(csvFile);
-    }
-  };
-  document.getElementById('upload_input').addEventListener('change', uploadFun);
+  //   // If input file is not a CSV
+  //   if($.inArray(ext, ["csv"]) === -1){
+  //     alert("You must upload a CSV file");
+  //       return false;
+  //   }
+  //   // If correctly uploaded, start to read
+  //   if(csvFile != undefined){
+  //       reader = new FileReader();
+  //       reader.onload = function(e){
+  //         csvResult = e.target.result.split(/\r|\n|\r\n/);
+  //         // Every row is saved into csvResult as an array
+  //         console.log(csvResult);
+  //       }
+  //       reader.readAsText(csvFile);
+  //   }
+  // };
+  // document.getElementById('upload_input').addEventListener('change', uploadFun);
 
 });
 
@@ -301,22 +302,6 @@ var locateControl = L.control.locate({
     timeout: 10000
   }
 }).addTo(map);
-
-function fetchDataWithUrl() {
-  $("#loading").show();
-  featureLayer.clearLayers();
-  $("#feature-list tbody").empty();
-  if (urlParams.src.indexOf(".topojson") > -1) {
-    omnivore.topojson(decodeURIComponent(urlParams.src), null, featureLayer).on("ready", function(layer) {
-      $("#loading").hide();
-    });
-  }
-  else {
-    featureLayer.loadURL(decodeURIComponent(urlParams.src)).on("ready", function(layer) {
-      $("#loading").hide();
-    });
-  }
-}
 
 function fetchDataLocally() {
   $("#loading").show();
@@ -412,21 +397,6 @@ if (cluster === true) {
   //map.addLayer(featureLayer);
   layerControl.addOverlay(featureLayer, "<span name='title'>GeoJSON Data</span>");
 }
-
-$("#refresh-btn").click(function() {
-  fetchData();
-  $(".navbar-collapse.in").collapse("hide");
-  return false;
-});
-
-$("#auto-refresh").click(function() {
-  if ($(this).prop("checked")) {
-    autoRefresh = window.setInterval(fetchData, 60 * 1000);
-    fetchData();
-  } else {
-    clearInterval(autoRefresh);
-  }
-});
 
 $("#full-extent-btn").click(function() {
   map.fitBounds(featureLayer.getBounds());
