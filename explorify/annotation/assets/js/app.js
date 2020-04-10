@@ -73,102 +73,90 @@ featureLayer.on("ready", function(e) {
       pairs.push([photos[i], photos[j]]);
     }
   }
-  pairs = pairs.sort(() => Math.random() - 0.5);
 
-  // Sort by proximity (closest photos will be annotated first)
-  pairs = pairs.sort(function (a, b) { 
-    [p11, p12] = a;
-    [p21, p22] = b;
-    d_a = L.latLng(parseFloat(p11.properties.lat), parseFloat(p11.properties.lon)).distanceTo(
-      L.latLng(parseFloat(p12.properties.lat), parseFloat(p12.properties.lon))
+  // // Sort by proximity (closest photos will be annotated first)
+  // pairs = pairs.sort(function (a, b) { 
+  //   [p11, p12] = a;
+  //   [p21, p22] = b;
+  //   d_a = L.latLng(parseFloat(p11.properties.lat), parseFloat(p11.properties.lon)).distanceTo(
+  //     L.latLng(parseFloat(p12.properties.lat), parseFloat(p12.properties.lon))
+  //   );
+  //   d_b = L.latLng(parseFloat(p21.properties.lat), parseFloat(p21.properties.lon)).distanceTo(
+  //     L.latLng(parseFloat(p22.properties.lat), parseFloat(p22.properties.lon))
+  //   );
+  //   if (d_a < d_b) {
+  //     // a comes first
+  //     return -1;
+  //   } else {
+  //     return 1;
+  //   }
+  // });
+
+  // Filter by distance: too far images should not be clustered together anyway
+  pairs = pairs.filter(function(pair) {
+    [p1, p2] = pair;
+    d = L.latLng(parseFloat(p1.properties.lat), parseFloat(p1.properties.lon)).distanceTo(
+      L.latLng(parseFloat(p2.properties.lat), parseFloat(p2.properties.lon))
     );
-    d_b = L.latLng(parseFloat(p21.properties.lat), parseFloat(p21.properties.lon)).distanceTo(
-      L.latLng(parseFloat(p22.properties.lat), parseFloat(p22.properties.lon))
-    );
-    if (d_a < d_b) {
-      // a comes first
-      return -1;
-    } else {
-      return 1;
-    }
+    return d <= 1000 // meters
   });
+
+  // Random shuffle
+  pairs = pairs.sort(function (a, b) { return 0.5 - Math.random() });
 
   // Initialize annotations
   var annotations = {}
+  var currentPair = 0;
 
   // Show pairs
-  var currentPair = 0;
   var showPair = function () {
     [p1, p2] = pairs[currentPair];
-    $("#feature-list tbody").append(`
-      <tr class="feature-row" idOne="${p1.id}" idTwo="${p2.id}">
-        <td class="feature-name">
-          <table class="pair-table text-center">
-          <tr>
-            <td><img src="${p1.properties.url}" /></td>
-            <td><img src="${p2.properties.url}" /></td>
-          </tr>
-          <tr>
-            <td><button type="button" class="btn btn-primary photo-info-btn" idPhoto="${p1.id}">Show info</button></td>
-            <td><button type="button" class="btn btn-primary photo-info-btn" idPhoto="${p2.id}">Show info</button></td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <button type="button" class="btn btn-success" id="label-yes-btn">
-                Same cluster
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <button type="button" class="btn btn-danger" id="label-no-btn">
-                Different one
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              ${currentPair in annotations ? "Already annotated "+annotations[currentPair] : ""}
-            </td>
-          </tr>
-          </table>
-        </td>
-      </tr>
+    $(".current-pair").html(`${currentPair+1}/${pairs.length}`);
+    $("#pair-photo").html(`
+      <td><img class="pair-photo-preview" src="${p1.properties.url}" /></td>
+      <td><img class="pair-photo-preview" src="${p2.properties.url}" /></td>
     `);
+    $("#pair-annotation").html(`${currentPair in annotations ? "Already annotated <b>"+ annotations[currentPair][2] + "</b>" : ""}`);
+    
     map.addLayer(p1.layer);
     map.addLayer(p2.layer);
     map.fitBounds([
       [p1.properties.lat, p1.properties.lon], 
       [p2.properties.lat, p2.properties.lon]]);
-
-    // When cluster label buttons are clicked
-    $("#label-yes-btn").click(function() {
-      annotations[currentPair] = [p1.id, p2.id, 1];
-      cleanPair();
-      updateCurrentPair(+1);
-      showPair();
-    });
-    $("#label-no-btn").click(function() {
-      annotations[currentPair] = [p1.id, p2.id, 0];
-      cleanPair();
-      updateCurrentPair(+1);
-      showPair();
-    });
-
-    // When show buttons are clicked
-    $(".photo-info-btn").click(function() {
-      var layer = photos.filter(photo => photo.id == $(this).attr("idPhoto")).pop().layer;
-      showInfoImage(layer);
-    });
   }
   showPair(); // show first when page opens
+
+  // When cluster label buttons are clicked
+  $("#label-yes-btn").click(function() {
+    [p1, p2] = pairs[currentPair];
+    annotations[currentPair] = [p1.id, p2.id, 1];
+    cleanPair();
+    updateCurrentPair(+1);
+    showPair();
+  });
+  $("#label-no-btn").click(function() {
+    [p1, p2] = pairs[currentPair];
+    annotations[currentPair] = [p1.id, p2.id, 0];
+    cleanPair();
+    updateCurrentPair(+1);
+    showPair();
+  });
+
+  // When show buttons are clicked
+  $(".photo-info-btn").click(function() {
+    [p1, p2] = pairs[currentPair];
+    if ($(this).attr("photo") == 1){
+      showInfoImage(p1.layer);
+    } else {
+      showInfoImage(p2.layer);
+    }
+  });
 
   // Clean pair when prev/next is clicked
   var cleanPair = function() {
     [p1, p2] = pairs[currentPair];
     map.removeLayer(p1.layer);
     map.removeLayer(p2.layer);
-    $("#feature-list tbody").empty();
   }
 
   // Next/Prev limits
@@ -306,7 +294,6 @@ var locateControl = L.control.locate({
 function fetchDataLocally() {
   $("#loading").show();
   featureLayer.clearLayers();
-  $("#feature-list tbody").empty();
   featureLayer.loadURL(decodeURIComponent("data.geojson")).on("ready", function(layer) {
     $("#loading").hide();
   });

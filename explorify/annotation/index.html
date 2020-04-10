@@ -78,13 +78,14 @@
               <!-- Buttons -->
               <div class="row">
                 <div class="col-xs-4 col-md-4">
-                  <button type="button" class="btn btn-primary pull-left sort" id="prev-btn" disabled><i class="fa fa-chevron-left"></i>&nbsp;&nbsp;Prev</button>
+                  <!-- <button type="button" class="btn btn-primary pull-left sort" id="prev-btn" disabled><i class="fa fa-chevron-left"></i>&nbsp;&nbsp;Prev</button> -->
                 </div>
                 <div class="col-xs-4 col-md-4">
                   <!-- <input type="text" class="form-control search" placeholder="Search" /> -->
+                  
                 </div>
                 <div class="col-xs-4 col-md-4">
-                  <button type="button" class="btn btn-primary pull-right sort" id="next-btn">Next&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></button>
+                  <!-- <button type="button" class="btn btn-primary pull-right sort" id="next-btn">Next&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></button> -->
                 </div>
               </div>
             </div>
@@ -103,6 +104,39 @@
                   <tr>
                 </thead>
                 <tbody class="list">
+                  <!-- show pair -->
+                  <tr class="feature-row">
+                    <td class="feature-name">
+                      <table class="pair-table text-center">
+                      <tr id="pair-photo">
+                        <!-- photos shown here -->
+                      </tr>
+                      <tr>
+                        <td><button type="button" class="btn btn-primary photo-info-btn" photo="1">Show info</button></td>
+                        <td><button type="button" class="btn btn-primary photo-info-btn" photo="2">Show info</button></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <button type="button" class="btn btn-success" id="label-yes-btn">
+                            Same cluster
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <button type="button" class="btn btn-primary sort prev-btn" id="prev-btn" disabled><i class="fa fa-chevron-left"></i>&nbsp;&nbsp;Prev</button>
+                          <button type="button" class="btn btn-danger" id="label-no-btn">
+                            Different one
+                          </button>
+                          <button type="button" class="btn btn-primary sort next-btn" id="next-btn">Next&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></button>
+                        </td>
+                      </tr>
+                      <tr><td id="pair-annotation" colspan="2"></td></tr>
+                      <tr><td id="pair-annotation" colspan="2"><p class="current-pair"></p></td></tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- end show pair -->
                 </tbody>
               </table>
             </div>
