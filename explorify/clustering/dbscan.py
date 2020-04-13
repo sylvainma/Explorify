@@ -109,7 +109,7 @@ class MultiFeatureDBSCAN():
 
         # DBSCAN clustering
         if self.verbose: print("Training DBSCAN...")
-        db = DBSCAN(eps=self.eps, min_samples=self.min_samples, metric="precomputed")
+        db = DBSCAN(eps=self.eps, min_samples=self.min_samples, metric="precomputed", n_jobs=-1)
         db.fit_predict(dist_matrix)
         labels = db.labels_
         clusters, counts = np.unique(labels, return_counts=True)
