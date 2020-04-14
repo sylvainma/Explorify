@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 from dataset.load import LoadDataset
 from clustering.dbscan import MultiFeatureDBSCAN
-from clustering.embedding import WSL, VGG16
+from clustering.embedding import WSL
 from clustering.validation import get_all_annotation, score
 
 
@@ -20,7 +20,7 @@ def main(args):
 
     # Common attributes
     print("Initializing gridsearch space...")
-    cnn_model = VGG16(-5)
+    cnn_model = WSL()
     dataset = LoadDataset("./data/paris_1000.h5")
     max_data = 500
     val_set = get_all_annotation(glob.glob("data/annotations/annotations_*.csv")).values.tolist()

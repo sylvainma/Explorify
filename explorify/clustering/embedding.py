@@ -5,51 +5,69 @@ from torch.nn import functional as F
 import torchvision.transforms as transforms
 import torchvision.models as models
 
+
 class WSL(nn.Module):
     def __init__(self, layer=None):
         """Take WSL pretrained model up to layer n"""
         super(WSL, self).__init__()
-        pretrained_model = torch.hub.load(
-            "facebookresearch/WSL-Images", "resnext101_32x16d_wsl")
-        for param in pretrained_model.parameters():
-            param.requires_grad = False
+        pretrained_model = torch.hub.load("facebookresearch/WSL-Images", "resnext101_32x16d_wsl")
         if layer is None:
             self.model = pretrained_model
         else:
             layers = list(pretrained_model.children())
-            layers = layers[:layer] if layer is not None else layers
+            layers = layers[:layer]
             self.model = nn.Sequential(*layers)
+        self.model.eval()
         
     def forward(self, x):
         x = self.model(x)
         x = torch.flatten(x, start_dim=1)
         return x
+
 
 class VGG16(nn.Module):
     def __init__(self, layer=None):
         """Take VGG16 pretrained model up to layer n"""
         super(VGG16, self).__init__()
         pretrained_model = models.vgg16(pretrained=True)
-        for param in pretrained_model.parameters():
-            param.requires_grad = False
         if layer is None:
             self.model = pretrained_model
         else:
             layers = list(pretrained_model.children())
-            layers = layers[:layer] if layer is not None else layers
+            layers = layers[:layer]
             self.model = nn.Sequential(*layers)
+        self.model.eval()
         
     def forward(self, x):
         x = self.model(x)
         x = torch.flatten(x, start_dim=1)
         return x
 
+
+class VGG19(nn.Module):
+    def __init__(self, layer=None):
+        """Take VGG19 pretrained model up to layer n"""
+        super(VGG19, self).__init__()
+        pretrained_model = models.vgg19(pretrained=True)
+        if layer is None:
+            self.model = pretrained_model
+        else:
+            layers = list(pretrained_model.children())
+            layers = layers[:layer]
+            self.model = nn.Sequential(*layers)
+        self.model.eval()
+        
+    def forward(self, x):
+        x = self.model(x)
+        x = torch.flatten(x, start_dim=1)
+        return x
+
+
 class VGG16MultiLayer(nn.Module):
     def __init__(self):
         super(VGG16MultiLayer, self).__init__()
         self.model = models.vgg16(pretrained=True)
-        for param in self.model.parameters():
-            param.requires_grad = False
+        self.model.eval()
         
     def forward(self, x):
         N, C, H, W = x.shape
@@ -116,25 +134,6 @@ class VGG16MultiLayer(nn.Module):
         return distance
 
 
-class VGG19(nn.Module):
-    def __init__(self, layer=None):
-        """Take VGG19 pretrained model up to layer n"""
-        super(VGG19, self).__init__()
-        pretrained_model = models.vgg19(pretrained=True)
-        for param in pretrained_model.parameters():
-            param.requires_grad = False
-        if layer is None:
-            self.model = pretrained_model
-        else:
-            layers = list(pretrained_model.children())
-            layers = layers[:layer] if layer is not None else layers
-            self.model = nn.Sequential(*layers)
-        
-    def forward(self, x):
-        x = self.model(x)
-        x = torch.flatten(x, start_dim=1)
-        return x
-
 def forward(model, imgs, size=(224, 224)):
     """Input a list of PIL images in imgs and run a batch forward on them"""
     composed = transforms.Compose([
@@ -147,6 +146,7 @@ def forward(model, imgs, size=(224, 224)):
     ])
     embeddings = model(torch.stack([composed(img) for img in imgs], dim=0))
     return embeddings.numpy()
+
 
 if __name__ == "__main__":
     # VGG16MultiLayer
