@@ -8,7 +8,7 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_score, calinski_harabasz_score
 from sklearn.metrics.pairwise import cosine_similarity
 from .embedding import forward
-from .tags import vectorizer
+from .tags import TagVectorizer
 from .distances import dist_geo, dist_img, dist_tag
 
 
@@ -28,6 +28,7 @@ class MultiFeatureDBSCAN():
         """
         self.dataset = dataset
         self.model = model
+        self.tv = TagVectorizer()
         self.alpha, self.beta, self.gamma = weights
         assert self.alpha + self.beta + self.gamma == 1
         self.max_data = max_data
@@ -83,7 +84,7 @@ class MultiFeatureDBSCAN():
 
         # Batch TF-IDF for tags
         if self.verbose: print("Vectorization of tags...")
-        tags = vectorizer([t.split(" ") for t in tags]).todense()
+        tags = self.tv.vectorizer([t.split(" ") for t in tags]).todense()
         tags = PCA(n_components=min(512, min(*tags.shape))).fit_transform(tags)
 
         # Convert to numpy arrays

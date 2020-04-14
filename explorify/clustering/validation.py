@@ -75,9 +75,7 @@ def score_B(labels, idx, val_set):
     return sB
 
 def score(labels, idx, val_set):
-    """
-    Trade-off between classification performance and cluster homogeneity.
-    """
+    """Trade-off between classification performance and cluster homogeneity."""
     sA = score_A(labels, idx, val_set)
     sB = score_B(labels, idx, val_set)
     #s = 0.5 * sA + 0.5 * sB
