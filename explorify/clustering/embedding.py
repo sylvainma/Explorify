@@ -10,7 +10,7 @@ class WSL(nn.Module):
     def __init__(self, layer=None, gpu=False):
         """Take WSL pretrained model up to layer n"""
         super(WSL, self).__init__()
-        pretrained_model = torch.hub.load("facebookresearch/WSL-Images", "resnext101_32x16d_wsl")
+        pretrained_model = torch.hub.load("facebookresearch/WSL-Images", "resnext101_32x8d_wsl", verbose=False)
         if layer is None:
             self.model = pretrained_model
         else:

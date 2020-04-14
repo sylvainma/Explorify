@@ -9,9 +9,12 @@ import pandas as pd
 from tabulate import tabulate
 from tqdm import tqdm
 
+import warnings
+warnings.simplefilter("ignore", UserWarning)
+
 from dataset.load import LoadDataset
 from clustering.dbscan import MultiFeatureDBSCAN
-from clustering.embedding import WSL
+from clustering.embedding import VGG16
 from clustering.validation import get_all_annotation, score
 
 
@@ -20,7 +23,7 @@ def main(args):
 
     # Common attributes
     print("Initializing gridsearch space...")
-    cnn_model = WSL(gpu=args.gpu)
+    cnn_model = VGG16(layer=-5, gpu=args.gpu)
     dataset = LoadDataset("./data/paris_1000.h5")
     max_data = 500
     val_set = get_all_annotation(glob.glob("data/annotations/annotations_*.csv")).values.tolist()
@@ -75,6 +78,6 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Explorify clustering gridsearch")
     parser.add_argument('-l', '--logs', type=str, default=f"logs/{int(datetime.datetime.now().timestamp())}", help="Path to logs directory")
-    parser.add_argument('-g', '--gpu', action='store_true', default=False, help="Use GPU with cuda")
+    parser.add_argument('-g', '--gpu', action='store_true', default=False, help="Use GPU with cuda for image feature extraction")
     args = parser.parse_args()
     main(args)
