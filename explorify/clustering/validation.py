@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from sklearn.metrics import f1_score as scorer
+from sklearn.metrics import balanced_accuracy_score as scorer
 
 def get_all_annotation(all_files):
     """Merge all annotations files into a single dataframe"""

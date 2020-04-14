@@ -171,7 +171,6 @@ class MultiFeatureDBSCAN():
             "tags_sims": cluster_tags_similarities
         }
 
-        
 
 if __name__ == "__main__":
     import sys
