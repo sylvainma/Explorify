@@ -20,17 +20,17 @@ def main(args):
 
     # Common attributes
     print("Initializing gridsearch space...")
-    cnn_model = WSL()
+    cnn_model = WSL(gpu=args.gpu)
     dataset = LoadDataset("./data/paris_1000.h5")
     max_data = 500
     val_set = get_all_annotation(glob.glob("data/annotations/annotations_*.csv")).values.tolist()
 
     # Define gridsearch space
     grid_params = [
-        {"dataset": dataset, "model": cnn_model, "weights": (1.0, 0.0, 0.0), "max_data": max_data, "verbose": False},
-        {"dataset": dataset, "model": cnn_model, "weights": (0.0, 1.0, 0.0), "max_data": max_data, "verbose": False},
-        {"dataset": dataset, "model": cnn_model, "weights": (0.0, 0.0, 1.0), "max_data": max_data, "verbose": False},
-        {"dataset": dataset, "model": cnn_model, "weights": (0.5, 0.2, 0.3), "max_data": max_data, "verbose": False},
+        {"dataset": dataset, "model": cnn_model, "weights": (1.0, 0.0, 0.0), "max_data": max_data, "gpu": args.gpu, "verbose": False},
+        {"dataset": dataset, "model": cnn_model, "weights": (0.0, 1.0, 0.0), "max_data": max_data, "gpu": args.gpu, "verbose": False},
+        {"dataset": dataset, "model": cnn_model, "weights": (0.0, 0.0, 1.0), "max_data": max_data, "gpu": args.gpu, "verbose": False},
+        {"dataset": dataset, "model": cnn_model, "weights": (0.5, 0.2, 0.3), "max_data": max_data, "gpu": args.gpu, "verbose": False},
     ]
     search_space = list(product(grid_params, np.arange(0.01, 0.20, 0.02), np.arange(2, 10, 1)))
     print(f"Space length: {len(search_space)}")
@@ -75,5 +75,6 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Explorify clustering gridsearch")
     parser.add_argument('-l', '--logs', type=str, default=f"logs/{int(datetime.datetime.now().timestamp())}", help="Path to logs directory")
+    parser.add_argument('-g', '--gpu', action='store_true', default=False, help="Use GPU with cuda")
     args = parser.parse_args()
     main(args)

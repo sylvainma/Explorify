@@ -13,7 +13,7 @@ from .distances import dist_geo, dist_img, dist_tag
 
 
 class MultiFeatureDBSCAN():
-    def __init__(self, dataset, model, weights, max_data=100, eps=0.1, min_samples=5, verbose=True):
+    def __init__(self, dataset, model, weights, max_data=100, eps=0.1, min_samples=5, gpu=False, verbose=True):
         """DBSCAN Clustering of Flickr photographs using a combination of geographic data,
             visual representation and tags information.
         
@@ -24,6 +24,7 @@ class MultiFeatureDBSCAN():
         - max_data: maximum data to fetch from dataset and use as training set
         - eps: DBSCAN, should be in [0,1] since distances are normalized in [0,1]
         - min_samples: DBSCAN, minimum number of samples around for core samples
+        - gpu: whether or not to use GPU for image embedding extraction
         """
         self.dataset = dataset
         self.model = model
@@ -35,6 +36,7 @@ class MultiFeatureDBSCAN():
         assert eps <= 1
         self.min_samples = min_samples
         assert min_samples >= 0
+        self.gpu = gpu
         self.verbose = verbose
 
     def _normalize_dist_matrix(self, dist_matrix):
@@ -76,7 +78,7 @@ class MultiFeatureDBSCAN():
         if self.verbose: print("Images to embeddings...")
         self.model.eval()
         with torch.no_grad():
-            embeddings = forward(self.model, images)
+            embeddings = forward(self.model, images, gpu=self.gpu)
         embeddings = PCA(n_components=min(512, min(*embeddings.shape))).fit_transform(embeddings)
 
         # Batch TF-IDF for tags
