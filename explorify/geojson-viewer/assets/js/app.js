@@ -142,33 +142,17 @@ var locateControl = L.control.locate({
   }
 }).addTo(map);
 
-function fetchDataWithUrl() {
+function fetchDataLocally(city) {
   $("#loading").show();
   featureLayer.clearLayers();
   $("#feature-list tbody").empty();
-  if (urlParams.src.indexOf(".topojson") > -1) {
-    omnivore.topojson(decodeURIComponent(urlParams.src), null, featureLayer).on("ready", function(layer) {
-      $("#loading").hide();
-    });
-  }
-  else {
-    featureLayer.loadURL(decodeURIComponent(urlParams.src)).on("ready", function(layer) {
-      $("#loading").hide();
-    });
-  }
-}
-
-function fetchDataLocally() {
-  $("#loading").show();
-  featureLayer.clearLayers();
-  $("#feature-list tbody").empty();
-  featureLayer.loadURL(decodeURIComponent("data.geojson")).on("ready", function(layer) {
+  featureLayer.loadURL(decodeURIComponent(city+".geojson")).on("ready", function(layer) {
     $("#loading").hide();
   });
 }
 
-function fetchData() {
-  return fetchDataLocally();
+function fetchData(city) {
+  return fetchDataLocally(city);
 }
 
 function getTitle(layer) {
@@ -253,19 +237,25 @@ if (cluster === true) {
   layerControl.addOverlay(featureLayer, "<span name='title'>GeoJSON Data</span>");
 }
 
-$("#refresh-btn").click(function() {
-  fetchData();
+$("#city-atlanta").click(function() {
+  fetchData("atlanta");
   $(".navbar-collapse.in").collapse("hide");
+  featureLayer.once("ready", function(e) {
+    map.fitBounds(this.getBounds(), {
+      maxZoom: 17
+    });   
+  });
   return false;
 });
-
-$("#auto-refresh").click(function() {
-  if ($(this).prop("checked")) {
-    autoRefresh = window.setInterval(fetchData, 60 * 1000);
-    fetchData();
-  } else {
-    clearInterval(autoRefresh);
-  }
+$("#city-paris").click(function() {
+  fetchData("paris");
+  $(".navbar-collapse.in").collapse("hide");
+  featureLayer.once("ready", function(e) {
+    map.fitBounds(this.getBounds(), {
+      maxZoom: 17
+    });   
+  });
+  return false;
 });
 
 $("#full-extent-btn").click(function() {
@@ -297,8 +287,7 @@ $("#sidebar-hide-btn").click(function() {
 });
 
 $(document).ready(function() {
-  fetchData();
-  $("#download").attr("href", urlParams.src);
+  fetchData("paris");
 });
 
 $(document).on("click", ".feature-row", function(e) {

@@ -1584,7 +1584,7 @@
             },
             "properties": {
                 "id": "29700206217",
-                "cluster": -1,
+                "cluster": 9,
                 "lat": 48.853038,
                 "lon": 2.301188,
                 "title": "Monde vert silencieux -  (Selected by GETTY IMAGES)",
@@ -1630,7 +1630,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 3.9620480849504247,
-                "marker-color": "#000000",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 0.72
             }
         },
@@ -1645,7 +1645,7 @@
             },
             "properties": {
                 "id": "29760855017",
-                "cluster": 9,
+                "cluster": 10,
                 "lat": 48.858192,
                 "lon": 2.294275,
                 "title": "View Over Paris",
@@ -1700,7 +1700,7 @@
                     "tourist"
                 ],
                 "aesthetic_score": 3.852266537801711,
-                "marker-color": "#84cea5",
+                "marker-color": "#5e4fa2",
                 "aesthetic_score_scaled": 0.5
             }
         },
@@ -1814,7 +1814,7 @@
             },
             "properties": {
                 "id": "29935461928",
-                "cluster": 10,
+                "cluster": 11,
                 "lat": 48.773352,
                 "lon": 2.456175,
                 "title": "2018-07-21-A-France-Sete-032-gaelic.fr-IMG_7705 copie",
@@ -1875,7 +1875,7 @@
                     "mobilephotography"
                 ],
                 "aesthetic_score": 4.984370843947545,
-                "marker-color": "#5e4fa2",
+                "marker-color": "#9fd8a4",
                 "aesthetic_score_scaled": 2.75
             }
         },
@@ -1890,7 +1890,7 @@
             },
             "properties": {
                 "id": "29935465958",
-                "cluster": 11,
+                "cluster": 12,
                 "lat": 48.773352,
                 "lon": 2.456175,
                 "title": "2018-07-21-B-France-Agde-011-gaelic.fr-IMG_7702 copie",
@@ -1965,7 +1965,7 @@
                     "vacances"
                 ],
                 "aesthetic_score": 5.145598766461944,
-                "marker-color": "#9fd8a4",
+                "marker-color": "#c72e4c",
                 "aesthetic_score_scaled": 3.07
             }
         },
@@ -1980,7 +1980,7 @@
             },
             "properties": {
                 "id": "29935477928",
-                "cluster": 11,
+                "cluster": 12,
                 "lat": 48.772933,
                 "lon": 2.456486,
                 "title": "2018-07-21-C-France-Marseillan-004-gaelic.fr-IMG_7695 copie",
@@ -2055,7 +2055,7 @@
                     "vacances"
                 ],
                 "aesthetic_score": 4.641483124534716,
-                "marker-color": "#9fd8a4",
+                "marker-color": "#c72e4c",
                 "aesthetic_score_scaled": 2.07
             }
         },
@@ -2070,7 +2070,7 @@
             },
             "properties": {
                 "id": "29935482518",
-                "cluster": 10,
+                "cluster": 11,
                 "lat": 48.772605,
                 "lon": 2.456419,
                 "title": "2018-07-17-France-Peyre-038-gaelic.fr-IMG_7644 copie",
@@ -2126,7 +2126,7 @@
                     "mobilephotography"
                 ],
                 "aesthetic_score": 5.4220868797565345,
-                "marker-color": "#5e4fa2",
+                "marker-color": "#9fd8a4",
                 "aesthetic_score_scaled": 3.62
             }
         },
@@ -2266,7 +2266,7 @@
             },
             "properties": {
                 "id": "30201822247",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.807363,
                 "lon": 2.120422,
                 "title": "Versailles Gardens / \u0421\u0430\u0434\u044b \u0412\u0435\u0440\u0441\u0430\u043b\u044f",
@@ -2298,7 +2298,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.557953340622589,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.9
             }
         },
@@ -2313,7 +2313,7 @@
             },
             "properties": {
                 "id": "30202388277",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854261,
                 "lon": 2.325022,
                 "title": "2018-10-FL-196928",
@@ -2336,7 +2336,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 3.8241245459178685,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 0.44
             }
         },
@@ -2351,7 +2351,7 @@
             },
             "properties": {
                 "id": "30202632377",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854319,
                 "lon": 2.324797,
                 "title": "2018-10-FL-196910",
@@ -2376,7 +2376,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 4.108567077533962,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 1.01
             }
         },
@@ -2391,7 +2391,7 @@
             },
             "properties": {
                 "id": "30355200687",
-                "cluster": 14,
+                "cluster": 15,
                 "lat": 48.836503,
                 "lon": 2.377901,
                 "title": "In the mood for night",
@@ -2428,7 +2428,7 @@
                     "michellecourteau"
                 ],
                 "aesthetic_score": 4.539927151134179,
-                "marker-color": "#76c8a5",
+                "marker-color": "#d8434e",
                 "aesthetic_score_scaled": 1.86
             }
         },
@@ -2443,7 +2443,7 @@
             },
             "properties": {
                 "id": "30426596707",
-                "cluster": 15,
+                "cluster": 16,
                 "lat": 48.856018,
                 "lon": 2.287216,
                 "title": "Paris - FRANCE",
@@ -2467,7 +2467,7 @@
                     "seine"
                 ],
                 "aesthetic_score": 4.789603708512004,
-                "marker-color": "#d8434e",
+                "marker-color": "#60bba8",
                 "aesthetic_score_scaled": 2.36
             }
         },
@@ -2645,7 +2645,7 @@
             },
             "properties": {
                 "id": "30579072677",
-                "cluster": 16,
+                "cluster": 17,
                 "lat": 48.847041,
                 "lon": 2.338413,
                 "title": "Luxembourg Garden / \u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0441\u043a\u0438\u0439 \u0441\u0430\u0434",
@@ -2677,7 +2677,7 @@
                     "\u043f\u0430\u0440\u0438\u0436"
                 ],
                 "aesthetic_score": 4.624846217068807,
-                "marker-color": "#60bba8",
+                "marker-color": "#378ebb",
                 "aesthetic_score_scaled": 2.03
             }
         },
@@ -2692,7 +2692,7 @@
             },
             "properties": {
                 "id": "30592530328",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.873466,
                 "lon": 2.295311,
                 "title": "Le triomphe de 1810 by Jean-Pierre Cortrot (Arc de Triomphe)  -  (Selected by GETTY IMAGES)",
@@ -2739,7 +2739,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.922569154245139,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.62
             }
         },
@@ -2754,7 +2754,7 @@
             },
             "properties": {
                 "id": "30639873367",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.805138,
                 "lon": 2.107002,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -2786,7 +2786,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 3.9269954066891444,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 0.65
             }
         },
@@ -2801,7 +2801,7 @@
             },
             "properties": {
                 "id": "30639875137",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.805138,
                 "lon": 2.107002,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -2833,7 +2833,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.823617998117697,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 2.43
             }
         },
@@ -2848,7 +2848,7 @@
             },
             "properties": {
                 "id": "30639877277",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.805138,
                 "lon": 2.107002,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -2880,7 +2880,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.476311547066871,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.74
             }
         },
@@ -2895,7 +2895,7 @@
             },
             "properties": {
                 "id": "30641317687",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.80931,
                 "lon": 2.114911,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -2927,7 +2927,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.616594963702482,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 2.02
             }
         },
@@ -2942,7 +2942,7 @@
             },
             "properties": {
                 "id": "30641318867",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.80931,
                 "lon": 2.114911,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -2974,7 +2974,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.728693568320523,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 2.24
             }
         },
@@ -3150,7 +3150,7 @@
             },
             "properties": {
                 "id": "30655995687",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.81568,
                 "lon": 2.109836,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -3182,7 +3182,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.4563147316675895,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.7
             }
         },
@@ -3693,7 +3693,7 @@
             },
             "properties": {
                 "id": "30810948918",
-                "cluster": 9,
+                "cluster": 10,
                 "lat": 48.869429,
                 "lon": 2.309403,
                 "title": "Arc De Triomphe",
@@ -3747,7 +3747,7 @@
                     "tourist"
                 ],
                 "aesthetic_score": 5.152531377538708,
-                "marker-color": "#84cea5",
+                "marker-color": "#5e4fa2",
                 "aesthetic_score_scaled": 3.08
             }
         },
@@ -3762,7 +3762,7 @@
             },
             "properties": {
                 "id": "30828631348",
-                "cluster": 9,
+                "cluster": 10,
                 "lat": 48.842491,
                 "lon": 2.321548,
                 "title": "Eiffel Tower @ Night",
@@ -3818,7 +3818,7 @@
                     "tourist"
                 ],
                 "aesthetic_score": 5.181233234216052,
-                "marker-color": "#84cea5",
+                "marker-color": "#5e4fa2",
                 "aesthetic_score_scaled": 3.14
             }
         },
@@ -4626,7 +4626,7 @@
             },
             "properties": {
                 "id": "31300025367",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.85238,
                 "lon": 2.302152,
                 "title": "Eiffel Tower, Paris, France  -  (Selected by GETTY IMAGES)",
@@ -4671,7 +4671,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.504677662698214,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.79
             }
         },
@@ -4775,7 +4775,7 @@
             },
             "properties": {
                 "id": "31458424207",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.873588,
                 "lon": 2.295058,
                 "title": "Eiffel tower from the roof of Arc de Triomphe de l'Etoile  - (Selected by GETTY IMAGES)",
@@ -4822,7 +4822,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.870533766861627,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.52
             }
         },
@@ -4837,7 +4837,7 @@
             },
             "properties": {
                 "id": "31463760127",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.874072,
                 "lon": 2.294861,
                 "title": "Arc de Triomphe - La Paix de 1815 by Antoine \u00c9tex  -  (Selected by GETTY IMAGES)",
@@ -4886,7 +4886,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 5.0498888807305775,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.88
             }
         },
@@ -5226,7 +5226,7 @@
             },
             "properties": {
                 "id": "31645930258",
-                "cluster": 16,
+                "cluster": 17,
                 "lat": 48.848058,
                 "lon": 2.3391,
                 "title": "Luxembourg Garden / \u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0441\u043a\u0438\u0439 \u0441\u0430\u0434",
@@ -5256,7 +5256,7 @@
                     "\u043f\u0430\u0440\u0438\u0436"
                 ],
                 "aesthetic_score": 4.46891614708511,
-                "marker-color": "#60bba8",
+                "marker-color": "#378ebb",
                 "aesthetic_score_scaled": 1.72
             }
         },
@@ -5367,7 +5367,7 @@
             },
             "properties": {
                 "id": "31693074458",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.805194,
                 "lon": 2.107175,
                 "title": "Tree / \u0414\u0435\u0440\u0435\u0432\u043e",
@@ -5399,7 +5399,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.45445352742172,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.69
             }
         },
@@ -5414,7 +5414,7 @@
             },
             "properties": {
                 "id": "31708089988",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.809194,
                 "lon": 2.114477,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -5446,7 +5446,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.785853193068078,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 2.35
             }
         },
@@ -5461,7 +5461,7 @@
             },
             "properties": {
                 "id": "31710206518",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.80931,
                 "lon": 2.114911,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -5493,7 +5493,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.602441613164046,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.99
             }
         },
@@ -5508,7 +5508,7 @@
             },
             "properties": {
                 "id": "31710208138",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.80931,
                 "lon": 2.114911,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -5540,7 +5540,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.686123390605644,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 2.15
             }
         },
@@ -5555,7 +5555,7 @@
             },
             "properties": {
                 "id": "31724691578",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.81568,
                 "lon": 2.109836,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -5587,7 +5587,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.010113578793096,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 0.81
             }
         },
@@ -5602,7 +5602,7 @@
             },
             "properties": {
                 "id": "31724693688",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.81568,
                 "lon": 2.109836,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -5634,7 +5634,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.8888269251074234,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 2.56
             }
         },
@@ -5649,7 +5649,7 @@
             },
             "properties": {
                 "id": "31724695258",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.81568,
                 "lon": 2.109836,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -5681,7 +5681,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.453988987570483,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.69
             }
         },
@@ -5696,7 +5696,7 @@
             },
             "properties": {
                 "id": "31731925728",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.85238,
                 "lon": 2.302152,
                 "title": "Up (the Eiffel Tower in Paris, France)  -  (Selected by GETTY IMAGES)",
@@ -5741,7 +5741,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.3729885579564325,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.53
             }
         },
@@ -6454,7 +6454,7 @@
             },
             "properties": {
                 "id": "31927868748",
-                "cluster": 15,
+                "cluster": 16,
                 "lat": 48.856018,
                 "lon": 2.287216,
                 "title": "Paris - FRANCE",
@@ -6477,7 +6477,7 @@
                     "paris"
                 ],
                 "aesthetic_score": 4.477845403520405,
-                "marker-color": "#d8434e",
+                "marker-color": "#60bba8",
                 "aesthetic_score_scaled": 1.74
             }
         },
@@ -6703,7 +6703,7 @@
             },
             "properties": {
                 "id": "31960738037",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.858586,
                 "lon": 2.290411,
                 "title": "Eiffel tower from the Seine River in Paris, France  -  (Selected by GETTY IMAGES)",
@@ -6749,7 +6749,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.876392114221744,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.53
             }
         },
@@ -7048,7 +7048,7 @@
             },
             "properties": {
                 "id": "32018462188",
-                "cluster": 25,
+                "cluster": -1,
                 "lat": 48.839541,
                 "lon": 2.425511,
                 "title": "The Bois de Vincennes",
@@ -7079,7 +7079,7 @@
                     "art"
                 ],
                 "aesthetic_score": 4.376899481775581,
-                "marker-color": "#eff9a6",
+                "marker-color": "#000000",
                 "aesthetic_score_scaled": 1.54
             }
         },
@@ -7544,7 +7544,7 @@
             },
             "properties": {
                 "id": "32310985397",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.857688,
                 "lon": 2.297055,
                 "title": "Eiffel Tower from Avenue du General Ferrie, Paris  -  (Selected by GETTY IMAGES)",
@@ -7588,7 +7588,7 @@
                     "champdemarsparis"
                 ],
                 "aesthetic_score": 4.416455670005689,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.62
             }
         },
@@ -7773,7 +7773,7 @@
             },
             "properties": {
                 "id": "32410703438",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.863113,
                 "lon": 2.313088,
                 "title": "Pont Alexandre III in Paris, France  -  (Selected by GETTY IMAGES)",
@@ -7818,7 +7818,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.7061539967871795,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.19
             }
         },
@@ -8081,7 +8081,7 @@
             },
             "properties": {
                 "id": "32525921048",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.885727,
                 "lon": 2.342802,
                 "title": "The Basiica of the Sacred Heart of Paris (Sacre-Coeur Basilica)  -  (Selected by GETTY IMAGES)",
@@ -8126,7 +8126,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.7686129848571,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.32
             }
         },
@@ -8141,7 +8141,7 @@
             },
             "properties": {
                 "id": "32530816588",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.873777,
                 "lon": 2.295586,
                 "title": "Arc de Triomphe - Le depart de 1792 (or La Marseillaise) - by Francois Rude  -  (Selected by GETTY IMAGES)",
@@ -8192,7 +8192,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.481491086771712,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.75
             }
         },
@@ -8415,7 +8415,7 @@
             },
             "properties": {
                 "id": "32723090258",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.846944,
                 "lon": 2.339236,
                 "title": "And dream of sheep (Le jardin du Luxembourg in Paris, France) - (Colour version)",
@@ -8459,7 +8459,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 5.029737340864813,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.84
             }
         },
@@ -8525,7 +8525,7 @@
             },
             "properties": {
                 "id": "32833853557",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.855819,
                 "lon": 2.295961,
                 "title": "Moments in Paris (the Eiffel tower)  -  (Selected by GETTY IMAGES) & (Selected for FLICKR EXPLORE)",
@@ -8569,7 +8569,7 @@
                     "champdemarsparis"
                 ],
                 "aesthetic_score": 4.693110317001469,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.17
             }
         },
@@ -8896,7 +8896,7 @@
             },
             "properties": {
                 "id": "33171513718",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.861758,
                 "lon": 2.288497,
                 "title": "The Eiffel Tower by night  -  (Selected by SHUTTERSTOCK)",
@@ -8941,7 +8941,7 @@
                     "shutterstock"
                 ],
                 "aesthetic_score": 4.579059356678044,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.94
             }
         },
@@ -8956,7 +8956,7 @@
             },
             "properties": {
                 "id": "33260575148",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.861936,
                 "lon": 2.288672,
                 "title": "The Eiffel Tower  -  (Selected by SHUTTERSTOCK)",
@@ -9003,7 +9003,7 @@
                     "despitestraightlinesshutterstock"
                 ],
                 "aesthetic_score": 4.550642541759771,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.89
             }
         },
@@ -9018,7 +9018,7 @@
             },
             "properties": {
                 "id": "33409725948",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.858341,
                 "lon": 2.294422,
                 "title": "View from Eiffel Tower of Place du Trocadero, fountains and esplanade  -  (Selected by GETTY IMAGES)  &  (Selected for FLICKR EXPLORE)",
@@ -9070,7 +9070,7 @@
                     "seineriver"
                 ],
                 "aesthetic_score": 4.424573003618207,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.63
             }
         },
@@ -9719,7 +9719,7 @@
             },
             "properties": {
                 "id": "33952949078",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.873969,
                 "lon": 2.295163,
                 "title": "The Basiica of the Sacred Heart of Paris (Sacre-Coeur Basilica) from the Arc de Triomphe de l'Etoile in Paris, France  -  (Selected by GETTY IMAGES)",
@@ -9763,7 +9763,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.35485073206587,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.5
             }
         },
@@ -10273,7 +10273,7 @@
             },
             "properties": {
                 "id": "40081890433",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.861786,
                 "lon": 2.288494,
                 "title": "La Tour Eiffel at Sunset  -  (Selected by SHUTTERSTOCK)",
@@ -10318,7 +10318,7 @@
                     "shutterstock"
                 ],
                 "aesthetic_score": 4.7107825727766794,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.2
             }
         },
@@ -10333,7 +10333,7 @@
             },
             "properties": {
                 "id": "40120399693",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.873586,
                 "lon": 2.29613,
                 "title": "Arc de Triomphe de l'Etoile, Paris  -  (Selected by SHUTTERSTOCK)",
@@ -10381,7 +10381,7 @@
                     "shutterstock"
                 ],
                 "aesthetic_score": 4.501475988406355,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.79
             }
         },
@@ -10831,7 +10831,7 @@
             },
             "properties": {
                 "id": "40652534143",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.854236,
                 "lon": 2.299622,
                 "title": "Regardez, la tour Eiffel, Paris, France  -  (Selected by GETTY IMAGES)",
@@ -10875,7 +10875,7 @@
                     "champdemarsparis"
                 ],
                 "aesthetic_score": 4.590519385176776,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.96
             }
         },
@@ -11947,7 +11947,7 @@
             },
             "properties": {
                 "id": "42507174070",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.846941,
                 "lon": 2.33923,
                 "title": "Parisienne dreams",
@@ -11991,7 +11991,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 5.51922546890637,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 3.81
             }
         },
@@ -12912,7 +12912,7 @@
             },
             "properties": {
                 "id": "42871735030",
-                "cluster": 9,
+                "cluster": 10,
                 "lat": 48.869429,
                 "lon": 2.309403,
                 "title": "Arc De Triomphe",
@@ -12966,7 +12966,7 @@
                     "tourist"
                 ],
                 "aesthetic_score": 4.334134009943,
-                "marker-color": "#84cea5",
+                "marker-color": "#5e4fa2",
                 "aesthetic_score_scaled": 1.46
             }
         },
@@ -12981,7 +12981,7 @@
             },
             "properties": {
                 "id": "42889259530",
-                "cluster": 9,
+                "cluster": 10,
                 "lat": 48.861806,
                 "lon": 2.333908,
                 "title": "Louvre Museum",
@@ -13035,7 +13035,7 @@
                     "tourist"
                 ],
                 "aesthetic_score": 4.890589746340993,
-                "marker-color": "#84cea5",
+                "marker-color": "#5e4fa2",
                 "aesthetic_score_scaled": 2.56
             }
         },
@@ -13050,7 +13050,7 @@
             },
             "properties": {
                 "id": "42889539900",
-                "cluster": 9,
+                "cluster": 10,
                 "lat": 48.842491,
                 "lon": 2.321548,
                 "title": "Eiffel Tower @ Night",
@@ -13108,7 +13108,7 @@
                     "sunset"
                 ],
                 "aesthetic_score": 5.519738037423281,
-                "marker-color": "#84cea5",
+                "marker-color": "#5e4fa2",
                 "aesthetic_score_scaled": 3.81
             }
         },
@@ -13123,7 +13123,7 @@
             },
             "properties": {
                 "id": "42901696125",
-                "cluster": 10,
+                "cluster": 11,
                 "lat": 48.772561,
                 "lon": 2.456325,
                 "title": "2018-04-28-France-Verzy-Faux-020-gaelic.fr-IMG_5226+ copie",
@@ -13184,7 +13184,7 @@
                     "nature"
                 ],
                 "aesthetic_score": 4.32410340557999,
-                "marker-color": "#5e4fa2",
+                "marker-color": "#9fd8a4",
                 "aesthetic_score_scaled": 1.44
             }
         },
@@ -13199,7 +13199,7 @@
             },
             "properties": {
                 "id": "42901703825",
-                "cluster": 10,
+                "cluster": 11,
                 "lat": 48.772561,
                 "lon": 2.456325,
                 "title": "2018-04-27-France-CauroyLesHermonville-017-gaelic.fr-IMG_5228 copie",
@@ -13253,7 +13253,7 @@
                     "champagne"
                 ],
                 "aesthetic_score": 5.543443748498021,
-                "marker-color": "#5e4fa2",
+                "marker-color": "#9fd8a4",
                 "aesthetic_score_scaled": 3.86
             }
         },
@@ -13268,7 +13268,7 @@
             },
             "properties": {
                 "id": "42901704975",
-                "cluster": -1,
+                "cluster": 11,
                 "lat": 48.772663,
                 "lon": 2.456327,
                 "title": "2018-03-13-France-PortEnBessinHuppain-069-gaelic.fr-IMG_4278 copie",
@@ -13343,7 +13343,7 @@
                     "normandy"
                 ],
                 "aesthetic_score": 4.488021220662631,
-                "marker-color": "#000000",
+                "marker-color": "#9fd8a4",
                 "aesthetic_score_scaled": 1.76
             }
         },
@@ -13358,7 +13358,7 @@
             },
             "properties": {
                 "id": "42901706355",
-                "cluster": 10,
+                "cluster": 11,
                 "lat": 48.772663,
                 "lon": 2.456327,
                 "title": "2018-03-13-France-OmahaBeach-D-DayMemorial-029-gaelic.fr-IMG_4281 copie",
@@ -13422,7 +13422,7 @@
                     "seaside"
                 ],
                 "aesthetic_score": 4.680722271972627,
-                "marker-color": "#5e4fa2",
+                "marker-color": "#9fd8a4",
                 "aesthetic_score_scaled": 2.14
             }
         },
@@ -13513,7 +13513,7 @@
             },
             "properties": {
                 "id": "42901713885",
-                "cluster": -1,
+                "cluster": 11,
                 "lat": 48.772563,
                 "lon": 2.456488,
                 "title": "2016-09-04-France-PortEnBessinHuppain-090-gaelic.fr-IMG_9210 copy",
@@ -13591,7 +13591,7 @@
                     "village"
                 ],
                 "aesthetic_score": 5.918814727960699,
-                "marker-color": "#000000",
+                "marker-color": "#9fd8a4",
                 "aesthetic_score_scaled": 4.6
             }
         },
@@ -13606,7 +13606,7 @@
             },
             "properties": {
                 "id": "42901715535",
-                "cluster": 10,
+                "cluster": 11,
                 "lat": 48.7724,
                 "lon": 2.456561,
                 "title": "2016-08-18D-France-Bretagne-Brasparts-035-gaelic.fr-IMG_8901 copy",
@@ -13656,7 +13656,7 @@
                     "2016"
                 ],
                 "aesthetic_score": 4.4928612172625435,
-                "marker-color": "#5e4fa2",
+                "marker-color": "#9fd8a4",
                 "aesthetic_score_scaled": 1.77
             }
         },
@@ -13671,7 +13671,7 @@
             },
             "properties": {
                 "id": "42920512300",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.853827,
                 "lon": 2.299997,
                 "title": "There might be Giants amongst us",
@@ -13716,7 +13716,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 3.6139353536578938,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 0.02
             }
         },
@@ -14168,7 +14168,7 @@
             },
             "properties": {
                 "id": "43088743894",
-                "cluster": 11,
+                "cluster": 12,
                 "lat": 48.772933,
                 "lon": 2.456486,
                 "title": "2018-07-21-B-France-Agde-010-gaelic.fr-IMG_7697 copie",
@@ -14243,7 +14243,7 @@
                     "vacances"
                 ],
                 "aesthetic_score": 4.904082154542266,
-                "marker-color": "#9fd8a4",
+                "marker-color": "#c72e4c",
                 "aesthetic_score_scaled": 2.59
             }
         },
@@ -14864,7 +14864,7 @@
             },
             "properties": {
                 "id": "43326899860",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854261,
                 "lon": 2.32488,
                 "title": "2018-10-FL-196934",
@@ -14887,7 +14887,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 4.066949727890915,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 0.92
             }
         },
@@ -14902,7 +14902,7 @@
             },
             "properties": {
                 "id": "43327046110",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854261,
                 "lon": 2.32488,
                 "title": "2018-10-FL-196931",
@@ -14925,7 +14925,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 4.07757186783715,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 0.95
             }
         },
@@ -15459,7 +15459,7 @@
             },
             "properties": {
                 "id": "43479304860",
-                "cluster": 14,
+                "cluster": 15,
                 "lat": 48.833212,
                 "lon": 2.380626,
                 "title": "In the mood for night",
@@ -15494,7 +15494,7 @@
                     "michellecourteau"
                 ],
                 "aesthetic_score": 4.521415054874524,
-                "marker-color": "#76c8a5",
+                "marker-color": "#d8434e",
                 "aesthetic_score_scaled": 1.83
             }
         },
@@ -15619,7 +15619,7 @@
             },
             "properties": {
                 "id": "43530056605",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.858305,
                 "lon": 2.294511,
                 "title": "Arc de Triomphe from the Eiffel Tower, Paris, France  -  (Selected by GETTY IMAGES)",
@@ -15666,7 +15666,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.884884685263387,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.55
             }
         },
@@ -15681,7 +15681,7 @@
             },
             "properties": {
                 "id": "43563193445",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.861758,
                 "lon": 2.288497,
                 "title": "Silent guardian",
@@ -15727,7 +15727,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.574762551440472,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.93
             }
         },
@@ -15853,7 +15853,7 @@
             },
             "properties": {
                 "id": "43584106245",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.858363,
                 "lon": 2.294433,
                 "title": "Aerial view of Palais de Chaillot from the Eiffel Tower  -  (Selected by GETTY IMAGES)",
@@ -15898,7 +15898,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.358743071272329,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.5
             }
         },
@@ -16256,7 +16256,7 @@
             },
             "properties": {
                 "id": "43701553110",
-                "cluster": 16,
+                "cluster": 17,
                 "lat": 48.848058,
                 "lon": 2.3391,
                 "title": "Luxembourg Garden / \u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0441\u043a\u0438\u0439 \u0441\u0430\u0434",
@@ -16286,7 +16286,7 @@
                     "\u043f\u0430\u0440\u0438\u0436"
                 ],
                 "aesthetic_score": 3.903670482058942,
-                "marker-color": "#60bba8",
+                "marker-color": "#378ebb",
                 "aesthetic_score_scaled": 0.6
             }
         },
@@ -16340,7 +16340,7 @@
             },
             "properties": {
                 "id": "43756644952",
-                "cluster": 10,
+                "cluster": 11,
                 "lat": 48.77323,
                 "lon": 2.456433,
                 "title": "2018-07-21-A-France-Sete-030-gaelic.fr-IMG_7699+ copie",
@@ -16401,7 +16401,7 @@
                     "mobilephotography"
                 ],
                 "aesthetic_score": 5.035198299512103,
-                "marker-color": "#5e4fa2",
+                "marker-color": "#9fd8a4",
                 "aesthetic_score_scaled": 2.85
             }
         },
@@ -16416,7 +16416,7 @@
             },
             "properties": {
                 "id": "43763093760",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.807697,
                 "lon": 2.109672,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -16448,7 +16448,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 5.148885684334601,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 3.07
             }
         },
@@ -16463,7 +16463,7 @@
             },
             "properties": {
                 "id": "43763397010",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.809774,
                 "lon": 2.113055,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -16495,7 +16495,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.464318321391147,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.71
             }
         },
@@ -16553,7 +16553,7 @@
             },
             "properties": {
                 "id": "43789677595",
-                "cluster": 9,
+                "cluster": 10,
                 "lat": 48.842491,
                 "lon": 2.321548,
                 "title": "Eiffel Tower",
@@ -16608,7 +16608,7 @@
                     "tourist"
                 ],
                 "aesthetic_score": 4.135541472113914,
-                "marker-color": "#84cea5",
+                "marker-color": "#5e4fa2",
                 "aesthetic_score_scaled": 1.06
             }
         },
@@ -16776,7 +16776,7 @@
             },
             "properties": {
                 "id": "43805220231",
-                "cluster": 10,
+                "cluster": 11,
                 "lat": 48.763438,
                 "lon": 2.406549,
                 "title": "2018-06-18-ChoisyLeRoi-063-gaelic.fr-IMG_6679+ copie",
@@ -16829,7 +16829,7 @@
                     "choisyleroi"
                 ],
                 "aesthetic_score": 4.537020580672106,
-                "marker-color": "#5e4fa2",
+                "marker-color": "#9fd8a4",
                 "aesthetic_score_scaled": 1.86
             }
         },
@@ -17414,7 +17414,7 @@
             },
             "properties": {
                 "id": "43889110984",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.861933,
                 "lon": 2.288688,
                 "title": "One August evening in Paris",
@@ -17460,7 +17460,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.528112562726619,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.84
             }
         },
@@ -17605,7 +17605,7 @@
             },
             "properties": {
                 "id": "43909686854",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.886291,
                 "lon": 2.342663,
                 "title": "Basilique du Sacr\u00e9-C\u0153ur, Paris, France  -  (Selected by GETTY IMAGES)",
@@ -17650,7 +17650,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.561748678463118,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.91
             }
         },
@@ -17748,7 +17748,7 @@
             },
             "properties": {
                 "id": "43949589434",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.846941,
                 "lon": 2.33923,
                 "title": "Moments of tranquility (Le jardin du Luxembourg, Paris, France)  -  (Selected by GETTY IMAGES)",
@@ -17792,7 +17792,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 5.098290759320662,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.97
             }
         },
@@ -17892,7 +17892,7 @@
             },
             "properties": {
                 "id": "43963132224",
-                "cluster": 9,
+                "cluster": 10,
                 "lat": 48.859576,
                 "lon": 2.292623,
                 "title": "Eiffel Tower, Paris",
@@ -17947,7 +17947,7 @@
                     "tourist"
                 ],
                 "aesthetic_score": 4.314890575713889,
-                "marker-color": "#84cea5",
+                "marker-color": "#5e4fa2",
                 "aesthetic_score_scaled": 1.42
             }
         },
@@ -17962,7 +17962,7 @@
             },
             "properties": {
                 "id": "43979872394",
-                "cluster": 9,
+                "cluster": 10,
                 "lat": 48.858192,
                 "lon": 2.294275,
                 "title": "View Over Paris",
@@ -18017,7 +18017,7 @@
                     "tourist"
                 ],
                 "aesthetic_score": 4.427196755880004,
-                "marker-color": "#84cea5",
+                "marker-color": "#5e4fa2",
                 "aesthetic_score_scaled": 1.64
             }
         },
@@ -18319,7 +18319,7 @@
             },
             "properties": {
                 "id": "44140597050",
-                "cluster": 30,
+                "cluster": -1,
                 "lat": 48.856018,
                 "lon": 2.287216,
                 "title": "Paris - FRANCE",
@@ -18343,7 +18343,7 @@
                     "clouds"
                 ],
                 "aesthetic_score": 4.237112522610687,
-                "marker-color": "#e4f498",
+                "marker-color": "#000000",
                 "aesthetic_score_scaled": 1.26
             }
         },
@@ -18490,7 +18490,7 @@
             },
             "properties": {
                 "id": "44228730925",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854122,
                 "lon": 2.325455,
                 "title": "2018-10-FL-196924",
@@ -18513,7 +18513,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 3.7681948944659354,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 0.33
             }
         },
@@ -18528,7 +18528,7 @@
             },
             "properties": {
                 "id": "44228828055",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854294,
                 "lon": 2.324805,
                 "title": "2018-10-FL-196929",
@@ -18551,7 +18551,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 3.884815938159022,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 0.56
             }
         },
@@ -18566,7 +18566,7 @@
             },
             "properties": {
                 "id": "44284352574",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.852977,
                 "lon": 2.301288,
                 "title": "From Champ-de-Mars, the Eiffel Tower",
@@ -18611,7 +18611,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.232723794756112,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.25
             }
         },
@@ -18706,7 +18706,7 @@
             },
             "properties": {
                 "id": "44335987042",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.861786,
                 "lon": 2.288494,
                 "title": "Rise like a phoenix",
@@ -18752,7 +18752,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.698925731097461,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.18
             }
         },
@@ -18979,7 +18979,7 @@
             },
             "properties": {
                 "id": "44395818150",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.861786,
                 "lon": 2.288494,
                 "title": "Rise like a phoenix  -  (Selected by GETTY IMAGES)",
@@ -19025,7 +19025,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.698925731097461,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.18
             }
         },
@@ -19098,7 +19098,7 @@
             },
             "properties": {
                 "id": "44401958712",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.858263,
                 "lon": 2.294894,
                 "title": "Beneath Eiffel tower looking towards Place du Trocadero in Paris, France  -  (Selected by GETTY IMAGES)",
@@ -19144,7 +19144,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.999135713784199,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 2.78
             }
         },
@@ -19257,7 +19257,7 @@
             },
             "properties": {
                 "id": "44419279794",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854275,
                 "lon": 2.325202,
                 "title": "2018-10-FL-196937",
@@ -19283,7 +19283,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 4.060022613866408,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 0.91
             }
         },
@@ -19298,7 +19298,7 @@
             },
             "properties": {
                 "id": "44422497631",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.856777,
                 "lon": 2.294272,
                 "title": "Tower of light",
@@ -19343,7 +19343,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.493290653016629,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.77
             }
         },
@@ -19358,7 +19358,7 @@
             },
             "properties": {
                 "id": "44424329830",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.853891,
                 "lon": 2.299811,
                 "title": "Paris in the shadows  -  (Selected by GETTY IMAGES)",
@@ -19403,7 +19403,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.011881437795637,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 0.82
             }
         },
@@ -19418,7 +19418,7 @@
             },
             "properties": {
                 "id": "44434482262",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.873972,
                 "lon": 2.295166,
                 "title": "The Basiica of the Sacred Heart of Paris (Sacre-Coeur Basilica) from the roof of Arc de Triomphe de l'Etoile - (Selected by GETTY IMAGES)",
@@ -19460,7 +19460,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 5.2260725051437475,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 3.23
             }
         },
@@ -19784,7 +19784,7 @@
             },
             "properties": {
                 "id": "44483563964",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.845802,
                 "lon": 2.337608,
                 "title": "Le jardin du Luxembourg and Palais du Luxembourg in Paris, France  -  (Selected by GETTY IMAGES) & (Selected for FLICKR EXPLORE)",
@@ -19828,7 +19828,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.243130381098126,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.27
             }
         },
@@ -20004,7 +20004,7 @@
             },
             "properties": {
                 "id": "44506765981",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.873408,
                 "lon": 2.296127,
                 "title": "L'arc de Triomphe from Avenue des Champs-Elysees, Paris, France (Standing in the middle of the busy road)  -  (Selected by GETTY IMAGES)",
@@ -20051,7 +20051,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.444670491077659,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.67
             }
         },
@@ -20478,7 +20478,7 @@
             },
             "properties": {
                 "id": "44586573500",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.873763,
                 "lon": 2.294777,
                 "title": "Arc de Triomphe - La R\u00e9sistance de 1814 by Antoine \u00c9tex",
@@ -20527,7 +20527,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.487210250339558,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.76
             }
         },
@@ -20542,7 +20542,7 @@
             },
             "properties": {
                 "id": "44604697865",
-                "cluster": 16,
+                "cluster": 17,
                 "lat": 48.847777,
                 "lon": 2.33778,
                 "title": "Luxembourg Garden / \u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0441\u043a\u0438\u0439 \u0441\u0430\u0434",
@@ -20572,7 +20572,7 @@
                     "\u043f\u0430\u0440\u0438\u0436"
                 ],
                 "aesthetic_score": 4.562971494211979,
-                "marker-color": "#60bba8",
+                "marker-color": "#378ebb",
                 "aesthetic_score_scaled": 1.91
             }
         },
@@ -20587,7 +20587,7 @@
             },
             "properties": {
                 "id": "44620655825",
-                "cluster": 16,
+                "cluster": 17,
                 "lat": 48.846519,
                 "lon": 2.337588,
                 "title": "Luxembourg Garden / \u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0441\u043a\u0438\u0439 \u0441\u0430\u0434",
@@ -20619,7 +20619,7 @@
                     "\u043f\u0430\u0440\u0438\u0436"
                 ],
                 "aesthetic_score": 3.8784207681605096,
-                "marker-color": "#60bba8",
+                "marker-color": "#378ebb",
                 "aesthetic_score_scaled": 0.55
             }
         },
@@ -20676,7 +20676,7 @@
             },
             "properties": {
                 "id": "44668517035",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.807697,
                 "lon": 2.109672,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -20708,7 +20708,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.540022401003171,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.86
             }
         },
@@ -20723,7 +20723,7 @@
             },
             "properties": {
                 "id": "44668518075",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.807697,
                 "lon": 2.109672,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -20755,7 +20755,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.468341673983332,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.72
             }
         },
@@ -20770,7 +20770,7 @@
             },
             "properties": {
                 "id": "44679215560",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.853394,
                 "lon": 2.300547,
                 "title": "Eiffel Tower from Avenue Charles Risier in Paris, France  -  (Selected by GETTY IMAGES)",
@@ -20818,7 +20818,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.491469185387359,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.77
             }
         },
@@ -20940,7 +20940,7 @@
             },
             "properties": {
                 "id": "44749252324",
-                "cluster": 16,
+                "cluster": 17,
                 "lat": 48.852177,
                 "lon": 2.350419,
                 "title": "Seine Embankment / \u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f \u0421\u0435\u043d\u044b",
@@ -20968,7 +20968,7 @@
                     "\u043f\u0430\u0440\u0438\u0436"
                 ],
                 "aesthetic_score": 4.251276552835577,
-                "marker-color": "#60bba8",
+                "marker-color": "#378ebb",
                 "aesthetic_score_scaled": 1.29
             }
         },
@@ -21211,7 +21211,7 @@
             },
             "properties": {
                 "id": "44793294204",
-                "cluster": 16,
+                "cluster": 17,
                 "lat": 48.847155,
                 "lon": 2.338511,
                 "title": "Luxembourg Garden / \u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0441\u043a\u0438\u0439 \u0441\u0430\u0434",
@@ -21243,7 +21243,7 @@
                     "\u043f\u0430\u0440\u0438\u0436"
                 ],
                 "aesthetic_score": 4.066623381483737,
-                "marker-color": "#60bba8",
+                "marker-color": "#378ebb",
                 "aesthetic_score_scaled": 0.92
             }
         },
@@ -21938,7 +21938,7 @@
             },
             "properties": {
                 "id": "44855644904",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.807697,
                 "lon": 2.109672,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -21972,7 +21972,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.714427228778277,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 2.21
             }
         },
@@ -21987,7 +21987,7 @@
             },
             "properties": {
                 "id": "44855648344",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.809194,
                 "lon": 2.114477,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -22019,7 +22019,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.416374489222221,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.62
             }
         },
@@ -22082,7 +22082,7 @@
             },
             "properties": {
                 "id": "44887707964",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.85388,
                 "lon": 2.299811,
                 "title": "Parisiene evening  -  (Selected by GETTY IMAGES)",
@@ -22127,7 +22127,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 3.9612990503119363,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 0.71
             }
         },
@@ -22142,7 +22142,7 @@
             },
             "properties": {
                 "id": "44893939884",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.861755,
                 "lon": 2.288502,
                 "title": "To Paris comes the evening",
@@ -22188,7 +22188,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.5481405734340115,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.88
             }
         },
@@ -23370,7 +23370,7 @@
             },
             "properties": {
                 "id": "45091335462",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854236,
                 "lon": 2.325183,
                 "title": "2018-10-FL-196941",
@@ -23394,7 +23394,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 3.9983446494874215,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 0.79
             }
         },
@@ -23409,7 +23409,7 @@
             },
             "properties": {
                 "id": "45091627442",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854197,
                 "lon": 2.325161,
                 "title": "2018-10-FL-196915",
@@ -23432,7 +23432,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 3.853076089857268,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 0.5
             }
         },
@@ -23616,7 +23616,7 @@
             },
             "properties": {
                 "id": "45140275521",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854275,
                 "lon": 2.325202,
                 "title": "2018-10-FL-196939",
@@ -23642,7 +23642,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 4.0155713505685355,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 0.82
             }
         },
@@ -23657,7 +23657,7 @@
             },
             "properties": {
                 "id": "45140469961",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854194,
                 "lon": 2.325361,
                 "title": "2018-10-FL-196921",
@@ -23680,7 +23680,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 3.8665232602928654,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 0.53
             }
         },
@@ -23695,7 +23695,7 @@
             },
             "properties": {
                 "id": "45140545421",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854261,
                 "lon": 2.32488,
                 "title": "2018-10-FL-196932",
@@ -23718,7 +23718,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 4.297594982384908,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 1.38
             }
         },
@@ -23733,7 +23733,7 @@
             },
             "properties": {
                 "id": "45140764791",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854319,
                 "lon": 2.324797,
                 "title": "2018-10-FL-196912",
@@ -23759,7 +23759,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 4.265969379179296,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 1.32
             }
         },
@@ -23774,7 +23774,7 @@
             },
             "properties": {
                 "id": "45140769871",
-                "cluster": 13,
+                "cluster": 14,
                 "lat": 48.854319,
                 "lon": 2.324797,
                 "title": "2018-10-FL-196911",
@@ -23802,7 +23802,7 @@
                     "urbanpassage"
                 ],
                 "aesthetic_score": 4.54997512850241,
-                "marker-color": "#fff6b0",
+                "marker-color": "#76c8a5",
                 "aesthetic_score_scaled": 1.88
             }
         },
@@ -24916,7 +24916,7 @@
             },
             "properties": {
                 "id": "45515098102",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.805083,
                 "lon": 2.106488,
                 "title": "Autumn leaves / \u041e\u0441\u0435\u043d\u043d\u0438\u0435 \u043b\u0438\u0441\u0442\u044c\u044f",
@@ -24948,7 +24948,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.46498122367484,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.72
             }
         },
@@ -24963,7 +24963,7 @@
             },
             "properties": {
                 "id": "45518728911",
-                "cluster": 16,
+                "cluster": 17,
                 "lat": 48.847777,
                 "lon": 2.33778,
                 "title": "Luxembourg Garden / \u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0441\u043a\u0438\u0439 \u0441\u0430\u0434",
@@ -24993,7 +24993,7 @@
                     "\u043f\u0430\u0440\u0438\u0436"
                 ],
                 "aesthetic_score": 4.701203139937206,
-                "marker-color": "#60bba8",
+                "marker-color": "#378ebb",
                 "aesthetic_score_scaled": 2.18
             }
         },
@@ -25008,7 +25008,7 @@
             },
             "properties": {
                 "id": "45529945032",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.809194,
                 "lon": 2.114477,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -25040,7 +25040,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.681684693878196,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 2.15
             }
         },
@@ -25055,7 +25055,7 @@
             },
             "properties": {
                 "id": "45546685512",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.81568,
                 "lon": 2.109836,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -25087,7 +25087,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.190922828997259,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.17
             }
         },
@@ -25102,7 +25102,7 @@
             },
             "properties": {
                 "id": "45550593391",
-                "cluster": 17,
+                "cluster": 9,
                 "lat": 48.861936,
                 "lon": 2.288672,
                 "title": "Paris 7.17pm",
@@ -25148,7 +25148,7 @@
                     "ilobsterit"
                 ],
                 "aesthetic_score": 4.550447774550776,
-                "marker-color": "#378ebb",
+                "marker-color": "#84cea5",
                 "aesthetic_score_scaled": 1.88
             }
         },
@@ -25163,7 +25163,7 @@
             },
             "properties": {
                 "id": "45565555751",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.805194,
                 "lon": 2.107175,
                 "title": "Tree / \u0414\u0435\u0440\u0435\u0432\u043e",
@@ -25195,7 +25195,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.07875991722949,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 0.95
             }
         },
@@ -25210,7 +25210,7 @@
             },
             "properties": {
                 "id": "45580765431",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.809774,
                 "lon": 2.113055,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -25242,7 +25242,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.868042968148302,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 2.52
             }
         },
@@ -25257,7 +25257,7 @@
             },
             "properties": {
                 "id": "45580767201",
-                "cluster": 12,
+                "cluster": 13,
                 "lat": 48.804855,
                 "lon": 2.112669,
                 "title": "Versailles / \u0412\u0435\u0440\u0441\u0430\u043b\u044c",
@@ -25289,7 +25289,7 @@
                     "\u0432\u0435\u0440\u0441\u0430\u043b\u044c"
                 ],
                 "aesthetic_score": 4.496894536760919,
-                "marker-color": "#c72e4c",
+                "marker-color": "#fff6b0",
                 "aesthetic_score_scaled": 1.78
             }
         }
