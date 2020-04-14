@@ -8,12 +8,12 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_score, calinski_harabasz_score
 from sklearn.metrics.pairwise import cosine_similarity
 from .embedding import forward
-from .tags import vectorizer
+from .tags import TagVectorizer
 from .distances import dist_geo, dist_img, dist_tag
 
 
 class MultiFeatureDBSCAN():
-    def __init__(self, dataset, model, weights, max_data=100, eps=0.1, min_samples=5, verbose=True):
+    def __init__(self, dataset, model, weights, max_data=100, eps=0.1, min_samples=5, gpu=False, verbose=True):
         """DBSCAN Clustering of Flickr photographs using a combination of geographic data,
             visual representation and tags information.
         
@@ -24,9 +24,11 @@ class MultiFeatureDBSCAN():
         - max_data: maximum data to fetch from dataset and use as training set
         - eps: DBSCAN, should be in [0,1] since distances are normalized in [0,1]
         - min_samples: DBSCAN, minimum number of samples around for core samples
+        - gpu: whether or not to use GPU for image embedding extraction
         """
         self.dataset = dataset
         self.model = model
+        self.tv = TagVectorizer()
         self.alpha, self.beta, self.gamma = weights
         assert self.alpha + self.beta + self.gamma == 1
         self.max_data = max_data
@@ -35,6 +37,7 @@ class MultiFeatureDBSCAN():
         assert eps <= 1
         self.min_samples = min_samples
         assert min_samples >= 0
+        self.gpu = gpu
         self.verbose = verbose
 
     def _normalize_dist_matrix(self, dist_matrix):
@@ -76,12 +79,12 @@ class MultiFeatureDBSCAN():
         if self.verbose: print("Images to embeddings...")
         self.model.eval()
         with torch.no_grad():
-            embeddings = forward(self.model, images)
+            embeddings = forward(self.model, images, gpu=self.gpu)
         embeddings = PCA(n_components=min(512, min(*embeddings.shape))).fit_transform(embeddings)
 
         # Batch TF-IDF for tags
         if self.verbose: print("Vectorization of tags...")
-        tags = vectorizer([t.split(" ") for t in tags]).todense()
+        tags = self.tv.vectorizer([t.split(" ") for t in tags]).todense()
         tags = PCA(n_components=min(512, min(*tags.shape))).fit_transform(tags)
 
         # Convert to numpy arrays
@@ -109,7 +112,7 @@ class MultiFeatureDBSCAN():
 
         # DBSCAN clustering
         if self.verbose: print("Training DBSCAN...")
-        db = DBSCAN(eps=self.eps, min_samples=self.min_samples, metric="precomputed")
+        db = DBSCAN(eps=self.eps, min_samples=self.min_samples, metric="precomputed", n_jobs=-1)
         db.fit_predict(dist_matrix)
         labels = db.labels_
         clusters, counts = np.unique(labels, return_counts=True)
@@ -171,7 +174,6 @@ class MultiFeatureDBSCAN():
             "tags_sims": cluster_tags_similarities
         }
 
-        
 
 if __name__ == "__main__":
     import sys
