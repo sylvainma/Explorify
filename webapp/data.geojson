@@ -1,0 +1,5819 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349636,
+                    48.853237
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "33740484935",
+                "lat": "48.853237",
+                "lon": "2.349636",
+                "title": "Ana & Vania | London & Paris | Clau",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349013,
+                    48.85313
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "36626361426",
+                "lat": "48.85313",
+                "lon": "2.349013",
+                "title": "The River Seine and the spring Pari",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.350018,
+                    48.853079
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46824814304",
+                "lat": "48.853079",
+                "lon": "2.350018",
+                "title": "Paris Cityscape Deux 1989",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349636,
+                    48.853237
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "32897542254",
+                "lat": "48.853237",
+                "lon": "2.349636",
+                "title": "Ana & Vania | London & Paris | Clau",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349013,
+                    48.85313
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "37169517081",
+                "lat": "48.85313",
+                "lon": "2.349013",
+                "title": "View to Seine from Notre-Dame de Pa",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349094,
+                    48.853219
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "25639279583",
+                "lat": "48.853219",
+                "lon": "2.349094",
+                "title": "L'\u0153il-vue de la gargouille",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349213,
+                    48.853372
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "45467037331",
+                "lat": "48.853372",
+                "lon": "2.349213",
+                "title": "Paris / \u041f\u0430\u0440\u0438\u0436",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349055,
+                    48.853175
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "48757690373",
+                "lat": "48.853175",
+                "lon": "2.349055",
+                "title": "sunset in paris",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349743,
+                    48.853082
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "21380043555",
+                "lat": "48.853082",
+                "lon": "2.349743",
+                "title": "Notre Dame \u00e0 l'heure bleue du jour\u2026",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349277,
+                    48.85313
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "27462140614",
+                "lat": "48.85313",
+                "lon": "2.349277",
+                "title": "Paris",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.348864,
+                    48.853406
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "46680706644",
+                "lat": "48.853406",
+                "lon": "2.348864",
+                "title": "Cath\u00e9drale Notre-Dame de Paris",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.349636,
+                    48.853237
+                ]
+            },
+            "properties": {
+                "cluster": "0.0",
+                "id": "33611166841",
+                "lat": "48.853237",
+                "lon": "2.349636",
+                "title": "Ana & Vania | London & Paris | Clau",
+                "marker-color": "#50a9af"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322013,
+                    48.841994
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "45847714044",
+                "lat": "48.841994",
+                "lon": "2.322013",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321913,
+                    48.842209
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "20972079603",
+                "lat": "48.842209",
+                "lon": "2.321913",
+                "title": "Epic !! ...",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321677,
+                    48.842435
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "9700500906",
+                "lat": "48.842435",
+                "lon": "2.321677",
+                "title": "Paris, from Montparnasse Tower",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321969,
+                    48.842211
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48283823106",
+                "lat": "48.842211",
+                "lon": "2.321969",
+                "title": "Blurred view of Paris, France",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321902,
+                    48.842195
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48810676606",
+                "lat": "48.842195",
+                "lon": "2.321902",
+                "title": "Paris At Night",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321913,
+                    48.842209
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "22386144714",
+                "lat": "48.842209",
+                "lon": "2.321913",
+                "title": "\" Keep up the light on Paris \"",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321688,
+                    48.842025
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48289726507",
+                "lat": "48.842025",
+                "lon": "2.321688",
+                "title": "Aerial view of Paris, France",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322016,
+                    48.842236
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48283926622",
+                "lat": "48.842236",
+                "lon": "2.322016",
+                "title": "Paris, Eiffel tower at evening, Fra",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321944,
+                    48.842097
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "19489453003",
+                "lat": "48.842097",
+                "lon": "2.321944",
+                "title": "Montparnasse view",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321561,
+                    48.842011
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48283821571",
+                "lat": "48.842011",
+                "lon": "2.321561",
+                "title": "Paris, Eiffel tower at evening suns",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322052,
+                    48.842131
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "34977960222",
+                "lat": "48.842131",
+                "lon": "2.322052",
+                "title": "Birds Eye View",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321669,
+                    48.842011
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48283926297",
+                "lat": "48.842011",
+                "lon": "2.321669",
+                "title": "Paris, Eiffel tower at evening, Fra",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321911,
+                    48.842178
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "18674974858",
+                "lat": "48.842178",
+                "lon": "2.321911",
+                "title": "Paris",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321805,
+                    48.842068
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "36109397932",
+                "lat": "48.842068",
+                "lon": "2.321805",
+                "title": "10 Paris",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322138,
+                    48.8418
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "31630684797",
+                "lat": "48.8418",
+                "lon": "2.322138",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321079,
+                    48.842247
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "42107871081",
+                "lat": "48.842247",
+                "lon": "2.321079",
+                "title": "Paris, France",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321713,
+                    48.842036
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48289619671",
+                "lat": "48.842036",
+                "lon": "2.321713",
+                "title": "Paris, Eiffel tower at evening, Fra",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322091,
+                    48.842025
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "45847725064",
+                "lat": "48.842025",
+                "lon": "2.322091",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322094,
+                    48.842094
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "28575632897",
+                "lat": "48.842094",
+                "lon": "2.322094",
+                "title": "Paris At Sunset",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321974,
+                    48.842244
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48283921842",
+                "lat": "48.842244",
+                "lon": "2.321974",
+                "title": "Paris, Eiffel tower at evening suns",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322163,
+                    48.842188
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "45847721224",
+                "lat": "48.842188",
+                "lon": "2.322163",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322094,
+                    48.842025
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "45847737314",
+                "lat": "48.842025",
+                "lon": "2.322094",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322269,
+                    48.841908
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "46519587982",
+                "lat": "48.841908",
+                "lon": "2.322269",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322036,
+                    48.842011
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "31937966931",
+                "lat": "48.842011",
+                "lon": "2.322036",
+                "title": "Le phare de Paris",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321569,
+                    48.841952
+                ]
+            },
+            "properties": {
+                "cluster": "1.0",
+                "id": "48289621436",
+                "lat": "48.841952",
+                "lon": "2.321569",
+                "title": "Paris, Eiffel tower at evening, Fra",
+                "marker-color": "#cfec9d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295048,
+                    48.87386
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "34451387525",
+                "lat": "48.87386",
+                "lon": "2.295048",
+                "title": "7 Arc de Triomphe",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295463,
+                    48.873775
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "27032767640",
+                "lat": "48.873775",
+                "lon": "2.295463",
+                "title": "Champs-\u00c9lys\u00e9es boulevard",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295016,
+                    48.873444
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "33740165275",
+                "lat": "48.873444",
+                "lon": "2.295016",
+                "title": "Ana & Vania | London & Paris | Clau",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295048,
+                    48.87386
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "34321009531",
+                "lat": "48.87386",
+                "lon": "2.295048",
+                "title": "8 Arc de Triomphe",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295048,
+                    48.873806
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "35814497126",
+                "lat": "48.873806",
+                "lon": "2.295048",
+                "title": "Arc de triomphe",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295402,
+                    48.874116
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "47036017024",
+                "lat": "48.874116",
+                "lon": "2.295402",
+                "title": "Arc de triomphe, Paris  -  (Selecte",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295627,
+                    48.874086
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "19450602930",
+                "lat": "48.874086",
+                "lon": "2.295627",
+                "title": "Arc de Triomphe panorama",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294855,
+                    48.873647
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "46273348771",
+                "lat": "48.873647",
+                "lon": "2.294855",
+                "title": "Eiffel Tower from The Arc de Triomp",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295277,
+                    48.873488
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "46398216881",
+                "lat": "48.873488",
+                "lon": "2.295277",
+                "title": "Arc de Triomphe - Le Triomphe de 18",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294983,
+                    48.873674
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "27931069147",
+                "lat": "48.873674",
+                "lon": "2.294983",
+                "title": "Arc de Triomphe, Paris",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.29493,
+                    48.87382
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "24559107247",
+                "lat": "48.87382",
+                "lon": "2.29493",
+                "title": "P-00162-No-034",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294683,
+                    48.874086
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "16898403666",
+                "lat": "48.874086",
+                "lon": "2.294683",
+                "title": "rooftop",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295016,
+                    48.873444
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "33740170935",
+                "lat": "48.873444",
+                "lon": "2.295016",
+                "title": "Ana & Vania | London & Paris | Clau",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295016,
+                    48.873444
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "33610878971",
+                "lat": "48.873444",
+                "lon": "2.295016",
+                "title": "Ana & Vania | London & Paris | Clau",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294769,
+                    48.87355
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "41587928464",
+                "lat": "48.87355",
+                "lon": "2.294769",
+                "title": "Paris je t' aime 0010",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294919,
+                    48.87386
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "16222628348",
+                "lat": "48.87386",
+                "lon": "2.294919",
+                "title": "Paris in winter",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294769,
+                    48.874017
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "27432538204",
+                "lat": "48.874017",
+                "lon": "2.294769",
+                "title": "Verso La Defense - Toward La Defens",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294408,
+                    48.8739
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "47983263437",
+                "lat": "48.8739",
+                "lon": "2.294408",
+                "title": "Arc de Triomphe de l'Etoile in Pari",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.29493,
+                    48.87382
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "25555213008",
+                "lat": "48.87382",
+                "lon": "2.29493",
+                "title": "P-00162-No-001",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294833,
+                    48.873501
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "32500117358",
+                "lat": "48.873501",
+                "lon": "2.294833",
+                "title": "Quiet Morning",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295,
+                    48.873888
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "16406667617",
+                "lat": "48.873888",
+                "lon": "2.295",
+                "title": "Paris, Avenue des Champs-\u00c9lys\u00e9es",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295016,
+                    48.873444
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "33740168225",
+                "lat": "48.873444",
+                "lon": "2.295016",
+                "title": "Ana & Vania | London & Paris | Clau",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295026,
+                    48.873959
+                ]
+            },
+            "properties": {
+                "cluster": "2.0",
+                "id": "21141856193",
+                "lat": "48.873959",
+                "lon": "2.295026",
+                "title": "Cloudy Day in Paris",
+                "marker-color": "#66c2a5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.289369,
+                    48.861552
+                ]
+            },
+            "properties": {
+                "cluster": "3.0",
+                "id": "24121695367",
+                "lat": "48.861552",
+                "lon": "2.289369",
+                "title": "The Eiffel tower - La Tour Eiffle (",
+                "marker-color": "#81cda5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288497,
+                    48.861775
+                ]
+            },
+            "properties": {
+                "cluster": "3.0",
+                "id": "48319447522",
+                "lat": "48.861775",
+                "lon": "2.288497",
+                "title": "Strangers when we meet",
+                "marker-color": "#81cda5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288669,
+                    48.8619
+                ]
+            },
+            "properties": {
+                "cluster": "3.0",
+                "id": "46345015772",
+                "lat": "48.8619",
+                "lon": "2.288669",
+                "title": "View from Place du Trocadero, Paris",
+                "marker-color": "#81cda5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288497,
+                    48.861775
+                ]
+            },
+            "properties": {
+                "cluster": "3.0",
+                "id": "49203415123",
+                "lat": "48.861775",
+                "lon": "2.288497",
+                "title": "The Eiffel Tower",
+                "marker-color": "#81cda5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288672,
+                    48.861936
+                ]
+            },
+            "properties": {
+                "cluster": "3.0",
+                "id": "47527151482",
+                "lat": "48.861936",
+                "lon": "2.288672",
+                "title": "Paris 7.17pm  -  (Selected by GETTY",
+                "marker-color": "#81cda5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288106,
+                    48.861778
+                ]
+            },
+            "properties": {
+                "cluster": "3.0",
+                "id": "22806027087",
+                "lat": "48.861778",
+                "lon": "2.288106",
+                "title": "Fluctuat Nec Mergitur",
+                "marker-color": "#81cda5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288868,
+                    48.861764
+                ]
+            },
+            "properties": {
+                "cluster": "3.0",
+                "id": "14007066319",
+                "lat": "48.861764",
+                "lon": "2.288868",
+                "title": "--__A__--",
+                "marker-color": "#81cda5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288741,
+                    48.861958
+                ]
+            },
+            "properties": {
+                "cluster": "3.0",
+                "id": "40352316072",
+                "lat": "48.861958",
+                "lon": "2.288741",
+                "title": "The Eiffel tower - La Tour Eiffle (",
+                "marker-color": "#81cda5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.289422,
+                    48.861819
+                ]
+            },
+            "properties": {
+                "cluster": "3.0",
+                "id": "33920811815",
+                "lat": "48.861819",
+                "lon": "2.289422",
+                "title": "Couple in Love and Eiffel Tower",
+                "marker-color": "#81cda5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.289325,
+                    48.861931
+                ]
+            },
+            "properties": {
+                "cluster": "3.0",
+                "id": "34449970012",
+                "lat": "48.861931",
+                "lon": "2.289325",
+                "title": "In Motion",
+                "marker-color": "#81cda5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343102,
+                    48.886236
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "27711360215",
+                "lat": "48.886236",
+                "lon": "2.343102",
+                "title": "",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342877,
+                    48.886851
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "38759534760",
+                "lat": "48.886851",
+                "lon": "2.342877",
+                "title": "Basilica of the Sacred Heart of Par",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343488,
+                    48.885954
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "21521009360",
+                "lat": "48.885954",
+                "lon": "2.343488",
+                "title": "Sacre Coeur, Paris (France)",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342984,
+                    48.886476
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "25214559417",
+                "lat": "48.886476",
+                "lon": "2.342984",
+                "title": "View from Montmartre",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342525,
+                    48.886005
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "46150834831",
+                "lat": "48.886005",
+                "lon": "2.342525",
+                "title": "Paris.\u041f\u0430\u0440\u0438\u0436.",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342973,
+                    48.886462
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "44850578165",
+                "lat": "48.886462",
+                "lon": "2.342973",
+                "title": "Say cheese",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343163,
+                    48.88613
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "48025778356",
+                "lat": "48.88613",
+                "lon": "2.343163",
+                "title": "2019-06-05_17-53-15_ILCE-6500_DSC03",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343197,
+                    48.885889
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "49005099856",
+                "lat": "48.885889",
+                "lon": "2.343197",
+                "title": "Widok z Montmartre",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343049,
+                    48.886293
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "32541647635",
+                "lat": "48.886293",
+                "lon": "2.343049",
+                "title": "Always great to contemplate the cit",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342958,
+                    48.885833
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "48025852997",
+                "lat": "48.885833",
+                "lon": "2.342958",
+                "title": "2019-06-05_17-50-50_ILCE-6500_DSC03",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341945,
+                    48.885954
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "26148064976",
+                "lat": "48.885954",
+                "lon": "2.341945",
+                "title": "Views from Montmartre",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342558,
+                    48.886705
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "44948222965",
+                "lat": "48.886705",
+                "lon": "2.342558",
+                "title": "Photo session / \u0424\u043e\u0442\u043e\u0441\u0435\u0441\u0441\u0438\u044f",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343091,
+                    48.886109
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "48233450081",
+                "lat": "48.886109",
+                "lon": "2.343091",
+                "title": "Paris",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343186,
+                    48.885644
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "21173880393",
+                "lat": "48.885644",
+                "lon": "2.343186",
+                "title": "IMG_0633.jpg",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343242,
+                    48.885982
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "17142620260",
+                "lat": "48.885982",
+                "lon": "2.343242",
+                "title": "Montmartre",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343231,
+                    48.88589
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "27815177374",
+                "lat": "48.88589",
+                "lon": "2.343231",
+                "title": "Paris skyline from Montmartre, Ile-",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343177,
+                    48.885587
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "41237833701",
+                "lat": "48.885587",
+                "lon": "2.343177",
+                "title": "PARIGI. PANORAMA DA MONTMARTRE.",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343025,
+                    48.886375
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "22645068767",
+                "lat": "48.886375",
+                "lon": "2.343025",
+                "title": "Paris. Sacre-Coeur",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342866,
+                    48.886723
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "25309392937",
+                "lat": "48.886723",
+                "lon": "2.342866",
+                "title": "Paris",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342558,
+                    48.886705
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "45136710754",
+                "lat": "48.886705",
+                "lon": "2.342558",
+                "title": "Photo session / \u0424\u043e\u0442\u043e\u0441\u0435\u0441\u0441\u0438\u044f",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342941,
+                    48.88673
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "19430354521",
+                "lat": "48.88673",
+                "lon": "2.342941",
+                "title": "420SacreCoeur",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343456,
+                    48.885869
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "16586508464",
+                "lat": "48.885869",
+                "lon": "2.343456",
+                "title": "Paris, Montmartre",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343177,
+                    48.886208
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "17628160196",
+                "lat": "48.886208",
+                "lon": "2.343177",
+                "title": "The North East of Paris",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343152,
+                    48.886141
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "48025779261",
+                "lat": "48.886141",
+                "lon": "2.343152",
+                "title": "2019-06-05_17-53-25_ILCE-6500_DSC03",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342958,
+                    48.885833
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "48085685473",
+                "lat": "48.885833",
+                "lon": "2.342958",
+                "title": "2019-06-05_17-51-02_ILCE-6500_DSC03",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342852,
+                    48.885777
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "48025736451",
+                "lat": "48.885777",
+                "lon": "2.342852",
+                "title": "2019-06-05_17-50-06_ILCE-6300_DSC14",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342931,
+                    48.886716
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "45823988994",
+                "lat": "48.886716",
+                "lon": "2.342931",
+                "title": "French Standoff",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342902,
+                    48.885791
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "48025739731",
+                "lat": "48.885791",
+                "lon": "2.342902",
+                "title": "2019-06-05_17-50-14_ILCE-6500_DSC03",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343,
+                    48.886694
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "24362606495",
+                "lat": "48.886694",
+                "lon": "2.343",
+                "title": "LA MAGNIFICENCE | SACR\u00c9 COEUR | PAR",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342902,
+                    48.885791
+                ]
+            },
+            "properties": {
+                "cluster": "4.0",
+                "id": "48025778013",
+                "lat": "48.885791",
+                "lon": "2.342902",
+                "title": "2019-06-05_17-50-26_ILCE-6500_DSC03",
+                "marker-color": "#fee08b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294383,
+                    48.858418
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "28384218984",
+                "lat": "48.858418",
+                "lon": "2.294383",
+                "title": "PARIS from the Eiffel Tower",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.29434,
+                    48.858715
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "28643544628",
+                "lat": "48.858715",
+                "lon": "2.29434",
+                "title": "Eiffel Tower with birds eye",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294449,
+                    48.85832
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "25979317624",
+                "lat": "48.85832",
+                "lon": "2.294449",
+                "title": "Trocad\u00e9ro - La D\u00e9fense",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294613,
+                    48.858272
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "46403580891",
+                "lat": "48.858272",
+                "lon": "2.294613",
+                "title": "Passerelle  Debilly, Pont de l'Alma",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294405,
+                    48.858333
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "34439776922",
+                "lat": "48.858333",
+                "lon": "2.294405",
+                "title": "",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294112,
+                    48.858493
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "22724665586",
+                "lat": "48.858493",
+                "lon": "2.294112",
+                "title": "La D\u00e9fense",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.29434,
+                    48.858249
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "17599170950",
+                "lat": "48.858249",
+                "lon": "2.29434",
+                "title": "La ciudad de la luz",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294404,
+                    48.858362
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "20658016965",
+                "lat": "48.858362",
+                "lon": "2.294404",
+                "title": "",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294405,
+                    48.858333
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "33758574864",
+                "lat": "48.858333",
+                "lon": "2.294405",
+                "title": "",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294449,
+                    48.85832
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "25978741954",
+                "lat": "48.85832",
+                "lon": "2.294449",
+                "title": "Trocad\u00e9ro - La D\u00e9fense",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294254,
+                    48.858108
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "42730627562",
+                "lat": "48.858108",
+                "lon": "2.294254",
+                "title": "PARISENA",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294658,
+                    48.858319
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "26141593496",
+                "lat": "48.858319",
+                "lon": "2.294658",
+                "title": "Paris",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294594,
+                    48.858188
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "26021556141",
+                "lat": "48.858188",
+                "lon": "2.294594",
+                "title": "Paris",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295069,
+                    48.858066
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "34215569360",
+                "lat": "48.858066",
+                "lon": "2.295069",
+                "title": "",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294511,
+                    48.858305
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "43530056605",
+                "lat": "48.858305",
+                "lon": "2.294511",
+                "title": "Arc de Triomphe from the Eiffel Tow",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.29434,
+                    48.85839
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "33404908980",
+                "lat": "48.85839",
+                "lon": "2.29434",
+                "title": "Nouveau paysage parisien",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294618,
+                    48.85816
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "26842940834",
+                "lat": "48.85816",
+                "lon": "2.294618",
+                "title": "Good night Paris",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294445,
+                    48.858279
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "30527004184",
+                "lat": "48.858279",
+                "lon": "2.294445",
+                "title": "Skyline above Tour Montparnasse - \u201c",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294619,
+                    48.858157
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "34211683266",
+                "lat": "48.858157",
+                "lon": "2.294619",
+                "title": "The View from the Eiffel Tower",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294474,
+                    48.857907
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "26346567710",
+                "lat": "48.857907",
+                "lon": "2.294474",
+                "title": "Goodnight Paris",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.293705,
+                    48.858997
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "32783915641",
+                "lat": "48.858997",
+                "lon": "2.293705",
+                "title": "Paris Universal",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294468,
+                    48.858331
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "34631064740",
+                "lat": "48.858331",
+                "lon": "2.294468",
+                "title": "PARIS Series #4",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294252,
+                    48.858638
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "30915070306",
+                "lat": "48.858638",
+                "lon": "2.294252",
+                "title": "TOUR EIFFEL, PARIS (France)",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294425,
+                    48.858312
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "25444259182",
+                "lat": "48.858312",
+                "lon": "2.294425",
+                "title": "Up To The Sky",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294468,
+                    48.858277
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "44502166022",
+                "lat": "48.858277",
+                "lon": "2.294468",
+                "title": "...",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294422,
+                    48.858498
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "20447281150",
+                "lat": "48.858498",
+                "lon": "2.294422",
+                "title": "Paris",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294275,
+                    48.858489
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "36527401270",
+                "lat": "48.858489",
+                "lon": "2.294275",
+                "title": "PARIGI. GIARDINI DEL TROCADERO",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294597,
+                    48.858266
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "33441760895",
+                "lat": "48.858266",
+                "lon": "2.294597",
+                "title": "A ray of sunlight after storm",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294222,
+                    48.858361
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "33254293416",
+                "lat": "48.858361",
+                "lon": "2.294222",
+                "title": "@nelsonmouellic photo -> FB & IG Si",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294425,
+                    48.858334
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "38191975611",
+                "lat": "48.858334",
+                "lon": "2.294425",
+                "title": "Eiffel Tower",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294383,
+                    48.858023
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "19463517840",
+                "lat": "48.858023",
+                "lon": "2.294383",
+                "title": "Eiffel Sunset (explored)",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294699,
+                    48.858213
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "39500131285",
+                "lat": "48.858213",
+                "lon": "2.294699",
+                "title": "Champs de Mars (Est. 1765) from the",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294082,
+                    48.858898
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "36887899841",
+                "lat": "48.858898",
+                "lon": "2.294082",
+                "title": "Protective net in the Eiffel",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294404,
+                    48.858362
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "20470035958",
+                "lat": "48.858362",
+                "lon": "2.294404",
+                "title": "Tejados parisinos desde la torre",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.293975,
+                    48.858362
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "16327749306",
+                "lat": "48.858362",
+                "lon": "2.293975",
+                "title": "Parigi 109b",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294275,
+                    48.858602
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "27337673996",
+                "lat": "48.858602",
+                "lon": "2.294275",
+                "title": "008 -20160527 Eiffel Tower Tour Par",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294522,
+                    48.858327
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "30332560203",
+                "lat": "48.858327",
+                "lon": "2.294522",
+                "title": "Eiffel Tower",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.29449,
+                    48.858263
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "33045687502",
+                "lat": "48.858263",
+                "lon": "2.29449",
+                "title": "eiffel tower",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294405,
+                    48.858333
+                ]
+            },
+            "properties": {
+                "cluster": "5.0",
+                "id": "33758554814",
+                "lat": "48.858333",
+                "lon": "2.294405",
+                "title": "",
+                "marker-color": "#4d65ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.308781,
+                    48.879357
+                ]
+            },
+            "properties": {
+                "cluster": "6.0",
+                "id": "32768021305",
+                "lat": "48.879357",
+                "lon": "2.308781",
+                "title": "In front of the red house",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.308952,
+                    48.879322
+                ]
+            },
+            "properties": {
+                "cluster": "6.0",
+                "id": "32688354260",
+                "lat": "48.879322",
+                "lon": "2.308952",
+                "title": "double tree",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.308802,
+                    48.879632
+                ]
+            },
+            "properties": {
+                "cluster": "6.0",
+                "id": "32037229253",
+                "lat": "48.879632",
+                "lon": "2.308802",
+                "title": "In search of the magic light",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.308781,
+                    48.879357
+                ]
+            },
+            "properties": {
+                "cluster": "6.0",
+                "id": "32387661980",
+                "lat": "48.879357",
+                "lon": "2.308781",
+                "title": "cherry winter blossom",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.308802,
+                    48.879632
+                ]
+            },
+            "properties": {
+                "cluster": "6.0",
+                "id": "32698331842",
+                "lat": "48.879632",
+                "lon": "2.308802",
+                "title": "imprisoned",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.308888,
+                    48.879498
+                ]
+            },
+            "properties": {
+                "cluster": "6.0",
+                "id": "32626420911",
+                "lat": "48.879498",
+                "lon": "2.308888",
+                "title": "Light appeared",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.308888,
+                    48.879498
+                ]
+            },
+            "properties": {
+                "cluster": "6.0",
+                "id": "32709165066",
+                "lat": "48.879498",
+                "lon": "2.308888",
+                "title": "Magic tree",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.308888,
+                    48.879491
+                ]
+            },
+            "properties": {
+                "cluster": "6.0",
+                "id": "31989632124",
+                "lat": "48.879491",
+                "lon": "2.308888",
+                "title": "winter blossom",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.308802,
+                    48.879632
+                ]
+            },
+            "properties": {
+                "cluster": "6.0",
+                "id": "32728274461",
+                "lat": "48.879632",
+                "lon": "2.308802",
+                "title": "reflections",
+                "marker-color": "#9e0142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341439,
+                    48.857444
+                ]
+            },
+            "properties": {
+                "cluster": "7.0",
+                "id": "28535072180",
+                "lat": "48.857444",
+                "lon": "2.341439",
+                "title": "ST5A6690",
+                "marker-color": "#fff8b4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341439,
+                    48.857444
+                ]
+            },
+            "properties": {
+                "cluster": "7.0",
+                "id": "28787838366",
+                "lat": "48.857444",
+                "lon": "2.341439",
+                "title": "ST5A6686",
+                "marker-color": "#fff8b4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341439,
+                    48.857444
+                ]
+            },
+            "properties": {
+                "cluster": "7.0",
+                "id": "28787831466",
+                "lat": "48.857444",
+                "lon": "2.341439",
+                "title": "ST5A6705",
+                "marker-color": "#fff8b4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341439,
+                    48.857444
+                ]
+            },
+            "properties": {
+                "cluster": "7.0",
+                "id": "28535056890",
+                "lat": "48.857444",
+                "lon": "2.341439",
+                "title": "ST5A6697",
+                "marker-color": "#fff8b4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341746,
+                    48.857535
+                ]
+            },
+            "properties": {
+                "cluster": "7.0",
+                "id": "41483367651",
+                "lat": "48.857535",
+                "lon": "2.341746",
+                "title": "Pont neuf",
+                "marker-color": "#fff8b4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456544,
+                    48.7727
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "24333422123",
+                "lat": "48.7727",
+                "lon": "2.456544",
+                "title": "2015-06-28-Creteil-Lac-Sunset-030-g",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.45613,
+                    48.772663
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "35545934872",
+                "lat": "48.772663",
+                "lon": "2.45613",
+                "title": "2017-05-15-Creteil-Lac-ASR-048-gael",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456283,
+                    48.77308
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "37051967032",
+                "lat": "48.77308",
+                "lon": "2.456283",
+                "title": "2012-08-09-Agel-013-gaelic.fr-IMG_8",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456602,
+                    48.772394
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "32628908606",
+                "lat": "48.772394",
+                "lon": "2.456602",
+                "title": "2009-04-27B-HK Central+Soho-098-gae",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.45658,
+                    48.772241
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "32628965026",
+                "lat": "48.772241",
+                "lon": "2.45658",
+                "title": "2009-04-23-HK TST+Stars-042-gaelic.",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456175,
+                    48.773352
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "29935461928",
+                "lat": "48.773352",
+                "lon": "2.456175",
+                "title": "2018-07-21-A-France-Sete-032-gaelic",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456458,
+                    48.772661
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "31857204083",
+                "lat": "48.772661",
+                "lon": "2.456458",
+                "title": "2009-04-26-Macau-160-gaelic.fr-IMG_",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456313,
+                    48.772186
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "16388995265",
+                "lat": "48.772186",
+                "lon": "2.456313",
+                "title": "2014-12-30-Creteil-Lac-sunset-030-g",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456283,
+                    48.77308
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "37051970302",
+                "lat": "48.77308",
+                "lon": "2.456283",
+                "title": "2010-05-07-Agel-Bize-159-gaelic.fr-",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.4565,
+                    48.7727
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "32628950396",
+                "lat": "48.7727",
+                "lon": "2.4565",
+                "title": "2009-04-24D-HK Peak-044-gaelic.fr-I",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456488,
+                    48.772563
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "32520912312",
+                "lat": "48.772563",
+                "lon": "2.456488",
+                "title": "2016-09-04-France-PortEnBessinHuppa",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456036,
+                    48.772677
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "35675146396",
+                "lat": "48.772677",
+                "lon": "2.456036",
+                "title": "2017-01-07-Creteil-ASR-Lac-frozen-c",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456497,
+                    48.772636
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "31857219863",
+                "lat": "48.772636",
+                "lon": "2.456497",
+                "title": "2009-04-24E-HK Lightshow-053-gaelic",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456538,
+                    48.772558
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "31861441923",
+                "lat": "48.772558",
+                "lon": "2.456538",
+                "title": "2016-08-19B-France-Bretagne-Locquir",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.4567,
+                    48.772702
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "32628965656",
+                "lat": "48.772702",
+                "lon": "2.4567",
+                "title": "2009-04-23-HK TST+Stars-037-gaelic.",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.455902,
+                    48.772277
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "36409194663",
+                "lat": "48.772277",
+                "lon": "2.455902",
+                "title": "2017-05-25-VattetotSurMer-Vaucottes",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.455761,
+                    48.772288
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "32669430275",
+                "lat": "48.772288",
+                "lon": "2.455761",
+                "title": "2009-04-27B-HK Central+Soho-085-gae",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456283,
+                    48.77308
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "36386683294",
+                "lat": "48.77308",
+                "lon": "2.456283",
+                "title": "2010-05-07-Agel-Bize-166-gaelic.fr-",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456458,
+                    48.772747
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "35714666905",
+                "lat": "48.772747",
+                "lon": "2.456458",
+                "title": "2016-07-04-Creteil-Lac-ASR-sunset-0",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456175,
+                    48.773352
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "29935465958",
+                "lat": "48.773352",
+                "lon": "2.456175",
+                "title": "2018-07-21-B-France-Agde-011-gaelic",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456444,
+                    48.772616
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "34873457854",
+                "lat": "48.772616",
+                "lon": "2.456444",
+                "title": "2016-10-27-France-Creteil-Lac-010-g",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456397,
+                    48.772691
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "32662338041",
+                "lat": "48.772691",
+                "lon": "2.456397",
+                "title": "2017-02-05-Paris-LunarNewYear-Roost",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456825,
+                    48.772783
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "32516569672",
+                "lat": "48.772783",
+                "lon": "2.456825",
+                "title": "2009-04-27B-HK Central+Soho-091-gae",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456508,
+                    48.772613
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "31857196563",
+                "lat": "48.772613",
+                "lon": "2.456508",
+                "title": "2009-04-27A-HK Flea market-028-gael",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456508,
+                    48.772669
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "29456940322",
+                "lat": "48.772669",
+                "lon": "2.456508",
+                "title": "2014-07-31-Boissy.la.Riviere-056-ga",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456522,
+                    48.772797
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "35675148666",
+                "lat": "48.772797",
+                "lon": "2.456522",
+                "title": "2016-11-21-Creteil-ASR-Lac-sunset-0",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456508,
+                    48.772597
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "31830843014",
+                "lat": "48.772597",
+                "lon": "2.456508",
+                "title": "2016-08-17C-France-Bretagne-Huelgoa",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456605,
+                    48.772663
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "29456939352",
+                "lat": "48.772663",
+                "lon": "2.456605",
+                "title": "2014-08-03-La.Foret.Sainte.Croix-00",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456283,
+                    48.77308
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "36409187173",
+                "lat": "48.77308",
+                "lon": "2.456283",
+                "title": "2014-06-29-Montouliers-019-gaelic.f",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.456444,
+                    48.772675
+                ]
+            },
+            "properties": {
+                "cluster": "8.0",
+                "id": "31857209043",
+                "lat": "48.772675",
+                "lon": "2.456444",
+                "title": "2009-04-25E-HK Streetnightlife-046-",
+                "marker-color": "#fecc7b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.313512,
+                    48.863684
+                ]
+            },
+            "properties": {
+                "cluster": "9.0",
+                "id": "26770466649",
+                "lat": "48.863684",
+                "lon": "2.313512",
+                "title": "Seul dans le noir",
+                "marker-color": "#9cd7a4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.31348,
+                    48.864093
+                ]
+            },
+            "properties": {
+                "cluster": "9.0",
+                "id": "36435541736",
+                "lat": "48.864093",
+                "lon": "2.31348",
+                "title": "Nymph",
+                "marker-color": "#9cd7a4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.313512,
+                    48.863684
+                ]
+            },
+            "properties": {
+                "cluster": "9.0",
+                "id": "37830307624",
+                "lat": "48.863684",
+                "lon": "2.313512",
+                "title": "The Guardian",
+                "marker-color": "#9cd7a4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.313523,
+                    48.863881
+                ]
+            },
+            "properties": {
+                "cluster": "9.0",
+                "id": "28993476437",
+                "lat": "48.863881",
+                "lon": "2.313523",
+                "title": "Paris - FRANCE",
+                "marker-color": "#9cd7a4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.31368,
+                    48.864386
+                ]
+            },
+            "properties": {
+                "cluster": "9.0",
+                "id": "45647624292",
+                "lat": "48.864386",
+                "lon": "2.31368",
+                "title": "Pont Alexandre III / \u041c\u043e\u0441\u0442 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440",
+                "marker-color": "#9cd7a4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.313265,
+                    48.864291
+                ]
+            },
+            "properties": {
+                "cluster": "9.0",
+                "id": "39727676235",
+                "lat": "48.864291",
+                "lon": "2.313265",
+                "title": "Pont Alexandre III, Paris, France",
+                "marker-color": "#9cd7a4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.313566,
+                    48.864136
+                ]
+            },
+            "properties": {
+                "cluster": "9.0",
+                "id": "33229885935",
+                "lat": "48.864136",
+                "lon": "2.313566",
+                "title": "Pont Alexandre III",
+                "marker-color": "#9cd7a4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291765,
+                    48.85993
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "33641164102",
+                "lat": "48.85993",
+                "lon": "2.291765",
+                "title": "Sunset over Paris",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291922,
+                    48.860138
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "48027085591",
+                "lat": "48.860138",
+                "lon": "2.291922",
+                "title": "2019-06-06_14-06-14_ILCE-6500_DSC04",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291544,
+                    48.86055
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "26399880338",
+                "lat": "48.86055",
+                "lon": "2.291544",
+                "title": "La Tour Eiffel",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292158,
+                    48.859813
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "47935876466",
+                "lat": "48.859813",
+                "lon": "2.292158",
+                "title": "River Seine 4",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.29213,
+                    48.8602
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "43649778650",
+                "lat": "48.8602",
+                "lon": "2.29213",
+                "title": "Seine /  \u0421\u0435\u043d\u0430",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292002,
+                    48.860061
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "48027128953",
+                "lat": "48.860061",
+                "lon": "2.292002",
+                "title": "2019-06-06_14-09-13_ILCE-6500_DSC04",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291644,
+                    48.860261
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "48099987193",
+                "lat": "48.860261",
+                "lon": "2.291644",
+                "title": "2019-06-06_14-04-57_ILCE-6500_DSC04",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292623,
+                    48.859576
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "43963132224",
+                "lat": "48.859576",
+                "lon": "2.292623",
+                "title": "Eiffel Tower, Paris",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292194,
+                    48.85975
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "30051400708",
+                "lat": "48.85975",
+                "lon": "2.292194",
+                "title": "Eiffel Tower",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292283,
+                    48.859936
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "48027097996",
+                "lat": "48.859936",
+                "lon": "2.292283",
+                "title": "2019-06-06_14-09-49_ILCE-6300_DSC14",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292701,
+                    48.859962
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "22144406931",
+                "lat": "48.859962",
+                "lon": "2.292701",
+                "title": "Tour Eiffel Justine Magny",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292588,
+                    48.859672
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "48027145036",
+                "lat": "48.859672",
+                "lon": "2.292588",
+                "title": "2019-06-06_14-34-34_ILCE-6500_DSC04",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292194,
+                    48.85975
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "43202384114",
+                "lat": "48.85975",
+                "lon": "2.292194",
+                "title": "Eiffel Tower",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292283,
+                    48.859936
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "48027205812",
+                "lat": "48.859936",
+                "lon": "2.292283",
+                "title": "2019-06-06_14-09-47_ILCE-6500_DSC04",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.291936,
+                    48.859971
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "39940011934",
+                "lat": "48.859971",
+                "lon": "2.291936",
+                "title": "Sunset over the river Seine",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292194,
+                    48.85975
+                ]
+            },
+            "properties": {
+                "cluster": "10.0",
+                "id": "30051825388",
+                "lat": "48.85975",
+                "lon": "2.292194",
+                "title": "HVEU18-2733.jpg",
+                "marker-color": "#c9314c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.334594,
+                    48.59855
+                ]
+            },
+            "properties": {
+                "cluster": "11.0",
+                "id": "29020956588",
+                "lat": "48.59855",
+                "lon": "2.334594",
+                "title": "caT shirt",
+                "marker-color": "#3b92b9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.334594,
+                    48.59855
+                ]
+            },
+            "properties": {
+                "cluster": "11.0",
+                "id": "41082965100",
+                "lat": "48.59855",
+                "lon": "2.334594",
+                "title": "Download fr 2018 ba 217 juin france",
+                "marker-color": "#3b92b9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.334594,
+                    48.59855
+                ]
+            },
+            "properties": {
+                "cluster": "11.0",
+                "id": "42893471231",
+                "lat": "48.59855",
+                "lon": "2.334594",
+                "title": "Download fr 2018 ba 217 juin france",
+                "marker-color": "#3b92b9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.334594,
+                    48.59855
+                ]
+            },
+            "properties": {
+                "cluster": "11.0",
+                "id": "29020935978",
+                "lat": "48.59855",
+                "lon": "2.334594",
+                "title": "Download fr 2018 ba 217 juin france",
+                "marker-color": "#3b92b9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.334594,
+                    48.59855
+                ]
+            },
+            "properties": {
+                "cluster": "11.0",
+                "id": "41993064895",
+                "lat": "48.59855",
+                "lon": "2.334594",
+                "title": "Download fr 2018 ba 217 juin france",
+                "marker-color": "#3b92b9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.334594,
+                    48.59855
+                ]
+            },
+            "properties": {
+                "cluster": "11.0",
+                "id": "42174991594",
+                "lat": "48.59855",
+                "lon": "2.334594",
+                "title": "Download fr 2018 ba 217 juin france",
+                "marker-color": "#3b92b9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.334594,
+                    48.59855
+                ]
+            },
+            "properties": {
+                "cluster": "11.0",
+                "id": "41993071815",
+                "lat": "48.59855",
+                "lon": "2.334594",
+                "title": "Download fr 2018 ba 217 juin france",
+                "marker-color": "#3b92b9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.334594,
+                    48.59855
+                ]
+            },
+            "properties": {
+                "cluster": "11.0",
+                "id": "41993061375",
+                "lat": "48.59855",
+                "lon": "2.334594",
+                "title": "Download fr 2018 ba 217 juin france",
+                "marker-color": "#3b92b9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.334594,
+                    48.59855
+                ]
+            },
+            "properties": {
+                "cluster": "11.0",
+                "id": "42175002044",
+                "lat": "48.59855",
+                "lon": "2.334594",
+                "title": "Download fr 2018 ba 217 juin france",
+                "marker-color": "#3b92b9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.34071,
+                    48.857218
+                ]
+            },
+            "properties": {
+                "cluster": "12.0",
+                "id": "40271554112",
+                "lat": "48.857218",
+                "lon": "2.34071",
+                "title": "Paris",
+                "marker-color": "#fdb768"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.340838,
+                    48.856639
+                ]
+            },
+            "properties": {
+                "cluster": "12.0",
+                "id": "41587856994",
+                "lat": "48.856639",
+                "lon": "2.340838",
+                "title": "Paris je t' aime 0011",
+                "marker-color": "#fdb768"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.340741,
+                    48.857066
+                ]
+            },
+            "properties": {
+                "cluster": "12.0",
+                "id": "33646271346",
+                "lat": "48.857066",
+                "lon": "2.340741",
+                "title": "Monnaie de Paris",
+                "marker-color": "#fdb768"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341209,
+                    48.856918
+                ]
+            },
+            "properties": {
+                "cluster": "12.0",
+                "id": "17353819105",
+                "lat": "48.856918",
+                "lon": "2.341209",
+                "title": "Paris XVI\u00e8me",
+                "marker-color": "#fdb768"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341209,
+                    48.856918
+                ]
+            },
+            "properties": {
+                "cluster": "12.0",
+                "id": "17207099398",
+                "lat": "48.856918",
+                "lon": "2.341209",
+                "title": "Rubik's cube",
+                "marker-color": "#fdb768"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341209,
+                    48.856918
+                ]
+            },
+            "properties": {
+                "cluster": "12.0",
+                "id": "49415144922",
+                "lat": "48.856918",
+                "lon": "2.341209",
+                "title": "L'heure de la pause",
+                "marker-color": "#fdb768"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.776073,
+                    48.87319
+                ]
+            },
+            "properties": {
+                "cluster": "13.0",
+                "id": "41138690964",
+                "lat": "48.87319",
+                "lon": "2.776073",
+                "title": "Sleeping Beauty Castle - Fantasylan",
+                "marker-color": "#da464d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.776007,
+                    48.873221
+                ]
+            },
+            "properties": {
+                "cluster": "13.0",
+                "id": "32901097668",
+                "lat": "48.873221",
+                "lon": "2.776007",
+                "title": "Sleeping Beauty Castle - Fantasylan",
+                "marker-color": "#da464d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.776073,
+                    48.87319
+                ]
+            },
+            "properties": {
+                "cluster": "13.0",
+                "id": "27943318258",
+                "lat": "48.87319",
+                "lon": "2.776073",
+                "title": "Sleeping Beauty Castle - Fantasylan",
+                "marker-color": "#da464d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.776007,
+                    48.873221
+                ]
+            },
+            "properties": {
+                "cluster": "13.0",
+                "id": "46724062512",
+                "lat": "48.873221",
+                "lon": "2.776007",
+                "title": "Sleeping Beauty Castle - Fantasylan",
+                "marker-color": "#da464d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.776073,
+                    48.87319
+                ]
+            },
+            "properties": {
+                "cluster": "13.0",
+                "id": "40912729865",
+                "lat": "48.87319",
+                "lon": "2.776073",
+                "title": "Sleeping Beauty Castle - Fantasylan",
+                "marker-color": "#da464d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.776007,
+                    48.873221
+                ]
+            },
+            "properties": {
+                "cluster": "13.0",
+                "id": "31840136477",
+                "lat": "48.873221",
+                "lon": "2.776007",
+                "title": "Sleeping Beauty Castle - Fantasylan",
+                "marker-color": "#da464d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.776007,
+                    48.873221
+                ]
+            },
+            "properties": {
+                "cluster": "13.0",
+                "id": "49078069068",
+                "lat": "48.873221",
+                "lon": "2.776007",
+                "title": "Sleeping Beauty Castle - Fantasylan",
+                "marker-color": "#da464d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.776007,
+                    48.873221
+                ]
+            },
+            "properties": {
+                "cluster": "13.0",
+                "id": "46776831181",
+                "lat": "48.873221",
+                "lon": "2.776007",
+                "title": "Sleeping Beauty Castle - Fantasylan",
+                "marker-color": "#da464d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.327814,
+                    48.863133
+                ]
+            },
+            "properties": {
+                "cluster": "14.0",
+                "id": "33355688470",
+                "lat": "48.863133",
+                "lon": "2.327814",
+                "title": "Ana & Vania | London & Paris | Clau",
+                "marker-color": "#f0f9a7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.327983,
+                    48.863369
+                ]
+            },
+            "properties": {
+                "cluster": "14.0",
+                "id": "45643738002",
+                "lat": "48.863369",
+                "lon": "2.327983",
+                "title": "Jardin des Tuileries / \u0421\u0430\u0434 \u0422\u044e\u0438\u043b\u044c\u0440\u0438",
+                "marker-color": "#f0f9a7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.328969,
+                    48.862997
+                ]
+            },
+            "properties": {
+                "cluster": "14.0",
+                "id": "40849638713",
+                "lat": "48.862997",
+                "lon": "2.328969",
+                "title": "People enjoy the sun at the Grand B",
+                "marker-color": "#f0f9a7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.328969,
+                    48.862997
+                ]
+            },
+            "properties": {
+                "cluster": "14.0",
+                "id": "39814245653",
+                "lat": "48.862997",
+                "lon": "2.328969",
+                "title": "People enjoy the sun at the Grand B",
+                "marker-color": "#f0f9a7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.328222,
+                    48.863594
+                ]
+            },
+            "properties": {
+                "cluster": "14.0",
+                "id": "31837841567",
+                "lat": "48.863594",
+                "lon": "2.328222",
+                "title": "Small bistro in the park - Jardin d",
+                "marker-color": "#f0f9a7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.328416,
+                    48.863169
+                ]
+            },
+            "properties": {
+                "cluster": "14.0",
+                "id": "38525961290",
+                "lat": "48.863169",
+                "lon": "2.328416",
+                "title": "Enjoy the season of spring - Jardin",
+                "marker-color": "#f0f9a7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.328969,
+                    48.862997
+                ]
+            },
+            "properties": {
+                "cluster": "14.0",
+                "id": "39814241753",
+                "lat": "48.862997",
+                "lon": "2.328969",
+                "title": "Enjoy the season of spring - Jardin",
+                "marker-color": "#f0f9a7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.327814,
+                    48.863133
+                ]
+            },
+            "properties": {
+                "cluster": "14.0",
+                "id": "32897602284",
+                "lat": "48.863133",
+                "lon": "2.327814",
+                "title": "Ana & Vania | London & Paris | Clau",
+                "marker-color": "#f0f9a7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.327814,
+                    48.863133
+                ]
+            },
+            "properties": {
+                "cluster": "14.0",
+                "id": "33355684670",
+                "lat": "48.863133",
+                "lon": "2.327814",
+                "title": "Ana & Vania | London & Paris | Clau",
+                "marker-color": "#f0f9a7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.365354,
+                    48.855616
+                ]
+            },
+            "properties": {
+                "cluster": "15.0",
+                "id": "31970446063",
+                "lat": "48.855616",
+                "lon": "2.365354",
+                "title": "bench",
+                "marker-color": "#feec9f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.365794,
+                    48.856209
+                ]
+            },
+            "properties": {
+                "cluster": "15.0",
+                "id": "48640880307",
+                "lat": "48.856209",
+                "lon": "2.365794",
+                "title": "the oldest square",
+                "marker-color": "#feec9f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.365354,
+                    48.855616
+                ]
+            },
+            "properties": {
+                "cluster": "15.0",
+                "id": "32631340162",
+                "lat": "48.855616",
+                "lon": "2.365354",
+                "title": "lamp",
+                "marker-color": "#feec9f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.365397,
+                    48.85587
+                ]
+            },
+            "properties": {
+                "cluster": "15.0",
+                "id": "32880551355",
+                "lat": "48.85587",
+                "lon": "2.365397",
+                "title": "winter bokeh",
+                "marker-color": "#feec9f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.365397,
+                    48.85587
+                ]
+            },
+            "properties": {
+                "cluster": "15.0",
+                "id": "32880553505",
+                "lat": "48.85587",
+                "lon": "2.365397",
+                "title": "Place des Vosges",
+                "marker-color": "#feec9f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.365515,
+                    48.855688
+                ]
+            },
+            "properties": {
+                "cluster": "15.0",
+                "id": "23072728322",
+                "lat": "48.855688",
+                "lon": "2.365515",
+                "title": "Autumnal Sunny Morning",
+                "marker-color": "#feec9f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.351416,
+                    48.851416
+                ]
+            },
+            "properties": {
+                "cluster": "16.0",
+                "id": "40651233183",
+                "lat": "48.851416",
+                "lon": "2.351416",
+                "title": "\ud83c\uddeb\ud83c\uddf7",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.351396,
+                    48.851416
+                ]
+            },
+            "properties": {
+                "cluster": "16.0",
+                "id": "37214493342",
+                "lat": "48.851416",
+                "lon": "2.351396",
+                "title": "IMG_2087",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.351388,
+                    48.851388
+                ]
+            },
+            "properties": {
+                "cluster": "16.0",
+                "id": "27429425614",
+                "lat": "48.851388",
+                "lon": "2.351388",
+                "title": "Paris-5937-HDR_Web",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.350988,
+                    48.851444
+                ]
+            },
+            "properties": {
+                "cluster": "16.0",
+                "id": "29946560174",
+                "lat": "48.851444",
+                "lon": "2.350988",
+                "title": "Paris - Notre Dame",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.351052,
+                    48.851402
+                ]
+            },
+            "properties": {
+                "cluster": "16.0",
+                "id": "30645956025",
+                "lat": "48.851402",
+                "lon": "2.351052",
+                "title": "Paris - Notre Dame",
+                "marker-color": "#5e4fa2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326438,
+                    48.859969
+                ]
+            },
+            "properties": {
+                "cluster": "17.0",
+                "id": "44470269272",
+                "lat": "48.859969",
+                "lon": "2.326438",
+                "title": "P7132341.jpg",
+                "marker-color": "#fafdb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326464,
+                    48.859908
+                ]
+            },
+            "properties": {
+                "cluster": "17.0",
+                "id": "18454468891",
+                "lat": "48.859908",
+                "lon": "2.326464",
+                "title": "Le Jour ni l\u2019Heure 5785 : Pierre Au",
+                "marker-color": "#fafdb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326247,
+                    48.859985
+                ]
+            },
+            "properties": {
+                "cluster": "17.0",
+                "id": "24130158442",
+                "lat": "48.859985",
+                "lon": "2.326247",
+                "title": "Paris my love - Riverboat",
+                "marker-color": "#fafdb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326655,
+                    48.860084
+                ]
+            },
+            "properties": {
+                "cluster": "17.0",
+                "id": "37364289176",
+                "lat": "48.860084",
+                "lon": "2.326655",
+                "title": "vue du muse\u0301e d'Orsay XT2 DSCF0042",
+                "marker-color": "#fafdb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326263,
+                    48.860147
+                ]
+            },
+            "properties": {
+                "cluster": "17.0",
+                "id": "30650473358",
+                "lat": "48.860147",
+                "lon": "2.326263",
+                "title": "P7132284.jpg",
+                "marker-color": "#fafdb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326344,
+                    48.860302
+                ]
+            },
+            "properties": {
+                "cluster": "17.0",
+                "id": "47692044912",
+                "lat": "48.860302",
+                "lon": "2.326344",
+                "title": "Par\u00eds desde el museo de Orsay",
+                "marker-color": "#fafdb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326858,
+                    48.85968
+                ]
+            },
+            "properties": {
+                "cluster": "17.0",
+                "id": "44520133781",
+                "lat": "48.85968",
+                "lon": "2.326858",
+                "title": "P7132219.jpg",
+                "marker-color": "#fafdb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32623,
+                    48.860013
+                ]
+            },
+            "properties": {
+                "cluster": "17.0",
+                "id": "43611176325",
+                "lat": "48.860013",
+                "lon": "2.32623",
+                "title": "P7132313.jpg",
+                "marker-color": "#fafdb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.325961,
+                    48.859813
+                ]
+            },
+            "properties": {
+                "cluster": "17.0",
+                "id": "21919700956",
+                "lat": "48.859813",
+                "lon": "2.325961",
+                "title": "IMG_0770.jpg",
+                "marker-color": "#fafdb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326963,
+                    48.859597
+                ]
+            },
+            "properties": {
+                "cluster": "17.0",
+                "id": "44470136082",
+                "lat": "48.859597",
+                "lon": "2.326963",
+                "title": "P7132204.jpg",
+                "marker-color": "#fafdb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.289447,
+                    48.85551
+                ]
+            },
+            "properties": {
+                "cluster": "18.0",
+                "id": "25187522081",
+                "lat": "48.85551",
+                "lon": "2.289447",
+                "title": "France Paris Eiffel tower 260910 \u00a9(",
+                "marker-color": "#fba05b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.289447,
+                    48.85551
+                ]
+            },
+            "properties": {
+                "cluster": "18.0",
+                "id": "24653885603",
+                "lat": "48.85551",
+                "lon": "2.289447",
+                "title": "France Paris Eiffel tower 260910 \u00a9 ",
+                "marker-color": "#fba05b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.289447,
+                    48.85551
+                ]
+            },
+            "properties": {
+                "cluster": "18.0",
+                "id": "24985068550",
+                "lat": "48.85551",
+                "lon": "2.289447",
+                "title": "France Paris Eiffel tower 260910 (3",
+                "marker-color": "#fba05b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288846,
+                    48.855002
+                ]
+            },
+            "properties": {
+                "cluster": "18.0",
+                "id": "19239777429",
+                "lat": "48.855002",
+                "lon": "2.288846",
+                "title": "543Paris",
+                "marker-color": "#fba05b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.289447,
+                    48.85551
+                ]
+            },
+            "properties": {
+                "cluster": "18.0",
+                "id": "25254412086",
+                "lat": "48.85551",
+                "lon": "2.289447",
+                "title": "France Paris Eiffel tower 260910 \u00a9 ",
+                "marker-color": "#fba05b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.289173,
+                    48.855363
+                ]
+            },
+            "properties": {
+                "cluster": "18.0",
+                "id": "20488838175",
+                "lat": "48.855363",
+                "lon": "2.289173",
+                "title": "La Tour Eiffel",
+                "marker-color": "#fba05b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.289173,
+                    48.855363
+                ]
+            },
+            "properties": {
+                "cluster": "18.0",
+                "id": "20269119142",
+                "lat": "48.855363",
+                "lon": "2.289173",
+                "title": "Wide Angle View of Eiffel Tower",
+                "marker-color": "#fba05b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "21031875039",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_7897",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "20596463453",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_8024",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "21030432208",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_7937",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "21226423811",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_7927",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "21031203739",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_8001",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "21217560095",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_8033",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "21031090229",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_8004",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "20596242804",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_7864",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "21225882791",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_8003",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "21030935319",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_8021",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "20596050524",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_7875",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "21217835275",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_8011",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "21192145856",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_7936",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "20596388894",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_7845",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322921,
+                    48.862286
+                ]
+            },
+            "properties": {
+                "cluster": "19.0",
+                "id": "20595925784",
+                "lat": "48.862286",
+                "lon": "2.322921",
+                "title": "IMG_7912",
+                "marker-color": "#b41947"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.337611,
+                    48.858527
+                ]
+            },
+            "properties": {
+                "cluster": "20.0",
+                "id": "38986032751",
+                "lat": "48.858527",
+                "lon": "2.337611",
+                "title": "Pont des Arts (Est. 1802) crossing ",
+                "marker-color": "#f46d43"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.33748,
+                    48.858348
+                ]
+            },
+            "properties": {
+                "cluster": "20.0",
+                "id": "47028924252",
+                "lat": "48.858348",
+                "lon": "2.33748",
+                "title": "Pont des arts",
+                "marker-color": "#f46d43"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.337373,
+                    48.858199
+                ]
+            },
+            "properties": {
+                "cluster": "20.0",
+                "id": "32307437042",
+                "lat": "48.858199",
+                "lon": "2.337373",
+                "title": "Un dimanche de janvier \u00e0 Paris...",
+                "marker-color": "#f46d43"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.337341,
+                    48.858293
+                ]
+            },
+            "properties": {
+                "cluster": "20.0",
+                "id": "32984458143",
+                "lat": "48.858293",
+                "lon": "2.337341",
+                "title": "Paris",
+                "marker-color": "#f46d43"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.337611,
+                    48.858527
+                ]
+            },
+            "properties": {
+                "cluster": "20.0",
+                "id": "24087708797",
+                "lat": "48.858527",
+                "lon": "2.337611",
+                "title": "River Seine seen from Pont d'Arche ",
+                "marker-color": "#f46d43"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.337212,
+                    48.858249
+                ]
+            },
+            "properties": {
+                "cluster": "20.0",
+                "id": "42963399221",
+                "lat": "48.858249",
+                "lon": "2.337212",
+                "title": "...",
+                "marker-color": "#f46d43"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.457833,
+                    48.771155
+                ]
+            },
+            "properties": {
+                "cluster": "21.0",
+                "id": "19726880670",
+                "lat": "48.771155",
+                "lon": "2.457833",
+                "title": "2015-05-25-Creteil-Lac-021-gaelic.f",
+                "marker-color": "#e6f598"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.458069,
+                    48.771205
+                ]
+            },
+            "properties": {
+                "cluster": "21.0",
+                "id": "15768982833",
+                "lat": "48.771205",
+                "lon": "2.458069",
+                "title": "2015-01-02-Creteil-Lac-sunset-035-g",
+                "marker-color": "#e6f598"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.458422,
+                    48.771225
+                ]
+            },
+            "properties": {
+                "cluster": "21.0",
+                "id": "17832556186",
+                "lat": "48.771225",
+                "lon": "2.458422",
+                "title": "2015-04-23-Creteil-Lac-013-gaelic.f",
+                "marker-color": "#e6f598"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.458055,
+                    48.77111
+                ]
+            },
+            "properties": {
+                "cluster": "21.0",
+                "id": "33589709535",
+                "lat": "48.77111",
+                "lon": "2.458055",
+                "title": "P1060730_DxO",
+                "marker-color": "#e6f598"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.457661,
+                    48.77118
+                ]
+            },
+            "properties": {
+                "cluster": "21.0",
+                "id": "34873440784",
+                "lat": "48.77118",
+                "lon": "2.457661",
+                "title": "2016-05-02-Creteil-Lac-043-gaelic.f",
+                "marker-color": "#e6f598"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.457913,
+                    48.771288
+                ]
+            },
+            "properties": {
+                "cluster": "21.0",
+                "id": "16389003465",
+                "lat": "48.771288",
+                "lon": "2.457913",
+                "title": "2014-10-01-Creteil-Lac-sunset-010-g",
+                "marker-color": "#e6f598"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.131484,
+                    48.802137
+                ]
+            },
+            "properties": {
+                "cluster": "22.0",
+                "id": "36541186122",
+                "lat": "48.802137",
+                "lon": "2.131484",
+                "title": "versailles",
+                "marker-color": "#f8864f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.131484,
+                    48.802137
+                ]
+            },
+            "properties": {
+                "cluster": "22.0",
+                "id": "36315500260",
+                "lat": "48.802137",
+                "lon": "2.131484",
+                "title": "versailles",
+                "marker-color": "#f8864f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.131484,
+                    48.802137
+                ]
+            },
+            "properties": {
+                "cluster": "22.0",
+                "id": "36315496100",
+                "lat": "48.802137",
+                "lon": "2.131484",
+                "title": "versailles",
+                "marker-color": "#f8864f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.131484,
+                    48.802137
+                ]
+            },
+            "properties": {
+                "cluster": "22.0",
+                "id": "36572112641",
+                "lat": "48.802137",
+                "lon": "2.131484",
+                "title": "versailles",
+                "marker-color": "#f8864f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.131484,
+                    48.802137
+                ]
+            },
+            "properties": {
+                "cluster": "22.0",
+                "id": "35901007763",
+                "lat": "48.802137",
+                "lon": "2.131484",
+                "title": "versailles",
+                "marker-color": "#f8864f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.131484,
+                    48.802137
+                ]
+            },
+            "properties": {
+                "cluster": "22.0",
+                "id": "36315493150",
+                "lat": "48.802137",
+                "lon": "2.131484",
+                "title": "versailles",
+                "marker-color": "#f8864f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.333263,
+                    48.861925
+                ]
+            },
+            "properties": {
+                "cluster": "23.0",
+                "id": "35278131556",
+                "lat": "48.861925",
+                "lon": "2.333263",
+                "title": "Enjoying the Sun in-front of the Lo",
+                "marker-color": "#3b7cb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.333756,
+                    48.861869
+                ]
+            },
+            "properties": {
+                "cluster": "23.0",
+                "id": "24586908010",
+                "lat": "48.861869",
+                "lon": "2.333756",
+                "title": "view of the eiffel tower",
+                "marker-color": "#3b7cb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.333541,
+                    48.861586
+                ]
+            },
+            "properties": {
+                "cluster": "23.0",
+                "id": "38586444230",
+                "lat": "48.861586",
+                "lon": "2.333541",
+                "title": "Arc de triomphe du Carrousel (Est. ",
+                "marker-color": "#3b7cb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.333541,
+                    48.861586
+                ]
+            },
+            "properties": {
+                "cluster": "23.0",
+                "id": "45864514525",
+                "lat": "48.861586",
+                "lon": "2.333541",
+                "title": "Asseyez vous and enjoy the park - J",
+                "marker-color": "#3b7cb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.333541,
+                    48.861586
+                ]
+            },
+            "properties": {
+                "cluster": "23.0",
+                "id": "45864517645",
+                "lat": "48.861586",
+                "lon": "2.333541",
+                "title": "Souvenirs de Paris - Jardin des Tui",
+                "marker-color": "#3b7cb7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.336654,
+                    48.860649
+                ]
+            },
+            "properties": {
+                "cluster": "24.0",
+                "id": "49420522007",
+                "lat": "48.860649",
+                "lon": "2.336654",
+                "title": "IMG_2377 (Medium)",
+                "marker-color": "#b5e1a2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.336139,
+                    48.860585
+                ]
+            },
+            "properties": {
+                "cluster": "24.0",
+                "id": "16557480480",
+                "lat": "48.860585",
+                "lon": "2.336139",
+                "title": "Paris, le Louvre et sa Pyramide",
+                "marker-color": "#b5e1a2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.336075,
+                    48.861091
+                ]
+            },
+            "properties": {
+                "cluster": "24.0",
+                "id": "44303141062",
+                "lat": "48.861091",
+                "lon": "2.336075",
+                "title": "Atardecer en el Louvre",
+                "marker-color": "#b5e1a2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.335855,
+                    48.861016
+                ]
+            },
+            "properties": {
+                "cluster": "24.0",
+                "id": "32289587322",
+                "lat": "48.861016",
+                "lon": "2.335855",
+                "title": "Le Louvre",
+                "marker-color": "#b5e1a2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.335855,
+                    48.861016
+                ]
+            },
+            "properties": {
+                "cluster": "24.0",
+                "id": "31525380364",
+                "lat": "48.861016",
+                "lon": "2.335855",
+                "title": "Cour Napol\u00e9on, Le Louvre",
+                "marker-color": "#b5e1a2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.335656,
+                    48.860832
+                ]
+            },
+            "properties": {
+                "cluster": "24.0",
+                "id": "16748030251",
+                "lat": "48.860832",
+                "lon": "2.335656",
+                "title": "The Louvre & the Sky",
+                "marker-color": "#b5e1a2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.335794,
+                    48.860844
+                ]
+            },
+            "properties": {
+                "cluster": "24.0",
+                "id": "39844698194",
+                "lat": "48.860844",
+                "lon": "2.335794",
+                "title": "Louvre In the Mirror",
+                "marker-color": "#b5e1a2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.336136,
+                    48.861482
+                ]
+            },
+            "properties": {
+                "cluster": "24.0",
+                "id": "15557066233",
+                "lat": "48.861482",
+                "lon": "2.336136",
+                "title": "Louvre at Night (Paris)",
+                "marker-color": "#b5e1a2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.336654,
+                    48.860649
+                ]
+            },
+            "properties": {
+                "cluster": "24.0",
+                "id": "49419840663",
+                "lat": "48.860649",
+                "lon": "2.336654",
+                "title": "IMG_2369 (Medium)",
+                "marker-color": "#b5e1a2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.320836,
+                    48.865063
+                ]
+            },
+            "properties": {
+                "cluster": "25.0",
+                "id": "24559132077",
+                "lat": "48.865063",
+                "lon": "2.320836",
+                "title": "P-00162-No-039",
+                "marker-color": "#e75948"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.320836,
+                    48.865063
+                ]
+            },
+            "properties": {
+                "cluster": "25.0",
+                "id": "24559136617",
+                "lat": "48.865063",
+                "lon": "2.320836",
+                "title": "P-00162-No-040",
+                "marker-color": "#e75948"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.320836,
+                    48.865063
+                ]
+            },
+            "properties": {
+                "cluster": "25.0",
+                "id": "24559124867",
+                "lat": "48.865063",
+                "lon": "2.320836",
+                "title": "P-00162-No-038",
+                "marker-color": "#e75948"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321125,
+                    48.865472
+                ]
+            },
+            "properties": {
+                "cluster": "25.0",
+                "id": "38270492024",
+                "lat": "48.865472",
+                "lon": "2.321125",
+                "title": "Fountains at Place de la Concorde (",
+                "marker-color": "#e75948"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321001,
+                    48.865102
+                ]
+            },
+            "properties": {
+                "cluster": "25.0",
+                "id": "8085497909",
+                "lat": "48.865102",
+                "lon": "2.321001",
+                "title": "La Concorde, Paris.",
+                "marker-color": "#e75948"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321125,
+                    48.865472
+                ]
+            },
+            "properties": {
+                "cluster": "25.0",
+                "id": "46015390634",
+                "lat": "48.865472",
+                "lon": "2.321125",
+                "title": "Green heart of Paris - Jardin des T",
+                "marker-color": "#e75948"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321125,
+                    48.865472
+                ]
+            },
+            "properties": {
+                "cluster": "25.0",
+                "id": "40396783141",
+                "lat": "48.865472",
+                "lon": "2.321125",
+                "title": "Green heart of Paris - Jardin des T",
+                "marker-color": "#e75948"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321125,
+                    48.865472
+                ]
+            },
+            "properties": {
+                "cluster": "25.0",
+                "id": "38952419681",
+                "lat": "48.865472",
+                "lon": "2.321125",
+                "title": "Fountains at Place de la Concorde b",
+                "marker-color": "#e75948"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321125,
+                    48.865472
+                ]
+            },
+            "properties": {
+                "cluster": "25.0",
+                "id": "45824576595",
+                "lat": "48.865472",
+                "lon": "2.321125",
+                "title": "Small bistro in the park - Jardin d",
+                "marker-color": "#e75948"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321125,
+                    48.865472
+                ]
+            },
+            "properties": {
+                "cluster": "25.0",
+                "id": "38935027511",
+                "lat": "48.865472",
+                "lon": "2.321125",
+                "title": "Fountains at Place de la Concorde b",
+                "marker-color": "#e75948"
+            }
+        }
+    ]
+}
