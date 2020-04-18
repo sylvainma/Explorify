@@ -1,16 +1,26 @@
 $(function() {
+<<<<<<< HEAD
     var clicks = 0;
     $('button').on('click', function() {
         clicks++;
         var percent = Math.min(Math.round(clicks / 3 * 100), 100);
         $('.percent').width(percent + '%');
         $('.number').text(percent + '%');
+=======
+    $('button').on('click', function() {
+    window.location.href = "../webappatl/atlindex.html";
+
+>>>>>>> changes
     });
     
 
 
     $('.Paris').on('click', function() {
+<<<<<<< HEAD
         window.location.href = "../geojson-viewer/index.html";
+=======
+        window.location.href = "../webapp/index.html";
+>>>>>>> changes
         });
 
     
@@ -37,8 +47,12 @@ $(function() {
             window.open('http://twitter.com/share?text=' + title + '&url=' + loc, '', 'height=' + h + ', width=' + w + ', top='+top +', left='+ left +', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
     });
     
+<<<<<<< HEAD
     $('.play').on('click', function() {
         window.location.href = "https://github.gatech.edu/smarchienne3/Explorify";
     });
+=======
+
+>>>>>>> changes
     
 });
