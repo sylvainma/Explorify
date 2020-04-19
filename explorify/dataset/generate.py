@@ -86,6 +86,35 @@ class GenerateDataset():
         sample = [{"image":img}]
         process_samples(base_model_name, weights_file, sample)
         return sample.pop()["mean_score_prediction"]
+        def _get_rank_score(self, metadata, aesthetic_score):
+        likes = metadata["count_faves"]
+        views = metadata["views"]
+        # Section 1: Like Ratio - A nonlinear mapping to benefit lower scoring entries 
+        #
+        #This is a Nonlinear mapping, an exponential curve that maximizes score with a ratio of 1, 
+        # And makes sure that the difference in score between 1 and 2 thousand likes is more pronounced 
+        # Than the difference between 100 and 110 thousand
+        # This also allows us to give exceedingly high ratings to photographs that have more than 20% like 
+        #ratio, with that being set to a score of .8
+        ratio = 0 if views == 0 else likes / views
+        lamda = -8
+        like_ratio_score = (1 - np.exp(lamda * ratio))/(1 - np.exp(lamda))
+
+        # Section 2: Views
+        #
+        # Currently the most viewed photograph on flikr is 3.000.000 million views 
+        # I've broken the possible places to be into sections, so that _ _ _ 
+        #
+        boundaries = [1000, 10000, 100000, 500000, 1000000]
+        p_target = 0.5
+        view_score = 0
+        if views > 0:
+            for boundary in boundaries:
+                b = -1 * np.ln(1/p_target) * boundary
+                view_score += np.exp(b / views)
+        view_score /= 5
+        rank_score = 5 * (.25 * view_score + .25 * like_ratio_score + .5 * aesthetic_score / 10)
+        return rank_score
 
     def process(self, p):
         # Metadata as dictionnary
@@ -97,7 +126,10 @@ class GenerateDataset():
 
         # Aesthetic scoring
         metadata["aesthetic_score"] = self._get_score(img)
-
+        
+        #rank_score
+        metadata["rank_score"] = self._get_rank_score(metadata, metadata["aesthetic_score"])
+        
         # Feature extraction
         embedding = self._get_feature_embedding(img)
 
