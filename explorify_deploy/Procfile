@@ -1,0 +1,2 @@
+web: bash startup.sh
+
