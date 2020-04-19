@@ -41,6 +41,9 @@ class GeoJson():
                 "urls": metadata["photo_file_urls"],
                 "tags": [t["text"] for t in metadata["tags"]],
                 "aesthetic_score": float(metadata["aesthetic_score"]),
+                "rank_score": float(metadata["rank_score"]),
+                "likes": metadata["count_faves"],
+                "views":metadata["views"],
             }
             properties[id]["marker-color"] = self.colors[label]
 
