@@ -1,1 +1,1 @@
-gunicorn -w 2 app:app
+gunicorn -w 2 explorify_deploy.app:app
