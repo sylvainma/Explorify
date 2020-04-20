@@ -73,9 +73,6 @@ input[type="radio"], input[type="checkbox"] {
 .white {
   color: #FFFFFF;
 }
-.feature-row {
-  cursor: pointer;
-}
 .sidebar-wrapper {
   width: 100%;
   height: 100%;
@@ -206,4 +203,45 @@ input[type="radio"], input[type="checkbox"] {
 .custom-div-icon i.awesome {
    margin: 12px auto;
    font-size: 17px;
+}
+
+
+
+
+
+.feature-row {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.feature-name {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.feature-row-img {
+  padding-bottom: 10px;
+}
+.feature-row-title, .feature-row-score  {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.feature-row-tags  {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.limit-text-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.limit-text-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }

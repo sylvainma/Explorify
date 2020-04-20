@@ -1,7 +1,5 @@
 const BASE_URL = window.location.origin;
-
 L.mapbox.accessToken = "pk.eyJ1IjoiYnJ5bWNicmlkZSIsImEiOiJXN1NuOFFjIn0.3YNvR1YOvqEdeSsJDa-JUw";
-
 var titleField, cluster, userFields = [], urlParams = {};
 
 var mapboxOSM = L.tileLayer("https://{s}.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token="+L.mapbox.accessToken, {
@@ -52,8 +50,40 @@ featureLayer.on('layeradd', function(e) {
     marker.setIcon(icon);
 });
 
+// How sidebar photos are rendered
+var addRowPhoto = function (layer) {
+
+  var url = layer.feature.properties.url;
+  var title = getTitle(layer);
+  var score = layer.feature.properties.aesthetic_score.toFixed(1);
+  var tags = "";
+  layer.feature.properties.tags.forEach(tag => {
+    tags += "#" + tag + " ";
+  });
+
+  $("#feature-list tbody").append(`
+    <tr class="feature-row" id="${L.stamp(layer)}">
+      <td colspan="1" class="feature-name">
+        <div class="row feature-row-img">
+          <img src="${url}"/>
+        </div>
+        <div class="row feature-row-title">
+          <div class="col-md-8 text-left">
+            <span class="limit-text-1">${title}</span>
+          </div>
+          <div class="col-md-4 text-right feature-score">
+            ${score}
+          </div>
+        </div>
+        <div class="row feature-row-tags">
+          <span class="limit-text-3">${tags}</span>
+        </div>
+      </td>
+    </tr>`);
+};
+
 featureLayer.on("ready", function(e) {
-  console.log("Ready,steady,go")
+    
   function makeGroup(color){
     var markerClusters = new L.MarkerClusterGroup({
       spiderfyOnMaxZoom: true,
@@ -67,27 +97,27 @@ featureLayer.on("ready", function(e) {
             fillOpacity: 0.5
             }
     });
-  markerClusters.options["iconCreateFunction"]= function(clus) {
-            return new L.DivIcon({
-              iconSize: [1, 1],
-              html: '<div class = "leaflet-div-icon" style="text-align:center;color:#000;background:' +
-              color + ';border-color:' +color+'">' + clus.getChildCount() + '</div>'
-            });
-          }
-  markerClusters.addTo(map)
-  return markerClusters
-}
+    markerClusters.options["iconCreateFunction"]= function(clus) {
+              return new L.DivIcon({
+                iconSize: [1, 1],
+                html: '<div class = "leaflet-div-icon" style="text-align:center;color:#000;background:' +
+                color + ';border-color:' +color+'">' + clus.getChildCount() + '</div>'
+              });
+            }
+    markerClusters.addTo(map)
+    return markerClusters
+  };
+
   featureLayer.eachLayer(function (layer) {
 
-    if (!(layer.feature.properties.cluster in group)){
-        group[layer.feature.properties.cluster] = makeGroup(layer.feature.properties["marker-color"])
-      }
+    if (!(layer.feature.properties.cluster in group)) {
+      group[layer.feature.properties.cluster] = makeGroup(layer.feature.properties["marker-color"])
+    }
+    group[layer.feature.properties.cluster].addLayer(layer);
 
-      group[layer.feature.properties.cluster].addLayer(layer);
+    // Add photo to sidebar
+    addRowPhoto(layer);
 
-    $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ getTitle(layer)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-    // $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ eval(layer.feature.properties.tags)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-    // $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">' + getTitle(layer) + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
     layer.on("click", function (e) {
       map.closePopup();
       var content = "";
@@ -181,7 +211,7 @@ featureLayer.on("ready", function(e) {
           alpha = .01;
           if("aesthetic_score_scaled" in e.target.feature.properties){
             oldScore = e.target.feature.properties["aesthetic_score_scaled"];
-            newRankScore= updateValue * alpha + (1-alpha) * oldScore;
+            newRankScore = updateValue * alpha + (1-alpha) * oldScore;
             e.target.feature.properties["aesthetic_score_scaled"] = newRankScore;
           }
           var params = new URLSearchParams(window.location.search);
@@ -306,14 +336,6 @@ function fetchDataWithUrl() {
       $("#loading").hide();
     });
   }
-}
-function fetchDataLocally() {
-  $("#loading").show();
-  featureLayer.clearLayers();
-  $("#feature-list tbody").empty();
-  featureLayer.loadURL(decodeURIComponent("atlanta.geojson")).on("ready", function(layer) {
-    $("#loading").hide();
-  });
 }
 
 function fetchData() {
@@ -484,7 +506,8 @@ function populateSideBar(bounds){
   featureLayer.eachLayer(function (layer){
 
   if((layer.feature.geometry.coordinates[1] <= bounds._northEast.lat)&&(layer.feature.geometry.coordinates[1] >= bounds._southWest.lat)&&(layer.feature.geometry.coordinates[0] <= bounds._northEast.lng)&&(layer.feature.geometry.coordinates[0] >= bounds._southWest.lng)){
-    $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '"><td class="feature-name">'+'<img src='+layer.feature.properties.url+'/>'+'<br />'+ eval(layer.feature.properties.tags)+'</td><td class="feature-score">'+layer.feature.properties.aesthetic_score+'</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+    // Add photo to sidebar
+    addRowPhoto(layer);
     };
   });
   if (urlParams.sort && urlParams.sort == "desc") {
@@ -502,5 +525,4 @@ map.on('moveend', function(){
 });
 $("#location-btn").on('click', function() {
   window.location.href = "/"
-  //window.location.href = "/"
 });
