@@ -1,6 +1,0 @@
-gunicorn
-flask
-urllib3
-requests
-pymongo
-flask_cors
