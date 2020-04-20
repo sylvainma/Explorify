@@ -510,11 +510,11 @@ function populateSideBar(bounds){
     addRowPhoto(layer);
     };
   });
-  if (urlParams.sort && urlParams.sort == "desc") {
-    sortOrder = "desc";
+  if (urlParams.sort && urlParams.sort == "asc") {
+    sortOrder = "asc";
   }
   else {
-    sortOrder = "asc";
+    sortOrder = "desc";
   }
   var featureList = new List("features", {valueNames: ["feature-score","feature-name"]});
   featureList.sort("feature-score", {order: sortOrder});
