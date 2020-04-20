@@ -55,7 +55,7 @@ var addRowPhoto = function (layer) {
 
   var url = layer.feature.properties.url;
   var title = getTitle(layer);
-  var score = layer.feature.properties.aesthetic_score.toFixed(1);
+  var score = layer.feature.properties.aesthetic_score_scaled.toFixed(1);
   var tags = "";
   layer.feature.properties.tags.forEach(tag => {
     tags += "#" + tag + " ";
@@ -65,14 +65,14 @@ var addRowPhoto = function (layer) {
     <tr class="feature-row" id="${L.stamp(layer)}">
       <td colspan="1" class="feature-name">
         <div class="row feature-row-img">
-          <img src="${url}"/>
+          <img src="${url}" alt="${title}"/>
         </div>
         <div class="row feature-row-title">
           <div class="col-md-8 text-left">
             <span class="limit-text-1">${title}</span>
           </div>
           <div class="col-md-4 text-right feature-score">
-            ${score}
+            ${score}/5
           </div>
         </div>
         <div class="row feature-row-tags">
@@ -109,7 +109,8 @@ featureLayer.on("ready", function(e) {
   };
 
   featureLayer.eachLayer(function (layer) {
-
+    
+    // Show marker on map
     if (!(layer.feature.properties.cluster in group)) {
       group[layer.feature.properties.cluster] = makeGroup(layer.feature.properties["marker-color"])
     }
@@ -118,83 +119,21 @@ featureLayer.on("ready", function(e) {
     // Add photo to sidebar
     addRowPhoto(layer);
 
+    // Show popup on click
     layer.on("click", function (e) {
       map.closePopup();
       var content = "";
-      GoogleContent.lat = e.target.feature.properties["lat"]
-      GoogleContent .lon = e.target.feature.properties["lon"]
+
+      // Display image
       content += "<img align='center' src='"+ e.target.feature.properties["url"] +"'/>";
+
+      // Feedback buttons
       content += `<div id='survey' style='width: 100%; position: relative; float:left;'>How did we do?
-                          <br>
-                          <button type='button' value='g' class='btn btn-feedback' style='margin: 1px; border-color: green;color: green; background-color: white;'>Great Picture!</button>
-                          <button type='button'value='n' class='btn btn-feedback' style='margin: 1px; border-color: #ffc107;color: #ffc107; background-color: white;'>Its ok.</button>
-                          <button type='button' value='b' class='btn btn-feedback' style='margin: 1px; border-color: red;color: red; background-color: white;'>I don't like it.</button>
-                        </div>`;
-      content += "<p><a style='float:right; position:relative;' href='http://flickr.com/photo.gne?id="+ e.target.feature.properties["id"] +"'>See on Flickr</a></p>";
-      content += "<table class='table table-striped table-bordered table-condensed'>";
-      index = 0;
-      var array = e.target.feature.properties['tags']
-
-      while (index < array.length) {
-        array[index] = ('#' + array[index]).replace(/(#)*/, "#");
-        index ++;
-      }
-
-      if (userFields.length > 0) {
-        $.each(userFields, function(index, property) {
-          if (e.target.feature.properties[property]) {
-            if (property == 'tags') {
-              content +=  "<tr><th>" + property + "</th><td>" + formatProperty(array) + 'hhhh' + "</td></tr>";
-            }
-            else {
-              content += "<tr><th>" + property + "</th><td>" + formatProperty(e.target.feature.properties[property]) + "</td></tr>";
-            }
-          }
-        });
-      } else {
-        //TODO make the titles work better
-        $.each(e.target.feature.properties, function(index, property) {
-          if (property) {
-            if (index == 'id') {
-              //donothing
-            } else if (index == 'title') {
-              //donothing
-            } else if (index == 'lat') {
-              //donothing
-            } else if (index == 'lon') {
-              //donothing
-            } else if (index == 'url') {
-              //donothing
-            } else if (index == 'cluster') {
-              //donothing
-            } else if (index == 'urls') {
-              //donothing
-            } else if (index == 'marker-color') {
-              //donothing
-            } else if (index == 'tags') {
-              content +=  "<tr><th>" + index + "</th><td>" + formatProperty(array) + "</td></tr>";
-            } else if (index == 'aesthetic_score_scaled' || index == 'rank_score'){
-              content += "<tr><th>" + index + "</th><td>" + formatProperty(property) + " out of 5" +"</td></tr>";
-            } else if (index == "likes" || index == "views"){
-              content += "<tr><th>" + index + "</th><td>" + formatProperty(property) +"</td></tr>";
-            }
-          }
-        });
-      }
-
-      content += "<table>";
-      $("#feature-title").html(getTitle(e.target));
-      $("#feature-info").html(content);
-      $("#featureModal").modal("show");
-      $("#google-btn").click(function() {
-        window.location.href = 'https://www.google.com/maps/search/' + GoogleContent.lat + ',' + GoogleContent.lon, "_blank";
-      });
-      $("#share-btn").click(function() {
-        var link = location.toString() + "&id=" + L.stamp(e.target);
-        $("#share-hyperlink").attr("href", link);
-        $("#share-twitter").attr("href", "https://twitter.com/intent/tweet?url=" + encodeURIComponent(link));
-        $("#share-facebook").attr("href", "https://facebook.com/sharer.php?u=" + encodeURIComponent(link));
-      });
+          <br>
+          <button type='button' value='g' class='btn btn-feedback' style='margin: 1px; border-color: green;color: green; background-color: white;'>Great Picture!</button>
+          <button type='button'value='n' class='btn btn-feedback' style='margin: 1px; border-color: #ffc107;color: #ffc107; background-color: white;'>Its ok.</button>
+          <button type='button' value='b' class='btn btn-feedback' style='margin: 1px; border-color: red;color: red; background-color: white;'>I don't like it.</button>
+        </div>`;
       $(".btn-feedback").click(function(clicked_button){
         try{
           selected = clicked_button.target.attributes.value;
@@ -238,6 +177,49 @@ featureLayer.on("ready", function(e) {
           $("#survey").delay(1000).fadeOut(1000);
         }
       });
+
+      // See on Flickr link
+      content += "<p><a style='float:right; position:relative;' href='http://flickr.com/photo.gne?id="+ e.target.feature.properties["id"] +"'>See on Flickr</a></p>";
+
+      // Show table of properties here
+      content += "<table class='table table-striped table-bordered table-condensed'>";
+      $.each(e.target.feature.properties, function(index, property) {
+        if (property) {
+          if (index == 'tags') {
+            var tags = "";
+            layer.feature.properties.tags.forEach(tag => {tags += "#" + tag + " ";});
+            content +=  "<tr><th>Tags</th><td>" + tags + "</td></tr>";
+          } else if (index == 'aesthetic_score_scaled' || index == 'rank_score'){
+            content += "<tr><th>Score</th><td>" + property.toFixed(1) + " out of 5" +"</td></tr>";
+          } else if (index == "likes" || index == "views"){
+            content += "<tr><th>Likes/Views</th><td>" + formatProperty(property) +"</td></tr>";
+          } else {
+            // Add other properties in another else if, if want more properties to be shown
+          }
+        }
+      });
+      content += "<table>";
+
+      // "Take me" button
+      GoogleContent.lat = e.target.feature.properties["lat"];
+      GoogleContent .lon = e.target.feature.properties["lon"];
+      $("#google-btn").click(function() {
+        window.location.href = 'https://www.google.com/maps/search/' + GoogleContent.lat + ',' + GoogleContent.lon, "_blank";
+      });
+
+      // Others
+      $("#feature-title").html(getTitle(e.target));
+      $("#feature-info").html(content);
+      $("#featureModal").modal("show");
+      
+      // Share button
+      $("#share-btn").click(function() {
+        var link = location.toString() + "&id=" + L.stamp(e.target);
+        $("#share-hyperlink").attr("href", link);
+        $("#share-twitter").attr("href", "https://twitter.com/intent/tweet?url=" + encodeURIComponent(link));
+        $("#share-facebook").attr("href", "https://facebook.com/sharer.php?u=" + encodeURIComponent(link));
+      });
+
     });
   });
 
@@ -390,7 +372,7 @@ function zoomToFeature(id) {
   var layer = featureLayer.getLayer(id);
   if (layer instanceof L.Marker) {
     map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 19);
-    console.log(layer.getLatLng())
+    // console.log(layer.getLatLng())
 
     circle1 = L.circle([layer.getLatLng().lat, layer.getLatLng().lng], 5, {
         color: 'red',
