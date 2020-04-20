@@ -34,7 +34,7 @@ def get_city_geojson():
     else:
         json = request.get_json()
         city = json["city"]
-    result = list(features_collection.find({"city":city}));
+    result = list(features_collection.find({"city":city}))
     print(result)
     print(type(result))
     if len(result) == 0:
@@ -80,4 +80,4 @@ def delete_city():
     json = request.get_json()
     city = json["city"]
     features_collection.delete_many({"city": city})
-    return jsonify("Hello"),200;
+    return jsonify("Hello"), 200

@@ -1,1 +1,1 @@
-web: bash startup_here.sh
+web: bash startup_local.sh
