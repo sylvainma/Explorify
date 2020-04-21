@@ -28,6 +28,8 @@ local webapp, run the follwing commands:
 chmod 775 startup_local.sh
 sh startup_local.sh
 
+(Useful) An instance of this has been put online if needed: https://dva-explorify.herokuapp.com/
+
 (Optional) If you want to run the clustering algorithms in the backend, go to CODE/explorify 
 and follow "Getting started" instructions in the README.md file:
 
