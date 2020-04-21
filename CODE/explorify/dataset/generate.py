@@ -16,7 +16,7 @@ import flickr_api
 from flickr_api import Walker, Photo
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = "3"
-scoring_path = os.path.abspath("../scoring/NIMA") 
+scoring_path = os.path.abspath("../scoring/NIMA")
 weights_file = os.path.join(scoring_path, "models/MobileNet/weights_mobilenet_aesthetic_0.07.hdf5")
 base_model_name = "MobileNet"
 sys.path.insert(1, scoring_path)
@@ -63,11 +63,11 @@ class GenerateDataset():
     def _get_metadata(self, p):
         infos = p.getInfo(extras="count_faves")
         infos_ = infos.copy()
-        
+
         # Direct url to photo files of different sizes
         size_labels = ["Square", "Thumbnail", "Small", "Medium", "Medium 640", "Large", "Original"]
         urls = {}
-        for size_label in size_labels: 
+        for size_label in size_labels:
             try:
                 url = p.getPhotoFile(size_label=size_label)
                 urls[size_label] = url
@@ -81,39 +81,41 @@ class GenerateDataset():
             tag.update({'author': {}})
 
         return jsons.dump(infos_)
-    
+
     def _get_score(self, img):
         sample = [{"image":img}]
         process_samples(base_model_name, weights_file, sample)
         return sample.pop()["mean_score_prediction"]
-        def _get_rank_score(self, metadata, aesthetic_score):
-        likes = metadata["count_faves"]
-        views = metadata["views"]
-        # Section 1: Like Ratio - A nonlinear mapping to benefit lower scoring entries 
+
+    def _get_rank_score(self, metadata, aesthetic_score):
+        likes = float(metadata["count_faves"])
+        views = float(metadata["views"])
+        # Section 1: Like Ratio - A nonlinear mapping to benefit lower scoring entries
         #
-        #This is a Nonlinear mapping, an exponential curve that maximizes score with a ratio of 1, 
-        # And makes sure that the difference in score between 1 and 2 thousand likes is more pronounced 
+        #This is a Nonlinear mapping, an exponential curve that maximizes score with a ratio of 1,
+        # And makes sure that the difference in score between 1 and 2 thousand likes is more pronounced
         # Than the difference between 100 and 110 thousand
-        # This also allows us to give exceedingly high ratings to photographs that have more than 20% like 
+        # This also allows us to give exceedingly high ratings to photographs that have more than 20% like
         #ratio, with that being set to a score of .8
         ratio = 0 if views == 0 else likes / views
-        lamda = -8
+        lamda = -55
         like_ratio_score = (1 - np.exp(lamda * ratio))/(1 - np.exp(lamda))
 
         # Section 2: Views
         #
-        # Currently the most viewed photograph on flikr is 3.000.000 million views 
-        # I've broken the possible places to be into sections, so that _ _ _ 
+        # Currently the most viewed photograph on flikr is 3.000.000 million views
+        # I've broken the possible places to be into sections, so that _ _ _
         #
-        boundaries = [1000, 10000, 100000, 500000, 1000000]
+        boundaries = [50, 100, 500, 1000, 10000]
         p_target = 0.5
         view_score = 0
         if views > 0:
             for boundary in boundaries:
-                b = -1 * np.ln(1/p_target) * boundary
+                b = -1 * np.log(1/p_target) * boundary
                 view_score += np.exp(b / views)
         view_score /= 5
         rank_score = 5 * (.25 * view_score + .25 * like_ratio_score + .5 * aesthetic_score / 10)
+        print(f"RankScore {rank_score}, Aesthetic {aesthetic_score / 2}, Likes {likes}, views {views}")
         return rank_score
 
     def process(self, p):
@@ -126,10 +128,10 @@ class GenerateDataset():
 
         # Aesthetic scoring
         metadata["aesthetic_score"] = self._get_score(img)
-        
+
         #rank_score
         metadata["rank_score"] = self._get_rank_score(metadata, metadata["aesthetic_score"])
-        
+
         # Feature extraction
         embedding = self._get_feature_embedding(img)
 
@@ -178,7 +180,7 @@ def generate(api_credentials, city, radius, max_photos, dataset_file):
 
     print(f"Start processing photos ({str_time()})")
     dir_path = os.path.dirname(dataset_file)
-    os.makedirs(dir_path if dir_path != "" else ".", exist_ok=True) 
+    os.makedirs(dir_path if dir_path != "" else ".", exist_ok=True)
     with h5py.File(dataset_file, "w") as f:
         for i, photo in enumerate(w):
 
@@ -221,7 +223,7 @@ if __name__ == "__main__":
     parser.add_argument('-m', '--max-photos', type=int, default=int(1e4), help="Maximum number of photos to store")
     parser.add_argument('-d', '--dataset-file', type=str, default="./dataset.h5", help="Path to h5 file to create")
     args = parser.parse_args()
-    
+
     flickr_api.enable_cache()
     api_credentials = load_credentials()
     generate(api_credentials, args.city, args.radius, args.max_photos, args.dataset_file)
