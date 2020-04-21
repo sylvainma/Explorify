@@ -83,7 +83,7 @@ var addRowPhoto = function (layer) {
 };
 
 featureLayer.on("ready", function(e) {
-    
+
   function makeGroup(color){
     var markerClusters = new L.MarkerClusterGroup({
       spiderfyOnMaxZoom: true,
@@ -109,7 +109,7 @@ featureLayer.on("ready", function(e) {
   };
 
   featureLayer.eachLayer(function (layer) {
-    
+
     // Show marker on map
     if (!(layer.feature.properties.cluster in group)) {
       group[layer.feature.properties.cluster] = makeGroup(layer.feature.properties["marker-color"])
@@ -134,12 +134,54 @@ featureLayer.on("ready", function(e) {
           <button type='button'value='n' class='btn btn-feedback' style='margin: 1px; border-color: #ffc107;color: #ffc107; background-color: white;'>Its ok.</button>
           <button type='button' value='b' class='btn btn-feedback' style='margin: 1px; border-color: red;color: red; background-color: white;'>I don't like it.</button>
         </div>`;
+
+      // See on Flickr link
+      content += "<p><a style='float:right; position:relative;' href='http://flickr.com/photo.gne?id="+ e.target.feature.properties["id"] +"'>See on Flickr</a></p>";
+
+      // Show table of properties here
+      content += "<table class='table table-striped table-bordered table-condensed'>";
+      $.each(e.target.feature.properties, function(index, property) {
+        if (property) {
+          if (index == 'tags') {
+            var tags = "";
+            layer.feature.properties.tags.forEach(tag => {tags += "#" + tag + " ";});
+            content +=  "<tr><th>Tags</th><td>" + tags + "</td></tr>";
+          } else if (index == 'aesthetic_score_scaled' || index == 'rank_score'){
+            content += "<tr><th>Score</th><td>" + property.toFixed(1) + " out of 5" +"</td></tr>";
+          } else if (index == "likes" || index == "views"){
+            content += "<tr><th>Likes/Views</th><td>" + formatProperty(property) +"</td></tr>";
+          } else {
+            // Add other properties in another else if, if want more properties to be shown
+          }
+        }
+      });
+      content += "<table>";
+
+      // "Take me" button
+      GoogleContent.lat = e.target.feature.properties["lat"];
+      GoogleContent .lon = e.target.feature.properties["lon"];
+      $("#google-btn").click(function() {
+        window.location.href = 'https://www.google.com/maps/search/' + GoogleContent.lat + ',' + GoogleContent.lon, "_blank";
+      });
+
+      // Others
+      $("#feature-title").html(getTitle(e.target));
+      $("#feature-info").html(content);
+      $("#featureModal").modal("show");
+
+      // Share button
+      $("#share-btn").click(function() {
+        var link = location.toString() + "&id=" + L.stamp(e.target);
+        $("#share-hyperlink").attr("href", link);
+        $("#share-twitter").attr("href", "https://twitter.com/intent/tweet?url=" + encodeURIComponent(link));
+        $("#share-facebook").attr("href", "https://facebook.com/sharer.php?u=" + encodeURIComponent(link));
+      });
       $(".btn-feedback").click(function(clicked_button){
         try{
           selected = clicked_button.target.attributes.value;
           value = selected["value"];
           //Rating on a 5 point scale, which is what rank score is on.
-          updateMap = {'g': 5, 'n': 2.5, 'b': 0};
+          updateMap = {'g': 5, 'n': 3, 'b': 1};
           updateValue = updateMap[value];
           alpha = .005;
           if("rank_score" in e.target.feature.properties){
@@ -176,48 +218,6 @@ featureLayer.on("ready", function(e) {
           $("#survey").append("<p>Thank You!</p>");
           $("#survey").delay(1000).fadeOut(1000);
         }
-      });
-
-      // See on Flickr link
-      content += "<p><a style='float:right; position:relative;' href='http://flickr.com/photo.gne?id="+ e.target.feature.properties["id"] +"'>See on Flickr</a></p>";
-
-      // Show table of properties here
-      content += "<table class='table table-striped table-bordered table-condensed'>";
-      $.each(e.target.feature.properties, function(index, property) {
-        if (property) {
-          if (index == 'tags') {
-            var tags = "";
-            layer.feature.properties.tags.forEach(tag => {tags += "#" + tag + " ";});
-            content +=  "<tr><th>Tags</th><td>" + tags + "</td></tr>";
-          } else if (index == 'aesthetic_score_scaled' || index == 'rank_score'){
-            content += "<tr><th>Score</th><td>" + property.toFixed(1) + " out of 5" +"</td></tr>";
-          } else if (index == "likes" || index == "views"){
-            content += "<tr><th>Likes/Views</th><td>" + formatProperty(property) +"</td></tr>";
-          } else {
-            // Add other properties in another else if, if want more properties to be shown
-          }
-        }
-      });
-      content += "<table>";
-
-      // "Take me" button
-      GoogleContent.lat = e.target.feature.properties["lat"];
-      GoogleContent .lon = e.target.feature.properties["lon"];
-      $("#google-btn").click(function() {
-        window.location.href = 'https://www.google.com/maps/search/' + GoogleContent.lat + ',' + GoogleContent.lon, "_blank";
-      });
-
-      // Others
-      $("#feature-title").html(getTitle(e.target));
-      $("#feature-info").html(content);
-      $("#featureModal").modal("show");
-      
-      // Share button
-      $("#share-btn").click(function() {
-        var link = location.toString() + "&id=" + L.stamp(e.target);
-        $("#share-hyperlink").attr("href", link);
-        $("#share-twitter").attr("href", "https://twitter.com/intent/tweet?url=" + encodeURIComponent(link));
-        $("#share-facebook").attr("href", "https://facebook.com/sharer.php?u=" + encodeURIComponent(link));
       });
 
     });
