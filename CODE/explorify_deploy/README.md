@@ -14,6 +14,8 @@ Install frontend dependencies to run the Flask server hosting the webapp.
 pip install -r requirements.txt
 ```
 
+Add in a file `.mongodb.txt` the mondb url to the database that hosts the geojson data.
+
 Run the server:
 ```
 chmod 775 startup_local.sh

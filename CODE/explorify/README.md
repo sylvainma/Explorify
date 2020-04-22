@@ -16,9 +16,7 @@ First, install backend dependencies with:
 pip install -r requirements.txt
 ```
 
-Second, add in a file `.mongodb.txt` the mondb url to the database that hosts the geojson data.
-
-Third, make sure h5 files are present in `data` folder or generate one with `datasets/generate.py`. See `datasets/README.md` for instructions.
+Second, make sure h5 files are present in `data` folder or generate one with `datasets/generate.py`. See `datasets/README.md` for instructions.
 
 Then use `clustering/clustering.ipynb` to train the clustering model and generate the `<city>.geojson`.
 
