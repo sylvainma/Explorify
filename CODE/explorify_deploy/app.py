@@ -1,15 +1,21 @@
+import os
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import urllib.parse
 import requests
 import pymongo
 
+def load_database():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".mongodb.txt")
+    with open(path, "r") as f:
+        line = f.readline()
+        return line
+
 #give the app a name
 app = Flask(__name__)
 CORS(app)
 #Temporary client for local stuffs
-mongoclient = pymongo.MongoClient("mongodb://heroku_9r8vqzsk:har3qnapq0j3r1q474bslkdj4l@ds137488.mlab.com:37488/heroku_9r8vqzsk",
-                                    retryWrites=False)
+mongoclient = pymongo.MongoClient(load_database(), retryWrites=False)
 db = mongoclient["heroku_9r8vqzsk"]
 features_collection = db["features"]
 

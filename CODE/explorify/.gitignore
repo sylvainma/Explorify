@@ -4,3 +4,4 @@
 # Folders
 !data/.gitkeep
 logs
+dataset/.flickr_keys.txt

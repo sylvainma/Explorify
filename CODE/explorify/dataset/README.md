@@ -1,5 +1,7 @@
 # Dataset
 
+Add a file named `.flickr_keys.txt` with `<api_key> <api_secret>`, your Flickr API keys.
+
 Use `generate.py` to create an HDFS5 file (.h5) of the images and their metadata. Type `python generate.py --help` for documentation. Example running command:
 
 ```
