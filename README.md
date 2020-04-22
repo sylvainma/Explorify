@@ -1,5 +1,7 @@
 # Explorify
 
+![Explorify webapp](/DOC/explorify.png?raw=true)
+
 ## Description
 The aim of Explorify is to provide an interactive photograph-driven map experience 
 to find the best spots to take the best photographs. Explorify leverage photos and metadata
