@@ -19,7 +19,7 @@ numpy==1.18.2
 oauth2==1.9.0.post1
 opt-einsum==3.2.0
 pillow>=6.2.2
-protobuf==3.11.3
+protobuf==3.18.3
 requests==2.23.0
 scikit-learn==0.22.2.post1
 scipy==1.4.1
